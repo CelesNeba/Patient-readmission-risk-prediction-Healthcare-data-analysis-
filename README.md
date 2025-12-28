@@ -77,37 +77,9 @@ Each row represents a unique patient hospitalization record. The dataset include
 
 ---
 
-### 🎯 Purpose
 
-This dataset is designed for exploratory analysis, feature exploration, and predictive modeling (e.g., readmission risk prediction). It can be used to:
 
-- Analyze patterns in readmissions
-- Build visualizations and dashboards (Power BI, Tableau, etc.)
-- Train and evaluate classification models in Python/R
-- Identify high‑risk cohorts for targeted interventions
 
----
-
-### 🧠 Key Questions You Can Answer
-
-- What is the **overall 30‑day readmission rate**?
-- How does readmission vary by **age, gender, admission type, or department**?
-- Does clinical severity (e.g., comorbidity index) correlate with readmission?
-- Do certain discharge dispositions have higher readmission rates?
-- Can we build a **predictive model** to identify high‑risk patients?
-
----
-
-### ⚙️ Recommended Tools
-
-You can use this dataset with:
-
-- **Excel** — initial data inspection
-- **MySQL** — structured querying and cleaning
-- **Jupyter Notebook (Python)** — exploratory analysis and modeling
-- **Power BI / Tableau** — interactive dashboards and visual storytelling
-
----
 
 Feel free to use and modify this dataset for your analysis, dashboard builds, or predictive modeling exercises. If you publish results or dashboards, linking back to this source dataset is encouraged.
 
