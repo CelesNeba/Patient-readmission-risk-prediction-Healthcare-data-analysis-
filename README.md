@@ -87,4 +87,6 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 ### Create database & table
 
+![Readmission patient table](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20patient%20table.JPG)
+
 
