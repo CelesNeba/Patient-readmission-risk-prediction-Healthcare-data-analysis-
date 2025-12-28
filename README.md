@@ -124,6 +124,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 #### Descriptive analysis
 
+![Descriptive analysis](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Descriptive%20analysis.PNG)
+
 
 
 #### Readmission rate by department
