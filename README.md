@@ -106,4 +106,6 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 • Validate categorical fields
 
+![Mysql Validate categorical fields](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Mysl%20Validate%20categorical%20fields.JPG)
+
 
