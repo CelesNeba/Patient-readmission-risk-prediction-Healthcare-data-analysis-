@@ -102,6 +102,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 • Replace nulls
 
+![Replace nulls](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Replace%20nulls.JPG)
+
 • Validate categorical fields
 
 
