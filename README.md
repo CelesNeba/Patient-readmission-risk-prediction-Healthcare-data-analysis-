@@ -83,4 +83,6 @@ Each row represents a unique patient hospitalization record. The dataset include
 
 Feel free to use and modify this dataset for your analysis, dashboard builds, or predictive modeling exercises. If you publish results or dashboards, linking back to this source dataset is encouraged.
 
+### Import & clean data in MySQL
+
 
