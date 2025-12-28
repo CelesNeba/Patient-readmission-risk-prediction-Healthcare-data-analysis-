@@ -130,6 +130,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 #### Readmission rate by department
 
+![Readmission rate by department](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20rate%20by%20department.PNG)
+
 
 
 #### Readmission vs admission type
