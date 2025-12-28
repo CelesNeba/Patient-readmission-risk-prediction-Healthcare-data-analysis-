@@ -1,7 +1,7 @@
 # Patient-readmission-risk-prediction-Healthcare-data-analysis-
 Patient readmission risk prediction
 
-### Step 1 — Problem Statement
+### Problem statement
 
 While repeat patient visits can increase revenue for the hospital, unplanned 30-day readmissions create operational strain, increased resource utilization, and potential penalties under quality regulations (e.g., CMS readmission penalties). The hospital wants to optimize patient care and resource allocation by understanding which patients are at higher risk of readmission, so it can improve care planning, reduce avoidable readmissions, and maintain compliance with quality standards.
 
@@ -114,5 +114,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 
 • Import data from MySQL
+
+
+![Imported data to jupyter notebook](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Imported%20data%20to%20jupyter%20notebook.PNG)
 
 
