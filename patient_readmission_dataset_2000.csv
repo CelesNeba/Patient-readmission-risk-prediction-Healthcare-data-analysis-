@@ -1,0 +1,2001 @@
+patient_id,age,gender,department,admission_type,length_of_stay,previous_admissions,comorbidity_index,primary_diagnosis,discharge_disposition,insurance_type,readmission_30d
+1,69,Female,Neurology,Emergency,13,3,2,Cancer,Home,Private,0
+2,32,Male,Cardiology,Emergency,7,2,4,Infection,Against Medical Advice,Private,1
+3,89,Male,Cardiology,Elective,5,1,2,Stroke,Against Medical Advice,Private,0
+4,78,Female,Emergency,Emergency,13,0,3,Stroke,Rehab,Medicare,0
+5,38,Female,Emergency,Emergency,5,1,4,Fracture,Transfer,Private,0
+6,41,Male,Cardiology,Emergency,10,2,4,Fracture,Against Medical Advice,Medicare,0
+7,20,Male,Emergency,Emergency,11,1,1,Infection,Transfer,Medicaid,0
+8,39,Male,Oncology,Emergency,6,5,2,Stroke,Rehab,Medicare,0
+9,70,Female,Neurology,Emergency,5,4,4,Heart Failure,Transfer,Self-Pay,1
+10,19,Male,Neurology,Elective,13,2,3,Cancer,Rehab,Private,1
+11,47,Male,Cardiology,Emergency,12,1,1,Stroke,Home,Self-Pay,0
+12,55,Male,Orthopedics,Elective,11,0,4,Heart Failure,Rehab,Medicare,0
+13,19,Female,Cardiology,Emergency,9,1,2,Heart Failure,Home,Private,0
+14,81,Female,Emergency,Emergency,3,0,1,Cancer,Rehab,Self-Pay,0
+15,77,Male,Orthopedics,Emergency,3,4,2,Heart Failure,Against Medical Advice,Private,0
+16,38,Male,Emergency,Emergency,7,1,2,Infection,Against Medical Advice,Medicare,0
+17,50,Female,Oncology,Emergency,7,4,2,Heart Failure,Transfer,Self-Pay,1
+18,75,Female,Emergency,Elective,6,2,1,Infection,Rehab,Medicare,0
+19,39,Female,Oncology,Emergency,3,0,4,Heart Failure,Rehab,Self-Pay,0
+20,66,Female,Oncology,Elective,14,5,0,Fracture,Rehab,Medicaid,0
+21,76,Female,Emergency,Elective,13,2,4,Heart Failure,Transfer,Medicaid,0
+22,59,Female,Emergency,Emergency,7,0,1,Infection,Against Medical Advice,Medicaid,0
+23,77,Female,Oncology,Emergency,5,4,0,Heart Failure,Rehab,Medicaid,0
+24,32,Female,Orthopedics,Emergency,7,3,0,Heart Failure,Transfer,Medicaid,0
+25,79,Female,Oncology,Emergency,2,1,0,Heart Failure,Rehab,Medicare,0
+26,79,Male,Neurology,Emergency,6,4,3,Infection,Home,Medicaid,0
+27,64,Male,Oncology,Emergency,14,0,1,Heart Failure,Rehab,Medicare,0
+28,79,Male,Orthopedics,Emergency,8,0,3,Cancer,Home,Medicaid,0
+29,68,Female,Neurology,Emergency,1,0,0,Cancer,Transfer,Private,0
+30,72,Male,Cardiology,Elective,4,0,3,Infection,Transfer,Medicaid,1
+31,81,Female,Cardiology,Elective,11,1,3,Fracture,Against Medical Advice,Private,0
+32,20,Female,Orthopedics,Elective,1,2,1,Cancer,Rehab,Medicare,0
+33,68,Male,Oncology,Emergency,14,5,2,Stroke,Transfer,Medicaid,1
+34,24,Female,Emergency,Emergency,1,3,3,Cancer,Against Medical Advice,Self-Pay,1
+35,38,Male,Orthopedics,Emergency,10,1,3,Stroke,Rehab,Medicare,0
+36,56,Male,Neurology,Emergency,12,0,0,Infection,Transfer,Medicaid,0
+37,35,Male,Neurology,Emergency,14,1,0,Fracture,Home,Medicare,0
+38,21,Female,Cardiology,Elective,14,4,0,Stroke,Transfer,Self-Pay,0
+39,77,Male,Neurology,Elective,11,5,4,Stroke,Home,Medicaid,0
+40,31,Female,Orthopedics,Emergency,8,0,3,Cancer,Against Medical Advice,Self-Pay,0
+41,26,Male,Neurology,Emergency,7,3,0,Stroke,Against Medical Advice,Medicaid,0
+42,70,Male,Orthopedics,Emergency,12,0,1,Infection,Rehab,Private,0
+43,19,Male,Emergency,Emergency,10,5,4,Infection,Rehab,Medicare,1
+44,77,Female,Cardiology,Emergency,13,3,2,Infection,Rehab,Self-Pay,0
+45,88,Female,Neurology,Emergency,1,5,3,Cancer,Against Medical Advice,Medicare,1
+46,61,Female,Orthopedics,Emergency,11,3,3,Fracture,Home,Self-Pay,1
+47,25,Male,Oncology,Elective,14,2,1,Cancer,Rehab,Medicare,0
+48,64,Male,Cardiology,Emergency,13,2,2,Infection,Rehab,Medicare,1
+49,52,Female,Emergency,Elective,2,1,2,Cancer,Against Medical Advice,Medicare,0
+50,53,Female,Orthopedics,Emergency,4,1,4,Infection,Home,Private,1
+51,67,Female,Emergency,Emergency,1,3,3,Heart Failure,Transfer,Medicaid,1
+52,21,Female,Emergency,Emergency,3,0,0,Heart Failure,Rehab,Private,0
+53,19,Female,Neurology,Emergency,8,4,1,Stroke,Transfer,Medicare,0
+54,23,Female,Neurology,Emergency,8,4,1,Fracture,Transfer,Self-Pay,1
+55,71,Male,Orthopedics,Elective,8,0,1,Heart Failure,Rehab,Medicare,0
+56,21,Female,Oncology,Elective,6,0,1,Infection,Against Medical Advice,Medicaid,0
+57,71,Male,Orthopedics,Emergency,6,2,0,Cancer,Rehab,Private,0
+58,80,Male,Oncology,Emergency,5,4,0,Cancer,Home,Medicaid,0
+59,35,Female,Emergency,Elective,13,3,4,Stroke,Home,Self-Pay,1
+60,61,Female,Cardiology,Emergency,9,5,3,Cancer,Rehab,Medicaid,0
+61,51,Male,Orthopedics,Emergency,4,1,0,Heart Failure,Transfer,Private,0
+62,79,Female,Orthopedics,Emergency,10,5,4,Cancer,Home,Self-Pay,0
+63,31,Female,Oncology,Elective,12,2,2,Heart Failure,Home,Medicaid,0
+64,65,Male,Emergency,Elective,12,4,3,Heart Failure,Rehab,Private,1
+65,32,Male,Emergency,Emergency,12,0,0,Fracture,Rehab,Private,1
+66,89,Male,Oncology,Elective,7,4,2,Stroke,Against Medical Advice,Medicare,1
+67,79,Female,Emergency,Elective,1,3,4,Infection,Rehab,Medicaid,1
+68,57,Male,Neurology,Emergency,9,2,0,Heart Failure,Rehab,Self-Pay,0
+69,70,Female,Cardiology,Emergency,7,0,0,Stroke,Home,Medicare,0
+70,41,Male,Orthopedics,Emergency,10,5,2,Infection,Home,Medicaid,0
+71,43,Male,Cardiology,Elective,12,3,0,Cancer,Home,Medicaid,0
+72,77,Male,Orthopedics,Emergency,9,5,1,Stroke,Transfer,Self-Pay,0
+73,58,Female,Neurology,Elective,7,1,0,Stroke,Home,Medicare,0
+74,46,Female,Emergency,Emergency,2,2,3,Stroke,Home,Medicare,1
+75,32,Male,Oncology,Elective,6,3,2,Cancer,Rehab,Self-Pay,0
+76,62,Male,Neurology,Emergency,10,3,3,Cancer,Against Medical Advice,Medicare,1
+77,82,Male,Cardiology,Emergency,12,5,4,Stroke,Home,Private,1
+78,88,Female,Oncology,Elective,11,0,3,Fracture,Against Medical Advice,Self-Pay,0
+79,26,Male,Emergency,Elective,4,1,1,Heart Failure,Home,Medicaid,1
+80,18,Female,Neurology,Elective,3,5,1,Cancer,Home,Self-Pay,0
+81,25,Male,Oncology,Emergency,2,3,3,Fracture,Against Medical Advice,Private,1
+82,80,Male,Neurology,Elective,6,2,4,Cancer,Rehab,Self-Pay,0
+83,28,Male,Neurology,Emergency,8,3,0,Stroke,Home,Medicaid,0
+84,25,Male,Emergency,Emergency,6,4,1,Fracture,Against Medical Advice,Medicaid,0
+85,52,Male,Orthopedics,Emergency,9,2,3,Infection,Home,Self-Pay,1
+86,52,Male,Oncology,Emergency,14,2,3,Heart Failure,Transfer,Self-Pay,0
+87,50,Female,Emergency,Emergency,5,3,3,Heart Failure,Transfer,Private,0
+88,22,Male,Neurology,Elective,2,0,0,Cancer,Transfer,Private,0
+89,58,Female,Emergency,Emergency,8,2,2,Heart Failure,Transfer,Medicaid,0
+90,45,Male,Orthopedics,Elective,9,4,4,Infection,Rehab,Medicare,1
+91,24,Male,Oncology,Emergency,14,5,2,Fracture,Transfer,Medicare,0
+92,89,Female,Orthopedics,Emergency,10,0,4,Fracture,Against Medical Advice,Medicare,0
+93,29,Male,Cardiology,Emergency,4,0,4,Stroke,Home,Medicare,1
+94,51,Female,Oncology,Elective,6,0,3,Fracture,Against Medical Advice,Medicaid,1
+95,50,Female,Orthopedics,Elective,11,2,1,Cancer,Transfer,Medicare,0
+96,65,Male,Neurology,Elective,10,0,3,Infection,Rehab,Medicare,1
+97,40,Female,Oncology,Elective,8,3,0,Stroke,Transfer,Self-Pay,0
+98,79,Female,Oncology,Emergency,9,0,4,Cancer,Transfer,Medicare,0
+99,54,Male,Emergency,Emergency,12,4,1,Cancer,Rehab,Self-Pay,1
+100,61,Female,Neurology,Elective,5,1,4,Cancer,Rehab,Medicaid,1
+101,52,Male,Cardiology,Emergency,12,4,4,Heart Failure,Rehab,Self-Pay,0
+102,82,Male,Orthopedics,Emergency,6,2,3,Cancer,Rehab,Private,0
+103,64,Male,Emergency,Emergency,11,0,1,Heart Failure,Rehab,Self-Pay,1
+104,20,Male,Orthopedics,Emergency,4,0,1,Fracture,Rehab,Medicare,0
+105,18,Female,Cardiology,Emergency,5,3,4,Heart Failure,Home,Self-Pay,1
+106,22,Male,Cardiology,Emergency,7,5,1,Cancer,Transfer,Self-Pay,0
+107,31,Male,Oncology,Emergency,9,0,1,Infection,Transfer,Medicaid,0
+108,44,Female,Cardiology,Emergency,10,4,3,Infection,Rehab,Medicaid,0
+109,26,Male,Orthopedics,Emergency,11,2,2,Fracture,Against Medical Advice,Medicare,0
+110,32,Male,Neurology,Emergency,13,1,0,Cancer,Rehab,Private,0
+111,59,Female,Neurology,Elective,6,0,2,Heart Failure,Home,Private,0
+112,68,Female,Oncology,Emergency,14,1,1,Infection,Against Medical Advice,Self-Pay,0
+113,80,Female,Orthopedics,Emergency,6,0,4,Stroke,Home,Private,1
+114,69,Female,Orthopedics,Elective,8,2,0,Cancer,Against Medical Advice,Medicaid,0
+115,21,Female,Cardiology,Emergency,11,5,0,Cancer,Against Medical Advice,Medicare,0
+116,40,Female,Orthopedics,Emergency,4,4,4,Stroke,Rehab,Medicare,0
+117,32,Female,Emergency,Elective,3,2,0,Infection,Home,Medicaid,0
+118,60,Male,Cardiology,Emergency,14,1,4,Stroke,Against Medical Advice,Medicare,0
+119,46,Female,Emergency,Elective,7,0,0,Fracture,Home,Self-Pay,0
+120,53,Female,Oncology,Elective,5,1,2,Heart Failure,Rehab,Medicare,0
+121,30,Female,Neurology,Elective,2,4,0,Heart Failure,Rehab,Private,0
+122,49,Male,Oncology,Emergency,2,2,3,Infection,Rehab,Medicare,0
+123,88,Male,Neurology,Emergency,11,1,4,Stroke,Rehab,Medicare,1
+124,76,Female,Oncology,Emergency,6,1,0,Cancer,Transfer,Medicaid,0
+125,45,Female,Orthopedics,Emergency,8,4,4,Cancer,Against Medical Advice,Medicaid,1
+126,83,Female,Emergency,Emergency,1,0,3,Cancer,Transfer,Private,1
+127,59,Male,Neurology,Emergency,11,1,0,Fracture,Rehab,Medicaid,1
+128,62,Male,Cardiology,Emergency,6,4,0,Fracture,Against Medical Advice,Private,1
+129,79,Female,Emergency,Emergency,12,0,3,Cancer,Against Medical Advice,Self-Pay,0
+130,74,Male,Cardiology,Emergency,2,5,3,Infection,Home,Private,1
+131,23,Female,Emergency,Emergency,2,0,3,Fracture,Rehab,Medicare,0
+132,45,Male,Emergency,Elective,7,5,4,Fracture,Transfer,Private,1
+133,45,Male,Oncology,Emergency,10,2,3,Heart Failure,Home,Self-Pay,1
+134,61,Female,Neurology,Emergency,1,4,4,Heart Failure,Against Medical Advice,Medicare,1
+135,47,Female,Neurology,Elective,6,0,2,Infection,Transfer,Private,0
+136,79,Female,Emergency,Emergency,14,5,0,Fracture,Rehab,Medicaid,1
+137,79,Female,Orthopedics,Emergency,7,5,0,Fracture,Transfer,Medicaid,0
+138,18,Male,Orthopedics,Emergency,14,2,1,Stroke,Transfer,Medicaid,0
+139,44,Male,Cardiology,Elective,8,3,2,Infection,Transfer,Private,0
+140,79,Male,Cardiology,Emergency,7,4,3,Infection,Home,Private,1
+141,20,Female,Oncology,Emergency,6,3,3,Stroke,Against Medical Advice,Self-Pay,1
+142,87,Male,Emergency,Emergency,9,0,2,Stroke,Transfer,Medicare,0
+143,89,Female,Cardiology,Elective,13,4,3,Heart Failure,Against Medical Advice,Medicare,1
+144,44,Male,Cardiology,Emergency,3,2,1,Infection,Home,Medicare,0
+145,26,Female,Emergency,Emergency,11,0,4,Infection,Rehab,Medicare,1
+146,79,Female,Oncology,Elective,6,4,0,Stroke,Rehab,Private,1
+147,54,Male,Cardiology,Emergency,4,4,2,Cancer,Transfer,Private,1
+148,68,Female,Oncology,Elective,2,3,0,Cancer,Home,Self-Pay,0
+149,61,Female,Neurology,Emergency,1,0,4,Heart Failure,Rehab,Medicare,1
+150,41,Male,Oncology,Elective,12,2,2,Cancer,Home,Private,0
+151,76,Female,Orthopedics,Emergency,12,2,4,Cancer,Home,Private,0
+152,49,Female,Orthopedics,Elective,14,0,3,Cancer,Transfer,Private,0
+153,69,Female,Oncology,Elective,1,0,3,Fracture,Transfer,Private,1
+154,79,Male,Orthopedics,Emergency,11,5,3,Heart Failure,Home,Medicare,1
+155,75,Male,Neurology,Emergency,10,1,4,Stroke,Home,Medicare,1
+156,69,Female,Emergency,Emergency,3,3,4,Cancer,Transfer,Private,0
+157,29,Male,Orthopedics,Emergency,4,0,4,Fracture,Home,Medicaid,0
+158,56,Female,Orthopedics,Emergency,2,0,0,Cancer,Transfer,Self-Pay,1
+159,19,Female,Oncology,Emergency,13,1,4,Fracture,Against Medical Advice,Medicare,0
+160,20,Female,Neurology,Emergency,12,1,3,Heart Failure,Home,Medicare,1
+161,73,Female,Emergency,Emergency,11,4,1,Cancer,Transfer,Medicaid,0
+162,76,Female,Oncology,Emergency,11,2,4,Fracture,Home,Medicare,0
+163,19,Male,Oncology,Elective,14,3,1,Infection,Transfer,Medicaid,0
+164,19,Female,Neurology,Emergency,11,4,3,Infection,Home,Medicaid,0
+165,71,Male,Emergency,Emergency,1,0,4,Fracture,Rehab,Private,0
+166,18,Male,Neurology,Emergency,4,1,0,Cancer,Rehab,Medicare,0
+167,36,Female,Emergency,Emergency,7,5,0,Cancer,Home,Self-Pay,0
+168,19,Female,Neurology,Emergency,10,2,1,Heart Failure,Rehab,Medicaid,0
+169,70,Male,Oncology,Emergency,11,4,0,Heart Failure,Home,Self-Pay,0
+170,61,Male,Oncology,Emergency,6,5,0,Stroke,Home,Private,1
+171,49,Male,Cardiology,Elective,6,2,0,Heart Failure,Against Medical Advice,Medicare,0
+172,87,Female,Orthopedics,Emergency,11,5,3,Cancer,Against Medical Advice,Private,0
+173,49,Male,Neurology,Elective,9,1,0,Stroke,Rehab,Private,0
+174,85,Female,Cardiology,Elective,14,4,2,Heart Failure,Against Medical Advice,Self-Pay,0
+175,72,Female,Orthopedics,Elective,2,4,4,Fracture,Against Medical Advice,Self-Pay,1
+176,73,Female,Neurology,Elective,4,2,0,Infection,Home,Medicaid,0
+177,34,Male,Emergency,Emergency,5,5,0,Heart Failure,Transfer,Medicare,1
+178,55,Female,Orthopedics,Emergency,1,1,0,Heart Failure,Home,Private,0
+179,41,Female,Oncology,Elective,8,0,2,Fracture,Against Medical Advice,Medicaid,0
+180,86,Female,Cardiology,Emergency,8,4,0,Cancer,Home,Medicaid,1
+181,87,Female,Orthopedics,Emergency,6,0,0,Fracture,Rehab,Private,0
+182,28,Female,Orthopedics,Elective,12,1,4,Heart Failure,Transfer,Private,1
+183,33,Male,Oncology,Elective,5,4,2,Cancer,Against Medical Advice,Medicaid,0
+184,76,Female,Neurology,Elective,8,4,2,Stroke,Against Medical Advice,Private,0
+185,87,Female,Emergency,Elective,3,5,0,Heart Failure,Home,Private,0
+186,20,Male,Oncology,Elective,3,0,2,Fracture,Home,Self-Pay,0
+187,37,Female,Emergency,Emergency,2,5,1,Stroke,Home,Medicare,1
+188,76,Male,Neurology,Elective,5,3,2,Infection,Home,Medicaid,1
+189,53,Female,Orthopedics,Emergency,3,0,2,Stroke,Against Medical Advice,Private,0
+190,36,Male,Emergency,Emergency,3,0,2,Fracture,Home,Medicaid,0
+191,84,Male,Cardiology,Elective,6,3,3,Stroke,Against Medical Advice,Medicare,1
+192,36,Female,Cardiology,Emergency,8,1,3,Fracture,Home,Medicaid,0
+193,37,Female,Oncology,Emergency,2,1,3,Heart Failure,Transfer,Medicaid,0
+194,88,Female,Neurology,Emergency,4,4,2,Cancer,Transfer,Medicaid,0
+195,69,Male,Oncology,Elective,11,2,1,Infection,Home,Self-Pay,0
+196,50,Male,Oncology,Emergency,7,5,2,Cancer,Home,Medicare,0
+197,57,Male,Oncology,Elective,1,2,0,Cancer,Rehab,Medicare,0
+198,56,Female,Cardiology,Emergency,1,4,1,Cancer,Transfer,Medicaid,0
+199,18,Male,Cardiology,Elective,12,2,3,Fracture,Against Medical Advice,Medicaid,0
+200,28,Male,Oncology,Elective,13,0,4,Fracture,Transfer,Medicare,0
+201,74,Female,Cardiology,Emergency,10,0,1,Infection,Against Medical Advice,Private,0
+202,67,Male,Neurology,Emergency,7,3,3,Fracture,Home,Self-Pay,1
+203,40,Male,Oncology,Emergency,14,3,1,Fracture,Transfer,Medicare,0
+204,48,Female,Cardiology,Elective,7,4,1,Fracture,Transfer,Medicaid,0
+205,59,Male,Emergency,Elective,1,4,2,Fracture,Rehab,Private,0
+206,24,Female,Oncology,Elective,1,4,0,Heart Failure,Rehab,Private,0
+207,33,Female,Oncology,Emergency,4,0,4,Infection,Transfer,Private,1
+208,77,Female,Neurology,Elective,5,2,3,Fracture,Transfer,Self-Pay,0
+209,19,Female,Orthopedics,Elective,5,5,1,Infection,Transfer,Self-Pay,0
+210,18,Female,Orthopedics,Elective,4,4,4,Stroke,Against Medical Advice,Medicare,1
+211,65,Male,Neurology,Elective,8,4,1,Heart Failure,Home,Medicare,0
+212,29,Male,Neurology,Emergency,7,0,0,Fracture,Rehab,Medicare,0
+213,86,Female,Neurology,Emergency,9,5,4,Heart Failure,Home,Medicare,1
+214,54,Female,Orthopedics,Elective,7,0,3,Heart Failure,Rehab,Medicaid,0
+215,49,Male,Neurology,Elective,10,5,1,Stroke,Rehab,Self-Pay,0
+216,26,Female,Cardiology,Emergency,1,0,0,Infection,Rehab,Private,1
+217,36,Female,Oncology,Emergency,13,2,4,Heart Failure,Transfer,Medicaid,1
+218,65,Female,Oncology,Emergency,14,4,1,Cancer,Rehab,Medicare,0
+219,20,Male,Emergency,Emergency,7,1,1,Stroke,Home,Medicare,0
+220,37,Male,Emergency,Emergency,1,1,3,Cancer,Rehab,Medicaid,0
+221,41,Female,Oncology,Elective,7,4,0,Stroke,Home,Private,0
+222,71,Female,Cardiology,Elective,10,4,2,Cancer,Rehab,Self-Pay,0
+223,50,Male,Orthopedics,Emergency,8,4,1,Cancer,Rehab,Self-Pay,0
+224,41,Male,Orthopedics,Emergency,11,4,4,Heart Failure,Transfer,Private,0
+225,89,Female,Cardiology,Emergency,9,5,3,Heart Failure,Home,Self-Pay,1
+226,53,Female,Orthopedics,Emergency,12,2,3,Stroke,Rehab,Medicare,0
+227,55,Male,Neurology,Elective,3,1,1,Infection,Rehab,Medicare,1
+228,42,Male,Oncology,Elective,4,3,1,Heart Failure,Home,Medicare,0
+229,35,Male,Oncology,Emergency,4,1,1,Heart Failure,Rehab,Medicare,1
+230,83,Female,Cardiology,Elective,12,1,2,Fracture,Against Medical Advice,Private,0
+231,71,Male,Orthopedics,Elective,9,0,1,Heart Failure,Transfer,Self-Pay,0
+232,52,Female,Emergency,Elective,13,4,0,Infection,Home,Self-Pay,0
+233,78,Male,Emergency,Emergency,7,4,4,Fracture,Transfer,Medicaid,1
+234,58,Male,Orthopedics,Elective,3,4,1,Cancer,Against Medical Advice,Private,0
+235,50,Male,Emergency,Emergency,10,0,2,Cancer,Against Medical Advice,Self-Pay,1
+236,85,Male,Cardiology,Emergency,5,2,4,Fracture,Against Medical Advice,Self-Pay,1
+237,50,Female,Cardiology,Emergency,7,2,3,Fracture,Home,Medicaid,0
+238,31,Female,Orthopedics,Emergency,8,3,1,Fracture,Against Medical Advice,Medicare,0
+239,38,Male,Emergency,Emergency,1,2,4,Stroke,Home,Self-Pay,0
+240,65,Female,Cardiology,Emergency,12,2,3,Infection,Home,Medicare,0
+241,37,Male,Cardiology,Emergency,2,4,2,Infection,Rehab,Medicaid,0
+242,25,Male,Neurology,Elective,7,5,0,Cancer,Home,Self-Pay,0
+243,24,Male,Neurology,Elective,11,1,1,Cancer,Against Medical Advice,Medicare,0
+244,84,Male,Cardiology,Emergency,13,2,0,Cancer,Home,Private,0
+245,34,Female,Orthopedics,Elective,14,2,2,Heart Failure,Home,Medicare,0
+246,50,Male,Oncology,Elective,13,0,4,Cancer,Transfer,Medicare,0
+247,65,Male,Oncology,Elective,2,3,4,Fracture,Against Medical Advice,Medicare,0
+248,76,Female,Cardiology,Emergency,7,5,2,Cancer,Home,Medicare,1
+249,39,Male,Cardiology,Elective,9,0,2,Fracture,Rehab,Private,0
+250,47,Male,Cardiology,Elective,11,4,1,Stroke,Home,Medicaid,1
+251,55,Male,Orthopedics,Elective,2,1,3,Heart Failure,Home,Medicare,1
+252,68,Female,Neurology,Emergency,7,3,0,Heart Failure,Transfer,Medicare,1
+253,71,Male,Cardiology,Emergency,4,0,0,Infection,Against Medical Advice,Self-Pay,1
+254,25,Female,Cardiology,Elective,11,2,4,Stroke,Against Medical Advice,Self-Pay,0
+255,44,Male,Emergency,Emergency,13,2,4,Fracture,Rehab,Private,1
+256,44,Male,Orthopedics,Emergency,2,3,1,Stroke,Rehab,Private,0
+257,38,Female,Cardiology,Emergency,13,2,2,Heart Failure,Rehab,Private,0
+258,47,Male,Emergency,Elective,7,0,0,Fracture,Home,Self-Pay,1
+259,45,Male,Oncology,Elective,13,0,1,Stroke,Home,Medicare,0
+260,81,Female,Cardiology,Emergency,5,2,4,Heart Failure,Rehab,Self-Pay,1
+261,86,Female,Cardiology,Elective,1,2,4,Fracture,Against Medical Advice,Medicaid,1
+262,78,Female,Emergency,Emergency,5,4,0,Fracture,Against Medical Advice,Private,1
+263,65,Female,Orthopedics,Elective,12,1,4,Heart Failure,Rehab,Private,0
+264,36,Female,Cardiology,Elective,12,3,4,Fracture,Transfer,Private,1
+265,21,Male,Oncology,Elective,3,0,3,Heart Failure,Against Medical Advice,Medicaid,0
+266,52,Female,Cardiology,Elective,7,3,2,Cancer,Against Medical Advice,Medicare,1
+267,81,Male,Oncology,Emergency,6,4,4,Cancer,Rehab,Medicare,0
+268,66,Male,Neurology,Elective,8,0,3,Fracture,Against Medical Advice,Medicare,1
+269,34,Male,Neurology,Emergency,13,4,1,Fracture,Home,Private,0
+270,61,Female,Oncology,Elective,5,4,4,Heart Failure,Home,Medicare,0
+271,47,Female,Orthopedics,Elective,2,5,1,Fracture,Against Medical Advice,Self-Pay,0
+272,63,Male,Cardiology,Elective,9,2,4,Infection,Home,Private,1
+273,23,Female,Cardiology,Emergency,14,5,0,Cancer,Transfer,Medicaid,0
+274,54,Female,Neurology,Elective,11,3,3,Fracture,Against Medical Advice,Medicaid,0
+275,41,Female,Oncology,Emergency,8,3,3,Fracture,Rehab,Medicare,0
+276,63,Female,Cardiology,Emergency,6,2,0,Stroke,Home,Private,1
+277,70,Male,Cardiology,Elective,13,5,2,Fracture,Transfer,Self-Pay,1
+278,77,Male,Orthopedics,Emergency,10,3,3,Infection,Transfer,Self-Pay,0
+279,80,Female,Emergency,Elective,7,5,1,Cancer,Home,Private,0
+280,49,Male,Neurology,Emergency,9,2,3,Stroke,Transfer,Medicare,0
+281,50,Female,Neurology,Emergency,7,0,2,Heart Failure,Against Medical Advice,Medicaid,0
+282,84,Female,Emergency,Elective,3,4,1,Heart Failure,Transfer,Medicaid,0
+283,35,Male,Cardiology,Emergency,6,4,1,Cancer,Home,Self-Pay,1
+284,42,Male,Orthopedics,Emergency,11,5,0,Heart Failure,Transfer,Self-Pay,0
+285,71,Male,Orthopedics,Elective,13,3,4,Infection,Home,Self-Pay,1
+286,75,Female,Neurology,Emergency,11,5,0,Fracture,Home,Medicaid,0
+287,84,Male,Orthopedics,Elective,7,5,4,Cancer,Transfer,Self-Pay,0
+288,63,Female,Emergency,Emergency,2,1,0,Stroke,Home,Medicaid,1
+289,41,Male,Cardiology,Elective,3,4,4,Fracture,Home,Medicaid,0
+290,49,Male,Emergency,Elective,4,2,3,Heart Failure,Rehab,Medicare,1
+291,64,Female,Oncology,Elective,10,5,1,Heart Failure,Against Medical Advice,Medicare,0
+292,40,Female,Neurology,Emergency,6,1,4,Stroke,Home,Medicare,0
+293,83,Female,Orthopedics,Elective,1,1,3,Infection,Against Medical Advice,Self-Pay,0
+294,44,Female,Oncology,Elective,9,4,2,Stroke,Rehab,Medicaid,0
+295,19,Female,Orthopedics,Elective,5,4,0,Cancer,Rehab,Self-Pay,1
+296,34,Female,Cardiology,Emergency,13,4,2,Stroke,Rehab,Medicaid,0
+297,50,Female,Cardiology,Elective,12,2,3,Heart Failure,Rehab,Medicare,0
+298,26,Female,Cardiology,Elective,14,1,2,Infection,Against Medical Advice,Medicare,0
+299,60,Male,Orthopedics,Emergency,7,3,2,Infection,Transfer,Self-Pay,0
+300,65,Female,Oncology,Emergency,9,2,3,Stroke,Transfer,Medicaid,1
+301,56,Female,Cardiology,Elective,9,0,1,Cancer,Against Medical Advice,Self-Pay,0
+302,59,Male,Oncology,Emergency,1,5,4,Heart Failure,Home,Private,1
+303,43,Female,Orthopedics,Elective,1,4,0,Fracture,Against Medical Advice,Self-Pay,1
+304,67,Male,Oncology,Elective,3,1,4,Infection,Home,Medicare,0
+305,42,Male,Orthopedics,Elective,6,5,0,Stroke,Home,Medicaid,0
+306,41,Female,Orthopedics,Emergency,2,2,4,Cancer,Transfer,Medicaid,0
+307,30,Male,Neurology,Emergency,10,0,2,Cancer,Rehab,Self-Pay,0
+308,77,Female,Orthopedics,Elective,12,2,1,Heart Failure,Transfer,Medicare,0
+309,24,Male,Orthopedics,Emergency,11,2,2,Infection,Transfer,Private,0
+310,74,Male,Emergency,Elective,1,3,1,Heart Failure,Against Medical Advice,Self-Pay,1
+311,53,Male,Cardiology,Emergency,1,5,3,Fracture,Against Medical Advice,Medicaid,0
+312,62,Female,Neurology,Emergency,13,3,0,Fracture,Home,Medicare,1
+313,37,Female,Neurology,Emergency,5,2,0,Fracture,Against Medical Advice,Medicaid,0
+314,82,Male,Neurology,Emergency,4,0,3,Cancer,Home,Medicaid,1
+315,25,Male,Emergency,Elective,1,1,4,Infection,Home,Medicaid,0
+316,33,Female,Orthopedics,Emergency,4,1,3,Heart Failure,Rehab,Medicaid,0
+317,31,Female,Cardiology,Emergency,3,5,3,Heart Failure,Rehab,Private,1
+318,32,Male,Oncology,Emergency,2,4,1,Fracture,Transfer,Medicare,1
+319,83,Male,Orthopedics,Emergency,9,4,3,Infection,Rehab,Self-Pay,1
+320,49,Female,Emergency,Emergency,14,1,0,Infection,Home,Medicare,0
+321,80,Female,Orthopedics,Elective,11,2,2,Stroke,Against Medical Advice,Medicare,0
+322,68,Female,Orthopedics,Emergency,1,2,1,Infection,Rehab,Medicare,1
+323,42,Female,Emergency,Emergency,7,3,1,Infection,Rehab,Self-Pay,1
+324,75,Female,Neurology,Emergency,14,5,4,Heart Failure,Rehab,Medicare,1
+325,80,Male,Neurology,Elective,13,3,2,Infection,Rehab,Self-Pay,1
+326,79,Female,Cardiology,Emergency,4,4,1,Infection,Home,Self-Pay,1
+327,39,Male,Cardiology,Emergency,5,1,3,Heart Failure,Home,Private,0
+328,75,Female,Neurology,Elective,10,2,1,Infection,Transfer,Medicaid,0
+329,75,Male,Oncology,Emergency,5,1,1,Heart Failure,Against Medical Advice,Self-Pay,0
+330,66,Female,Orthopedics,Emergency,1,0,1,Stroke,Transfer,Medicaid,0
+331,69,Female,Oncology,Emergency,6,1,4,Cancer,Transfer,Medicare,0
+332,59,Male,Orthopedics,Elective,13,0,1,Heart Failure,Rehab,Medicaid,0
+333,87,Male,Neurology,Emergency,9,3,1,Heart Failure,Against Medical Advice,Medicaid,0
+334,32,Female,Cardiology,Elective,2,3,4,Infection,Rehab,Medicaid,0
+335,71,Female,Cardiology,Elective,7,4,2,Heart Failure,Home,Medicare,1
+336,77,Female,Oncology,Emergency,6,1,0,Fracture,Transfer,Medicare,0
+337,25,Female,Cardiology,Emergency,5,1,4,Fracture,Against Medical Advice,Self-Pay,0
+338,70,Female,Neurology,Emergency,4,0,4,Stroke,Home,Self-Pay,1
+339,77,Male,Oncology,Elective,4,3,1,Heart Failure,Transfer,Private,0
+340,22,Male,Orthopedics,Emergency,6,0,1,Infection,Against Medical Advice,Medicare,0
+341,85,Female,Cardiology,Emergency,4,3,0,Infection,Transfer,Private,1
+342,23,Male,Emergency,Emergency,5,0,1,Cancer,Against Medical Advice,Medicare,1
+343,64,Male,Cardiology,Elective,13,3,3,Stroke,Transfer,Medicaid,0
+344,72,Male,Orthopedics,Emergency,6,0,1,Infection,Rehab,Private,0
+345,57,Female,Oncology,Elective,5,3,1,Cancer,Transfer,Private,1
+346,69,Male,Orthopedics,Emergency,7,5,3,Infection,Transfer,Private,1
+347,33,Female,Emergency,Emergency,9,0,0,Cancer,Against Medical Advice,Medicare,0
+348,30,Male,Neurology,Emergency,10,1,3,Fracture,Against Medical Advice,Self-Pay,0
+349,47,Female,Cardiology,Emergency,7,4,4,Fracture,Rehab,Private,0
+350,36,Male,Oncology,Emergency,7,5,3,Infection,Against Medical Advice,Self-Pay,1
+351,34,Female,Neurology,Emergency,4,5,2,Stroke,Transfer,Medicare,1
+352,80,Female,Orthopedics,Elective,1,0,4,Heart Failure,Against Medical Advice,Private,1
+353,36,Male,Oncology,Elective,14,4,1,Stroke,Against Medical Advice,Medicare,0
+354,75,Female,Neurology,Elective,8,1,4,Stroke,Against Medical Advice,Self-Pay,0
+355,72,Female,Oncology,Emergency,4,5,0,Heart Failure,Rehab,Self-Pay,0
+356,79,Female,Emergency,Emergency,1,1,0,Fracture,Rehab,Private,1
+357,40,Female,Emergency,Emergency,5,3,3,Fracture,Home,Self-Pay,0
+358,26,Female,Cardiology,Elective,14,4,4,Heart Failure,Rehab,Medicaid,0
+359,29,Female,Cardiology,Elective,14,2,1,Cancer,Rehab,Medicaid,1
+360,18,Female,Emergency,Emergency,8,3,0,Stroke,Rehab,Private,0
+361,75,Female,Oncology,Emergency,4,4,1,Infection,Transfer,Medicare,0
+362,18,Male,Emergency,Emergency,13,0,2,Fracture,Home,Medicare,1
+363,51,Male,Cardiology,Emergency,12,0,0,Infection,Transfer,Medicare,1
+364,65,Female,Emergency,Emergency,8,1,3,Heart Failure,Rehab,Medicaid,0
+365,18,Female,Emergency,Elective,8,5,2,Infection,Rehab,Self-Pay,1
+366,33,Male,Oncology,Elective,3,2,4,Infection,Home,Medicaid,0
+367,78,Male,Neurology,Emergency,9,0,1,Stroke,Home,Self-Pay,0
+368,81,Male,Cardiology,Emergency,3,4,0,Heart Failure,Against Medical Advice,Medicaid,1
+369,80,Female,Oncology,Elective,1,5,2,Infection,Rehab,Medicare,1
+370,86,Male,Emergency,Emergency,2,5,2,Fracture,Rehab,Medicare,0
+371,39,Female,Emergency,Emergency,6,4,0,Heart Failure,Transfer,Medicare,0
+372,84,Female,Neurology,Emergency,12,5,4,Fracture,Against Medical Advice,Private,1
+373,43,Male,Cardiology,Emergency,10,0,4,Cancer,Rehab,Private,0
+374,33,Female,Cardiology,Emergency,2,4,3,Infection,Transfer,Self-Pay,0
+375,68,Female,Orthopedics,Elective,6,4,4,Heart Failure,Home,Private,0
+376,74,Female,Cardiology,Emergency,14,1,3,Fracture,Transfer,Medicaid,0
+377,46,Female,Neurology,Emergency,1,2,2,Infection,Rehab,Medicaid,0
+378,86,Male,Orthopedics,Elective,11,1,0,Stroke,Transfer,Self-Pay,0
+379,64,Male,Orthopedics,Emergency,13,2,4,Fracture,Transfer,Self-Pay,1
+380,79,Female,Emergency,Elective,1,4,3,Fracture,Against Medical Advice,Medicare,0
+381,86,Female,Emergency,Elective,5,5,2,Cancer,Against Medical Advice,Private,0
+382,33,Male,Cardiology,Emergency,10,2,4,Stroke,Home,Medicare,1
+383,65,Female,Orthopedics,Elective,13,4,1,Cancer,Against Medical Advice,Private,0
+384,56,Male,Emergency,Emergency,11,4,2,Stroke,Transfer,Private,0
+385,50,Female,Neurology,Elective,9,1,4,Fracture,Against Medical Advice,Self-Pay,0
+386,40,Female,Emergency,Emergency,14,1,2,Cancer,Rehab,Medicare,0
+387,27,Male,Emergency,Elective,8,5,0,Infection,Transfer,Medicare,0
+388,86,Male,Orthopedics,Elective,3,3,0,Stroke,Transfer,Private,1
+389,51,Male,Orthopedics,Emergency,3,0,0,Fracture,Transfer,Private,0
+390,69,Male,Oncology,Emergency,1,3,1,Heart Failure,Rehab,Self-Pay,0
+391,27,Female,Neurology,Elective,14,3,0,Stroke,Transfer,Medicaid,0
+392,36,Male,Orthopedics,Elective,3,5,1,Stroke,Against Medical Advice,Medicare,0
+393,75,Female,Cardiology,Emergency,14,2,0,Infection,Rehab,Medicare,1
+394,18,Male,Neurology,Elective,12,5,2,Stroke,Transfer,Self-Pay,0
+395,86,Male,Neurology,Emergency,12,5,4,Stroke,Against Medical Advice,Self-Pay,1
+396,21,Female,Orthopedics,Emergency,12,4,4,Infection,Against Medical Advice,Medicare,0
+397,33,Male,Neurology,Emergency,13,4,0,Infection,Home,Medicare,0
+398,41,Male,Orthopedics,Emergency,11,4,4,Cancer,Against Medical Advice,Private,1
+399,19,Male,Emergency,Elective,1,0,0,Fracture,Against Medical Advice,Medicaid,0
+400,49,Male,Oncology,Emergency,8,2,0,Fracture,Home,Medicare,1
+401,41,Female,Emergency,Elective,1,2,3,Cancer,Home,Self-Pay,0
+402,29,Female,Orthopedics,Emergency,5,4,3,Fracture,Rehab,Private,1
+403,67,Male,Orthopedics,Emergency,9,3,3,Stroke,Against Medical Advice,Private,0
+404,52,Male,Emergency,Emergency,7,0,1,Cancer,Rehab,Self-Pay,0
+405,50,Male,Cardiology,Emergency,4,3,3,Cancer,Rehab,Self-Pay,0
+406,50,Female,Cardiology,Emergency,11,1,0,Fracture,Transfer,Private,0
+407,78,Female,Cardiology,Emergency,9,2,2,Heart Failure,Rehab,Self-Pay,0
+408,68,Female,Orthopedics,Emergency,9,2,3,Fracture,Rehab,Private,0
+409,60,Female,Neurology,Emergency,2,3,3,Heart Failure,Rehab,Self-Pay,0
+410,29,Male,Orthopedics,Emergency,10,0,2,Cancer,Rehab,Private,1
+411,84,Male,Neurology,Emergency,10,2,0,Heart Failure,Home,Medicare,0
+412,82,Male,Emergency,Elective,11,3,1,Stroke,Against Medical Advice,Medicare,1
+413,50,Female,Oncology,Elective,12,5,3,Infection,Transfer,Self-Pay,1
+414,57,Male,Neurology,Emergency,6,5,2,Heart Failure,Home,Medicaid,1
+415,60,Female,Cardiology,Emergency,4,0,0,Infection,Transfer,Medicare,0
+416,61,Female,Orthopedics,Emergency,8,3,4,Stroke,Transfer,Private,0
+417,46,Male,Emergency,Elective,12,5,1,Infection,Home,Medicaid,0
+418,30,Male,Cardiology,Emergency,11,0,2,Stroke,Rehab,Private,0
+419,29,Male,Emergency,Emergency,7,4,2,Infection,Home,Private,0
+420,63,Female,Oncology,Emergency,7,0,2,Infection,Transfer,Medicare,1
+421,19,Female,Orthopedics,Emergency,11,1,3,Fracture,Transfer,Self-Pay,0
+422,52,Male,Orthopedics,Emergency,10,4,4,Heart Failure,Rehab,Self-Pay,0
+423,25,Male,Oncology,Elective,9,3,1,Infection,Home,Private,1
+424,43,Female,Orthopedics,Emergency,13,4,0,Cancer,Against Medical Advice,Medicare,0
+425,51,Male,Neurology,Elective,5,4,0,Fracture,Transfer,Private,0
+426,24,Female,Emergency,Emergency,6,3,4,Heart Failure,Home,Medicaid,1
+427,85,Female,Cardiology,Emergency,1,3,2,Fracture,Rehab,Private,0
+428,75,Male,Oncology,Elective,6,5,2,Heart Failure,Rehab,Medicare,0
+429,46,Male,Neurology,Emergency,2,1,2,Stroke,Against Medical Advice,Private,0
+430,53,Male,Cardiology,Elective,6,3,2,Infection,Transfer,Medicare,1
+431,38,Male,Cardiology,Emergency,9,2,2,Cancer,Against Medical Advice,Self-Pay,0
+432,53,Female,Oncology,Emergency,8,2,4,Fracture,Against Medical Advice,Medicare,0
+433,27,Female,Neurology,Elective,9,1,3,Fracture,Against Medical Advice,Medicaid,0
+434,41,Female,Cardiology,Emergency,13,0,1,Fracture,Against Medical Advice,Medicare,0
+435,81,Male,Cardiology,Elective,10,0,2,Fracture,Rehab,Medicaid,0
+436,66,Female,Neurology,Emergency,8,2,3,Infection,Transfer,Medicaid,0
+437,53,Male,Orthopedics,Elective,3,3,0,Heart Failure,Against Medical Advice,Private,0
+438,41,Male,Cardiology,Emergency,8,1,4,Infection,Transfer,Medicaid,0
+439,40,Male,Emergency,Emergency,6,0,3,Stroke,Rehab,Medicare,0
+440,79,Male,Neurology,Elective,13,0,2,Infection,Rehab,Self-Pay,0
+441,54,Male,Cardiology,Elective,6,4,2,Infection,Home,Medicare,0
+442,29,Male,Oncology,Elective,6,2,2,Stroke,Home,Self-Pay,0
+443,72,Female,Emergency,Elective,3,3,3,Infection,Transfer,Medicaid,0
+444,30,Male,Cardiology,Elective,10,1,2,Heart Failure,Home,Private,0
+445,40,Female,Emergency,Emergency,1,0,3,Cancer,Against Medical Advice,Medicaid,1
+446,47,Female,Emergency,Emergency,12,4,2,Stroke,Transfer,Medicaid,0
+447,34,Male,Orthopedics,Emergency,14,2,0,Fracture,Rehab,Self-Pay,0
+448,79,Male,Emergency,Emergency,4,2,0,Heart Failure,Rehab,Medicare,0
+449,30,Male,Orthopedics,Emergency,10,1,1,Cancer,Against Medical Advice,Private,0
+450,76,Female,Neurology,Emergency,12,0,2,Heart Failure,Home,Private,0
+451,36,Male,Orthopedics,Emergency,6,1,2,Heart Failure,Transfer,Private,0
+452,66,Female,Oncology,Elective,11,1,3,Fracture,Transfer,Private,1
+453,29,Male,Cardiology,Emergency,12,5,3,Cancer,Against Medical Advice,Medicare,0
+454,78,Male,Neurology,Emergency,10,4,2,Heart Failure,Home,Private,0
+455,36,Female,Neurology,Emergency,2,2,1,Fracture,Transfer,Self-Pay,1
+456,26,Female,Oncology,Elective,7,5,2,Stroke,Against Medical Advice,Self-Pay,0
+457,88,Male,Orthopedics,Elective,7,3,3,Fracture,Transfer,Private,0
+458,45,Female,Cardiology,Elective,11,2,2,Infection,Rehab,Private,1
+459,69,Female,Orthopedics,Emergency,4,2,3,Fracture,Transfer,Medicare,1
+460,33,Female,Emergency,Emergency,4,4,2,Fracture,Transfer,Medicare,1
+461,86,Female,Orthopedics,Emergency,1,3,4,Fracture,Transfer,Private,1
+462,29,Female,Neurology,Emergency,13,0,3,Heart Failure,Home,Medicare,0
+463,42,Male,Cardiology,Emergency,2,3,1,Cancer,Home,Medicaid,1
+464,69,Male,Orthopedics,Emergency,9,0,4,Fracture,Against Medical Advice,Private,0
+465,70,Female,Cardiology,Emergency,10,3,2,Fracture,Home,Medicare,1
+466,40,Male,Cardiology,Elective,8,1,3,Infection,Transfer,Self-Pay,0
+467,33,Male,Emergency,Elective,8,3,4,Infection,Transfer,Private,0
+468,74,Female,Emergency,Emergency,9,5,1,Stroke,Home,Private,1
+469,56,Male,Neurology,Emergency,7,5,3,Stroke,Home,Self-Pay,0
+470,70,Female,Oncology,Emergency,13,4,4,Infection,Transfer,Self-Pay,1
+471,59,Female,Cardiology,Emergency,9,0,4,Cancer,Transfer,Medicare,0
+472,75,Male,Oncology,Elective,10,2,4,Stroke,Rehab,Self-Pay,0
+473,56,Female,Neurology,Emergency,12,4,0,Cancer,Against Medical Advice,Medicaid,0
+474,31,Female,Cardiology,Elective,2,5,2,Infection,Home,Private,0
+475,22,Female,Cardiology,Emergency,6,5,3,Stroke,Against Medical Advice,Medicaid,0
+476,52,Female,Oncology,Elective,3,0,3,Fracture,Transfer,Medicare,1
+477,35,Female,Orthopedics,Emergency,11,5,3,Infection,Against Medical Advice,Self-Pay,0
+478,26,Male,Emergency,Elective,6,5,4,Stroke,Home,Private,1
+479,75,Male,Orthopedics,Emergency,3,0,2,Cancer,Home,Self-Pay,0
+480,34,Female,Oncology,Elective,8,5,1,Cancer,Against Medical Advice,Self-Pay,0
+481,24,Female,Emergency,Emergency,11,2,3,Stroke,Home,Medicare,0
+482,63,Male,Orthopedics,Emergency,13,1,2,Cancer,Rehab,Medicare,0
+483,30,Female,Emergency,Elective,4,4,2,Stroke,Transfer,Medicare,1
+484,57,Male,Cardiology,Elective,12,2,0,Stroke,Transfer,Medicare,0
+485,59,Female,Orthopedics,Elective,10,2,3,Cancer,Home,Private,0
+486,26,Female,Emergency,Elective,6,1,4,Heart Failure,Transfer,Medicaid,0
+487,67,Female,Emergency,Elective,9,4,2,Fracture,Rehab,Medicaid,1
+488,44,Female,Emergency,Emergency,2,2,2,Infection,Home,Private,1
+489,83,Female,Orthopedics,Emergency,2,5,1,Fracture,Rehab,Self-Pay,1
+490,22,Female,Neurology,Emergency,7,1,0,Infection,Rehab,Private,0
+491,46,Female,Orthopedics,Elective,2,4,2,Infection,Transfer,Medicaid,1
+492,54,Male,Oncology,Emergency,2,3,2,Fracture,Transfer,Medicaid,0
+493,55,Male,Orthopedics,Emergency,4,0,4,Stroke,Against Medical Advice,Private,0
+494,25,Male,Emergency,Emergency,9,5,4,Cancer,Rehab,Medicare,0
+495,82,Female,Cardiology,Elective,8,1,1,Heart Failure,Transfer,Self-Pay,0
+496,34,Female,Orthopedics,Emergency,2,0,1,Heart Failure,Rehab,Private,0
+497,88,Female,Orthopedics,Emergency,8,3,1,Heart Failure,Against Medical Advice,Medicaid,1
+498,62,Female,Emergency,Emergency,4,2,4,Fracture,Rehab,Medicare,1
+499,21,Female,Cardiology,Emergency,2,2,4,Fracture,Home,Self-Pay,0
+500,53,Female,Cardiology,Emergency,11,4,0,Stroke,Against Medical Advice,Medicaid,0
+501,87,Female,Oncology,Elective,10,1,3,Heart Failure,Against Medical Advice,Self-Pay,1
+502,48,Male,Orthopedics,Elective,7,1,3,Stroke,Rehab,Medicare,0
+503,36,Female,Cardiology,Elective,6,4,0,Heart Failure,Rehab,Medicaid,1
+504,78,Male,Cardiology,Emergency,14,0,3,Fracture,Transfer,Medicare,1
+505,71,Male,Neurology,Elective,10,2,4,Cancer,Home,Private,1
+506,56,Female,Neurology,Emergency,5,2,3,Cancer,Against Medical Advice,Private,0
+507,36,Female,Cardiology,Emergency,11,1,4,Cancer,Against Medical Advice,Self-Pay,1
+508,56,Male,Oncology,Elective,1,1,0,Cancer,Against Medical Advice,Medicare,0
+509,84,Male,Cardiology,Emergency,2,4,1,Infection,Transfer,Medicare,0
+510,62,Female,Emergency,Emergency,8,3,0,Heart Failure,Home,Self-Pay,1
+511,30,Female,Orthopedics,Elective,1,0,3,Cancer,Against Medical Advice,Self-Pay,0
+512,75,Male,Oncology,Emergency,3,5,4,Infection,Against Medical Advice,Self-Pay,0
+513,37,Female,Emergency,Elective,2,3,3,Infection,Transfer,Private,0
+514,89,Female,Oncology,Emergency,5,3,3,Infection,Rehab,Self-Pay,1
+515,78,Female,Emergency,Elective,4,1,1,Stroke,Against Medical Advice,Private,1
+516,56,Male,Orthopedics,Emergency,13,1,3,Stroke,Home,Self-Pay,0
+517,18,Male,Orthopedics,Emergency,7,1,1,Infection,Home,Medicare,0
+518,20,Male,Neurology,Elective,5,3,4,Cancer,Home,Medicare,0
+519,79,Female,Emergency,Emergency,8,0,4,Heart Failure,Home,Self-Pay,0
+520,80,Female,Neurology,Emergency,4,1,1,Fracture,Transfer,Self-Pay,0
+521,42,Male,Emergency,Emergency,12,2,0,Stroke,Against Medical Advice,Private,0
+522,73,Male,Neurology,Emergency,6,0,4,Cancer,Transfer,Medicaid,1
+523,50,Male,Orthopedics,Emergency,4,2,0,Cancer,Home,Private,0
+524,55,Female,Oncology,Emergency,2,0,4,Fracture,Home,Medicare,0
+525,23,Male,Neurology,Elective,1,1,4,Fracture,Home,Self-Pay,0
+526,75,Male,Emergency,Emergency,14,5,2,Cancer,Transfer,Medicare,1
+527,61,Female,Emergency,Emergency,14,4,3,Fracture,Home,Medicaid,0
+528,62,Female,Orthopedics,Emergency,1,1,3,Cancer,Against Medical Advice,Private,0
+529,49,Female,Emergency,Emergency,8,3,0,Fracture,Home,Medicare,0
+530,62,Male,Cardiology,Elective,14,5,3,Fracture,Against Medical Advice,Private,1
+531,78,Female,Oncology,Emergency,4,3,0,Cancer,Against Medical Advice,Self-Pay,1
+532,64,Female,Neurology,Elective,5,0,4,Infection,Home,Medicare,0
+533,38,Male,Oncology,Emergency,11,3,2,Cancer,Transfer,Medicaid,1
+534,53,Female,Orthopedics,Elective,8,5,2,Heart Failure,Rehab,Private,0
+535,36,Male,Neurology,Emergency,12,5,4,Fracture,Rehab,Private,1
+536,37,Male,Neurology,Elective,7,1,1,Stroke,Against Medical Advice,Medicaid,0
+537,74,Female,Cardiology,Emergency,13,2,1,Fracture,Transfer,Medicare,0
+538,35,Female,Orthopedics,Emergency,8,1,3,Heart Failure,Rehab,Medicare,1
+539,64,Female,Emergency,Emergency,13,0,0,Stroke,Home,Private,0
+540,66,Female,Cardiology,Emergency,8,3,2,Stroke,Home,Medicaid,1
+541,31,Female,Cardiology,Elective,6,2,3,Cancer,Against Medical Advice,Private,0
+542,32,Female,Oncology,Emergency,10,4,4,Infection,Transfer,Private,0
+543,48,Male,Oncology,Emergency,2,5,2,Cancer,Transfer,Self-Pay,0
+544,18,Male,Oncology,Elective,6,2,0,Stroke,Rehab,Medicare,0
+545,71,Female,Cardiology,Emergency,14,2,0,Stroke,Rehab,Medicare,0
+546,20,Male,Emergency,Elective,1,1,1,Infection,Home,Self-Pay,0
+547,33,Female,Neurology,Elective,1,4,3,Fracture,Against Medical Advice,Medicare,1
+548,74,Male,Oncology,Emergency,11,5,4,Infection,Transfer,Medicare,0
+549,29,Male,Emergency,Elective,3,0,2,Cancer,Rehab,Medicare,0
+550,33,Male,Orthopedics,Emergency,3,0,0,Fracture,Rehab,Medicaid,0
+551,89,Female,Oncology,Emergency,11,2,2,Cancer,Against Medical Advice,Self-Pay,1
+552,41,Male,Neurology,Emergency,13,2,4,Infection,Against Medical Advice,Private,1
+553,45,Female,Orthopedics,Emergency,5,3,2,Fracture,Home,Medicaid,1
+554,25,Male,Orthopedics,Elective,1,4,3,Infection,Against Medical Advice,Private,0
+555,53,Male,Neurology,Elective,10,5,1,Heart Failure,Home,Self-Pay,0
+556,25,Male,Oncology,Emergency,6,2,2,Stroke,Home,Self-Pay,0
+557,75,Male,Cardiology,Emergency,7,3,1,Fracture,Against Medical Advice,Self-Pay,0
+558,77,Male,Neurology,Elective,10,4,4,Stroke,Against Medical Advice,Medicare,0
+559,67,Female,Neurology,Emergency,12,5,1,Heart Failure,Against Medical Advice,Medicaid,0
+560,45,Female,Neurology,Emergency,13,0,2,Fracture,Against Medical Advice,Self-Pay,0
+561,58,Male,Orthopedics,Emergency,11,3,2,Stroke,Against Medical Advice,Private,0
+562,81,Male,Emergency,Elective,3,4,0,Stroke,Home,Medicare,0
+563,44,Male,Cardiology,Emergency,4,3,2,Fracture,Rehab,Medicare,1
+564,80,Male,Oncology,Elective,10,2,1,Stroke,Transfer,Medicaid,0
+565,34,Female,Oncology,Elective,11,1,0,Stroke,Transfer,Medicaid,0
+566,50,Male,Emergency,Emergency,10,0,2,Fracture,Home,Medicaid,0
+567,46,Female,Neurology,Emergency,14,2,2,Stroke,Home,Medicare,0
+568,30,Male,Cardiology,Elective,12,2,4,Stroke,Rehab,Self-Pay,0
+569,63,Female,Oncology,Emergency,10,4,0,Cancer,Against Medical Advice,Private,1
+570,52,Male,Oncology,Elective,14,3,4,Cancer,Home,Self-Pay,0
+571,23,Male,Neurology,Elective,10,0,4,Heart Failure,Transfer,Private,1
+572,86,Female,Emergency,Elective,10,2,4,Cancer,Against Medical Advice,Self-Pay,0
+573,64,Male,Cardiology,Elective,3,4,3,Cancer,Home,Medicaid,0
+574,42,Male,Emergency,Elective,1,0,4,Heart Failure,Against Medical Advice,Private,0
+575,83,Male,Emergency,Elective,8,3,1,Stroke,Transfer,Medicare,0
+576,27,Female,Cardiology,Emergency,13,2,2,Stroke,Against Medical Advice,Private,0
+577,73,Male,Cardiology,Emergency,10,5,3,Cancer,Home,Medicare,1
+578,47,Male,Oncology,Emergency,10,2,4,Heart Failure,Home,Self-Pay,0
+579,22,Female,Oncology,Elective,2,2,2,Stroke,Transfer,Medicaid,0
+580,50,Female,Cardiology,Emergency,1,0,0,Infection,Rehab,Private,1
+581,82,Female,Orthopedics,Elective,14,0,0,Fracture,Rehab,Medicare,0
+582,35,Male,Oncology,Emergency,8,0,2,Fracture,Against Medical Advice,Self-Pay,1
+583,66,Male,Orthopedics,Elective,7,0,1,Fracture,Home,Medicaid,0
+584,28,Male,Cardiology,Emergency,7,4,2,Cancer,Home,Medicaid,1
+585,43,Female,Oncology,Elective,4,1,2,Fracture,Transfer,Medicaid,0
+586,80,Male,Emergency,Emergency,11,4,3,Fracture,Transfer,Self-Pay,1
+587,76,Male,Cardiology,Emergency,9,2,0,Infection,Home,Self-Pay,0
+588,44,Female,Neurology,Emergency,6,4,0,Stroke,Transfer,Self-Pay,0
+589,66,Female,Orthopedics,Elective,2,3,4,Infection,Rehab,Medicaid,0
+590,50,Female,Cardiology,Emergency,14,5,2,Cancer,Rehab,Private,0
+591,18,Female,Cardiology,Emergency,1,0,2,Fracture,Against Medical Advice,Medicare,0
+592,38,Female,Oncology,Elective,1,3,1,Stroke,Transfer,Self-Pay,1
+593,72,Male,Oncology,Elective,9,5,0,Fracture,Against Medical Advice,Private,0
+594,23,Female,Oncology,Elective,4,3,1,Fracture,Transfer,Medicare,0
+595,86,Male,Neurology,Emergency,5,2,3,Cancer,Transfer,Medicaid,1
+596,22,Male,Oncology,Emergency,3,0,4,Fracture,Rehab,Private,1
+597,20,Female,Cardiology,Elective,4,3,1,Heart Failure,Home,Medicaid,0
+598,70,Female,Oncology,Emergency,12,2,0,Stroke,Transfer,Medicare,0
+599,40,Female,Emergency,Elective,8,0,3,Stroke,Transfer,Self-Pay,0
+600,70,Male,Oncology,Emergency,13,1,2,Heart Failure,Transfer,Medicaid,0
+601,54,Female,Neurology,Emergency,4,2,3,Cancer,Home,Private,0
+602,34,Female,Emergency,Emergency,9,4,1,Fracture,Against Medical Advice,Self-Pay,0
+603,18,Female,Cardiology,Emergency,9,0,0,Fracture,Against Medical Advice,Private,0
+604,68,Female,Cardiology,Emergency,6,3,1,Stroke,Transfer,Medicare,0
+605,62,Female,Orthopedics,Emergency,2,5,2,Cancer,Transfer,Medicare,0
+606,21,Male,Emergency,Elective,12,3,2,Cancer,Against Medical Advice,Self-Pay,0
+607,79,Male,Orthopedics,Emergency,10,4,0,Cancer,Against Medical Advice,Private,0
+608,82,Male,Emergency,Elective,11,4,4,Fracture,Rehab,Private,1
+609,49,Female,Emergency,Elective,7,3,3,Cancer,Transfer,Private,1
+610,51,Female,Neurology,Emergency,9,5,3,Heart Failure,Against Medical Advice,Private,0
+611,89,Female,Orthopedics,Emergency,6,0,2,Infection,Rehab,Medicare,0
+612,56,Male,Neurology,Elective,3,2,1,Cancer,Home,Private,0
+613,43,Female,Emergency,Elective,14,4,1,Infection,Transfer,Medicare,0
+614,51,Female,Cardiology,Elective,7,4,4,Fracture,Against Medical Advice,Private,0
+615,71,Female,Emergency,Elective,5,4,1,Cancer,Transfer,Private,0
+616,20,Male,Neurology,Elective,1,5,3,Stroke,Rehab,Medicaid,1
+617,67,Female,Orthopedics,Emergency,3,1,1,Fracture,Against Medical Advice,Medicaid,1
+618,29,Male,Orthopedics,Emergency,5,5,4,Heart Failure,Home,Private,1
+619,82,Female,Neurology,Elective,7,0,3,Heart Failure,Home,Medicare,0
+620,71,Male,Orthopedics,Emergency,3,0,1,Infection,Rehab,Private,1
+621,22,Male,Oncology,Elective,6,0,3,Infection,Home,Medicaid,1
+622,74,Male,Cardiology,Emergency,5,0,2,Stroke,Home,Private,1
+623,34,Female,Cardiology,Emergency,13,0,2,Stroke,Home,Medicaid,0
+624,64,Female,Cardiology,Elective,1,3,2,Heart Failure,Home,Private,0
+625,40,Male,Orthopedics,Emergency,10,4,1,Cancer,Home,Self-Pay,0
+626,31,Male,Orthopedics,Emergency,6,5,4,Heart Failure,Home,Private,1
+627,83,Female,Emergency,Emergency,14,3,3,Heart Failure,Home,Medicare,1
+628,68,Female,Emergency,Elective,8,5,0,Stroke,Against Medical Advice,Medicaid,0
+629,55,Male,Cardiology,Emergency,13,1,2,Infection,Home,Self-Pay,1
+630,81,Female,Oncology,Elective,13,2,2,Stroke,Against Medical Advice,Medicaid,1
+631,55,Female,Emergency,Emergency,1,4,0,Stroke,Transfer,Medicaid,0
+632,67,Female,Emergency,Elective,2,1,0,Stroke,Rehab,Medicare,1
+633,47,Female,Orthopedics,Elective,14,3,1,Heart Failure,Home,Private,0
+634,68,Male,Oncology,Emergency,4,2,3,Cancer,Rehab,Medicare,1
+635,80,Female,Cardiology,Emergency,12,1,2,Heart Failure,Home,Private,0
+636,69,Female,Emergency,Emergency,2,5,4,Fracture,Against Medical Advice,Self-Pay,1
+637,55,Male,Oncology,Elective,11,2,1,Stroke,Home,Medicare,0
+638,47,Male,Oncology,Emergency,9,5,1,Stroke,Transfer,Medicare,0
+639,68,Female,Cardiology,Elective,10,1,4,Fracture,Rehab,Medicaid,0
+640,22,Female,Oncology,Emergency,8,3,4,Stroke,Rehab,Medicare,0
+641,46,Female,Oncology,Emergency,8,5,4,Stroke,Transfer,Private,1
+642,21,Female,Oncology,Emergency,4,2,0,Stroke,Against Medical Advice,Medicare,0
+643,27,Male,Emergency,Emergency,5,1,2,Fracture,Against Medical Advice,Medicare,0
+644,73,Male,Cardiology,Emergency,4,5,0,Heart Failure,Transfer,Self-Pay,0
+645,34,Male,Oncology,Elective,13,3,2,Stroke,Rehab,Private,0
+646,34,Female,Oncology,Elective,9,4,0,Cancer,Home,Medicaid,0
+647,86,Female,Emergency,Emergency,13,3,3,Fracture,Against Medical Advice,Private,0
+648,51,Female,Cardiology,Elective,2,3,2,Infection,Home,Self-Pay,0
+649,23,Female,Orthopedics,Elective,13,4,1,Fracture,Rehab,Private,0
+650,70,Male,Emergency,Elective,11,3,2,Heart Failure,Home,Private,1
+651,83,Male,Cardiology,Emergency,8,4,2,Fracture,Transfer,Medicare,0
+652,60,Female,Oncology,Emergency,2,4,2,Infection,Against Medical Advice,Medicare,0
+653,40,Male,Cardiology,Emergency,1,5,3,Cancer,Against Medical Advice,Private,1
+654,72,Female,Cardiology,Elective,10,5,0,Infection,Transfer,Private,0
+655,33,Female,Cardiology,Emergency,3,4,1,Fracture,Transfer,Medicaid,0
+656,25,Male,Orthopedics,Emergency,9,1,0,Infection,Against Medical Advice,Self-Pay,1
+657,21,Female,Cardiology,Emergency,12,2,0,Fracture,Against Medical Advice,Medicare,0
+658,21,Female,Orthopedics,Emergency,3,1,4,Cancer,Against Medical Advice,Medicare,0
+659,73,Male,Oncology,Elective,9,4,3,Cancer,Rehab,Medicare,1
+660,42,Female,Orthopedics,Emergency,7,2,4,Heart Failure,Rehab,Medicare,0
+661,84,Female,Oncology,Emergency,13,5,3,Cancer,Rehab,Private,1
+662,84,Male,Oncology,Elective,10,2,0,Stroke,Home,Private,1
+663,44,Female,Orthopedics,Elective,1,4,0,Infection,Rehab,Medicaid,1
+664,49,Male,Emergency,Elective,10,5,3,Infection,Against Medical Advice,Medicare,0
+665,67,Female,Neurology,Elective,5,2,0,Fracture,Rehab,Medicare,0
+666,78,Male,Cardiology,Elective,9,2,0,Cancer,Against Medical Advice,Private,1
+667,68,Male,Neurology,Emergency,12,1,1,Heart Failure,Transfer,Medicaid,1
+668,36,Male,Cardiology,Emergency,3,2,4,Heart Failure,Home,Private,0
+669,38,Female,Cardiology,Elective,9,4,4,Heart Failure,Home,Medicare,0
+670,22,Male,Oncology,Elective,5,0,4,Stroke,Transfer,Medicare,0
+671,59,Male,Cardiology,Elective,9,0,2,Cancer,Against Medical Advice,Self-Pay,0
+672,78,Male,Cardiology,Emergency,10,0,1,Heart Failure,Home,Self-Pay,1
+673,39,Male,Orthopedics,Emergency,6,4,4,Stroke,Rehab,Self-Pay,1
+674,38,Male,Neurology,Emergency,9,0,4,Infection,Against Medical Advice,Medicaid,1
+675,87,Female,Orthopedics,Emergency,7,1,1,Fracture,Home,Private,0
+676,18,Female,Cardiology,Emergency,7,4,0,Cancer,Transfer,Medicare,0
+677,22,Female,Oncology,Elective,8,5,4,Cancer,Against Medical Advice,Medicare,1
+678,29,Female,Orthopedics,Emergency,7,4,0,Infection,Home,Medicaid,1
+679,63,Female,Orthopedics,Emergency,12,4,4,Cancer,Transfer,Medicare,1
+680,51,Female,Emergency,Emergency,9,2,3,Cancer,Against Medical Advice,Medicare,0
+681,66,Female,Cardiology,Elective,11,2,2,Cancer,Rehab,Private,1
+682,62,Male,Oncology,Emergency,9,2,4,Cancer,Against Medical Advice,Self-Pay,0
+683,44,Female,Orthopedics,Emergency,6,3,3,Stroke,Rehab,Self-Pay,0
+684,43,Male,Orthopedics,Emergency,7,1,1,Stroke,Against Medical Advice,Medicaid,0
+685,64,Male,Oncology,Emergency,2,4,3,Fracture,Transfer,Self-Pay,1
+686,73,Female,Cardiology,Elective,9,4,1,Cancer,Rehab,Self-Pay,0
+687,80,Male,Emergency,Elective,12,2,4,Infection,Rehab,Medicaid,1
+688,65,Male,Orthopedics,Emergency,13,4,1,Heart Failure,Against Medical Advice,Medicaid,0
+689,78,Male,Emergency,Emergency,1,5,3,Fracture,Home,Self-Pay,1
+690,43,Male,Neurology,Elective,1,4,2,Heart Failure,Rehab,Private,0
+691,53,Female,Cardiology,Emergency,3,0,0,Heart Failure,Against Medical Advice,Medicaid,0
+692,18,Female,Neurology,Emergency,12,5,0,Cancer,Transfer,Medicare,1
+693,25,Female,Neurology,Emergency,6,5,2,Infection,Against Medical Advice,Medicaid,1
+694,69,Female,Neurology,Elective,5,4,0,Heart Failure,Against Medical Advice,Medicare,1
+695,64,Female,Cardiology,Emergency,2,3,4,Heart Failure,Rehab,Medicaid,0
+696,73,Female,Cardiology,Emergency,9,2,4,Fracture,Home,Medicaid,0
+697,31,Female,Oncology,Elective,14,1,3,Infection,Transfer,Self-Pay,0
+698,45,Female,Emergency,Emergency,13,1,3,Infection,Rehab,Self-Pay,0
+699,19,Female,Emergency,Emergency,10,0,1,Heart Failure,Rehab,Self-Pay,1
+700,43,Female,Oncology,Elective,14,1,3,Infection,Rehab,Private,0
+701,31,Male,Oncology,Emergency,4,1,4,Fracture,Transfer,Self-Pay,1
+702,76,Female,Neurology,Elective,4,2,3,Fracture,Home,Self-Pay,0
+703,73,Male,Oncology,Emergency,5,2,0,Fracture,Transfer,Medicaid,0
+704,24,Male,Orthopedics,Emergency,8,3,1,Cancer,Transfer,Medicaid,0
+705,20,Male,Emergency,Emergency,10,0,1,Heart Failure,Home,Private,0
+706,40,Male,Oncology,Emergency,4,1,4,Infection,Transfer,Medicare,0
+707,35,Female,Orthopedics,Emergency,5,3,3,Fracture,Against Medical Advice,Medicaid,0
+708,55,Male,Orthopedics,Elective,12,0,0,Heart Failure,Transfer,Medicaid,0
+709,32,Female,Orthopedics,Emergency,4,5,3,Heart Failure,Rehab,Medicare,0
+710,81,Female,Orthopedics,Emergency,14,1,2,Cancer,Transfer,Private,0
+711,45,Male,Neurology,Emergency,6,1,3,Infection,Rehab,Medicaid,0
+712,56,Female,Orthopedics,Elective,12,2,4,Infection,Transfer,Self-Pay,0
+713,74,Male,Neurology,Emergency,3,4,3,Fracture,Rehab,Private,1
+714,34,Male,Neurology,Emergency,8,0,1,Fracture,Rehab,Medicare,0
+715,61,Female,Orthopedics,Emergency,6,1,0,Heart Failure,Rehab,Medicare,0
+716,42,Female,Emergency,Emergency,10,0,4,Infection,Home,Self-Pay,0
+717,34,Male,Orthopedics,Emergency,5,3,2,Infection,Transfer,Self-Pay,0
+718,30,Female,Orthopedics,Elective,13,3,0,Fracture,Transfer,Self-Pay,0
+719,42,Female,Orthopedics,Emergency,2,4,0,Stroke,Against Medical Advice,Private,1
+720,85,Female,Emergency,Emergency,10,1,1,Heart Failure,Against Medical Advice,Medicare,0
+721,27,Male,Cardiology,Emergency,10,2,1,Infection,Against Medical Advice,Self-Pay,1
+722,84,Male,Cardiology,Elective,7,1,1,Cancer,Transfer,Self-Pay,0
+723,35,Female,Neurology,Emergency,2,0,4,Cancer,Home,Medicare,0
+724,51,Female,Neurology,Emergency,1,5,3,Stroke,Rehab,Medicaid,1
+725,25,Female,Emergency,Emergency,7,3,0,Fracture,Transfer,Private,0
+726,57,Female,Oncology,Emergency,5,0,3,Fracture,Home,Medicaid,1
+727,59,Female,Cardiology,Emergency,1,4,3,Fracture,Home,Self-Pay,0
+728,58,Male,Neurology,Emergency,4,3,1,Cancer,Transfer,Private,0
+729,23,Female,Cardiology,Emergency,12,2,3,Fracture,Rehab,Medicaid,1
+730,69,Male,Emergency,Emergency,13,3,0,Cancer,Home,Medicare,0
+731,43,Female,Emergency,Emergency,4,5,0,Stroke,Transfer,Self-Pay,0
+732,81,Male,Oncology,Emergency,10,1,2,Heart Failure,Rehab,Private,0
+733,76,Female,Oncology,Emergency,7,5,4,Infection,Against Medical Advice,Private,1
+734,73,Male,Emergency,Elective,9,5,3,Stroke,Home,Private,0
+735,76,Female,Neurology,Elective,2,1,4,Cancer,Home,Private,0
+736,87,Male,Cardiology,Elective,12,3,4,Stroke,Transfer,Self-Pay,1
+737,50,Male,Orthopedics,Elective,14,4,4,Infection,Transfer,Self-Pay,1
+738,70,Male,Oncology,Elective,1,1,4,Heart Failure,Rehab,Medicare,0
+739,39,Male,Orthopedics,Elective,2,1,0,Infection,Against Medical Advice,Medicare,1
+740,38,Male,Neurology,Emergency,7,2,3,Cancer,Against Medical Advice,Medicare,0
+741,87,Male,Oncology,Elective,13,3,2,Infection,Transfer,Medicaid,0
+742,87,Female,Orthopedics,Emergency,10,1,4,Stroke,Transfer,Medicare,1
+743,21,Male,Neurology,Emergency,6,4,2,Fracture,Rehab,Self-Pay,1
+744,79,Female,Cardiology,Elective,4,0,0,Stroke,Transfer,Medicaid,0
+745,79,Female,Neurology,Emergency,1,3,0,Cancer,Rehab,Self-Pay,0
+746,41,Female,Oncology,Emergency,13,2,1,Heart Failure,Rehab,Medicaid,0
+747,72,Female,Emergency,Elective,1,5,4,Infection,Against Medical Advice,Medicare,1
+748,26,Female,Cardiology,Emergency,5,1,1,Heart Failure,Rehab,Medicare,0
+749,20,Male,Orthopedics,Emergency,1,4,2,Cancer,Against Medical Advice,Medicare,1
+750,48,Male,Oncology,Elective,12,3,3,Infection,Against Medical Advice,Medicaid,0
+751,57,Male,Emergency,Elective,7,4,1,Stroke,Against Medical Advice,Self-Pay,1
+752,53,Female,Neurology,Emergency,13,4,0,Stroke,Transfer,Private,0
+753,41,Male,Emergency,Emergency,11,5,4,Cancer,Against Medical Advice,Self-Pay,1
+754,23,Male,Oncology,Emergency,1,2,2,Infection,Rehab,Medicare,0
+755,83,Male,Oncology,Elective,1,3,0,Stroke,Transfer,Medicaid,0
+756,21,Male,Emergency,Emergency,2,1,3,Cancer,Rehab,Medicaid,1
+757,23,Male,Neurology,Emergency,13,2,4,Cancer,Transfer,Medicare,0
+758,68,Female,Emergency,Emergency,14,1,3,Heart Failure,Rehab,Medicaid,1
+759,79,Male,Oncology,Emergency,11,0,3,Stroke,Home,Medicare,0
+760,74,Female,Oncology,Elective,12,4,4,Infection,Home,Self-Pay,0
+761,83,Female,Orthopedics,Emergency,10,0,4,Stroke,Home,Medicaid,0
+762,25,Female,Orthopedics,Elective,3,4,3,Stroke,Rehab,Private,0
+763,43,Female,Cardiology,Emergency,13,5,2,Stroke,Transfer,Medicaid,0
+764,68,Female,Oncology,Elective,11,2,4,Cancer,Against Medical Advice,Medicare,0
+765,62,Male,Orthopedics,Elective,1,1,0,Fracture,Against Medical Advice,Private,0
+766,61,Male,Emergency,Emergency,9,5,1,Fracture,Rehab,Medicare,1
+767,22,Male,Neurology,Emergency,10,1,2,Heart Failure,Rehab,Medicaid,0
+768,87,Female,Emergency,Emergency,8,2,4,Stroke,Rehab,Private,0
+769,43,Male,Neurology,Elective,5,3,4,Fracture,Rehab,Private,1
+770,85,Male,Orthopedics,Emergency,13,0,2,Heart Failure,Against Medical Advice,Medicaid,0
+771,36,Female,Cardiology,Elective,11,0,1,Cancer,Transfer,Private,0
+772,37,Female,Emergency,Elective,2,1,3,Stroke,Against Medical Advice,Self-Pay,1
+773,29,Female,Emergency,Elective,5,1,0,Infection,Rehab,Private,0
+774,64,Female,Emergency,Elective,6,1,4,Cancer,Home,Private,0
+775,18,Male,Neurology,Emergency,14,2,1,Heart Failure,Against Medical Advice,Self-Pay,0
+776,31,Female,Orthopedics,Emergency,1,3,0,Cancer,Home,Medicare,0
+777,81,Female,Emergency,Emergency,11,0,2,Infection,Home,Medicare,1
+778,55,Male,Emergency,Elective,4,5,4,Cancer,Rehab,Self-Pay,0
+779,54,Male,Cardiology,Elective,9,4,3,Heart Failure,Against Medical Advice,Private,0
+780,28,Female,Cardiology,Elective,2,2,2,Infection,Transfer,Medicaid,1
+781,20,Male,Orthopedics,Emergency,5,0,4,Infection,Against Medical Advice,Self-Pay,1
+782,50,Female,Orthopedics,Emergency,1,3,1,Cancer,Transfer,Medicaid,1
+783,23,Female,Oncology,Elective,4,2,0,Infection,Transfer,Medicare,0
+784,67,Male,Cardiology,Emergency,4,5,0,Cancer,Rehab,Self-Pay,0
+785,27,Male,Oncology,Emergency,6,0,4,Stroke,Transfer,Medicaid,1
+786,22,Female,Neurology,Elective,10,2,2,Infection,Against Medical Advice,Private,0
+787,40,Female,Oncology,Emergency,9,0,3,Cancer,Against Medical Advice,Self-Pay,0
+788,27,Female,Emergency,Emergency,3,0,1,Stroke,Home,Medicaid,0
+789,61,Male,Oncology,Emergency,9,3,4,Infection,Transfer,Self-Pay,0
+790,19,Female,Orthopedics,Emergency,6,4,1,Stroke,Rehab,Self-Pay,0
+791,30,Female,Neurology,Elective,7,3,0,Infection,Rehab,Medicare,0
+792,57,Female,Emergency,Emergency,12,0,3,Heart Failure,Against Medical Advice,Medicare,0
+793,19,Female,Oncology,Emergency,10,2,1,Heart Failure,Transfer,Private,0
+794,82,Female,Neurology,Emergency,2,5,4,Cancer,Rehab,Medicare,1
+795,80,Male,Neurology,Elective,11,3,3,Fracture,Transfer,Medicare,0
+796,34,Female,Emergency,Emergency,10,4,2,Heart Failure,Transfer,Medicare,1
+797,26,Female,Oncology,Emergency,14,0,4,Fracture,Home,Medicaid,1
+798,32,Female,Neurology,Emergency,6,5,1,Stroke,Rehab,Self-Pay,0
+799,41,Female,Neurology,Emergency,6,3,3,Stroke,Home,Medicare,0
+800,55,Male,Cardiology,Emergency,2,3,4,Fracture,Rehab,Medicaid,0
+801,52,Male,Neurology,Elective,2,3,3,Cancer,Transfer,Self-Pay,0
+802,66,Male,Cardiology,Elective,14,3,3,Infection,Rehab,Medicare,0
+803,86,Female,Oncology,Emergency,2,5,3,Fracture,Against Medical Advice,Medicare,1
+804,79,Female,Oncology,Emergency,10,2,1,Fracture,Transfer,Self-Pay,1
+805,77,Male,Oncology,Elective,12,4,4,Fracture,Rehab,Medicaid,1
+806,67,Male,Orthopedics,Emergency,1,4,0,Fracture,Home,Medicaid,0
+807,26,Male,Oncology,Elective,5,0,0,Fracture,Home,Private,0
+808,51,Female,Neurology,Emergency,8,1,1,Cancer,Transfer,Self-Pay,0
+809,52,Female,Emergency,Elective,2,2,1,Heart Failure,Home,Private,0
+810,18,Male,Cardiology,Elective,13,0,3,Infection,Transfer,Medicaid,0
+811,57,Male,Orthopedics,Elective,5,0,4,Heart Failure,Transfer,Medicare,0
+812,81,Male,Oncology,Elective,12,3,4,Fracture,Transfer,Private,1
+813,39,Female,Oncology,Emergency,8,1,2,Heart Failure,Rehab,Medicaid,1
+814,77,Female,Emergency,Elective,10,1,2,Cancer,Transfer,Medicaid,1
+815,81,Female,Emergency,Emergency,14,2,0,Stroke,Home,Medicare,0
+816,89,Male,Orthopedics,Emergency,5,1,2,Heart Failure,Against Medical Advice,Self-Pay,0
+817,28,Male,Cardiology,Elective,2,0,2,Infection,Rehab,Medicaid,0
+818,31,Female,Oncology,Elective,3,1,0,Cancer,Home,Private,1
+819,77,Male,Orthopedics,Elective,6,1,0,Stroke,Transfer,Medicare,0
+820,47,Female,Neurology,Emergency,11,4,2,Cancer,Transfer,Self-Pay,0
+821,52,Male,Neurology,Elective,11,0,4,Fracture,Against Medical Advice,Self-Pay,0
+822,54,Male,Orthopedics,Elective,5,5,2,Stroke,Home,Self-Pay,0
+823,22,Male,Oncology,Emergency,11,1,3,Infection,Rehab,Medicaid,0
+824,43,Male,Orthopedics,Emergency,4,1,3,Stroke,Home,Self-Pay,0
+825,79,Female,Oncology,Emergency,4,3,3,Infection,Transfer,Medicaid,1
+826,21,Male,Emergency,Emergency,5,1,1,Fracture,Rehab,Medicare,0
+827,59,Female,Orthopedics,Elective,2,1,3,Infection,Transfer,Medicare,1
+828,35,Female,Oncology,Elective,9,4,4,Cancer,Transfer,Self-Pay,1
+829,57,Female,Orthopedics,Elective,2,0,1,Heart Failure,Home,Medicare,0
+830,89,Male,Orthopedics,Elective,10,2,1,Cancer,Against Medical Advice,Private,0
+831,56,Female,Oncology,Emergency,2,0,3,Cancer,Transfer,Private,1
+832,31,Female,Oncology,Elective,10,3,2,Stroke,Home,Medicaid,0
+833,49,Female,Cardiology,Emergency,14,0,0,Fracture,Rehab,Self-Pay,0
+834,68,Male,Orthopedics,Elective,9,1,2,Heart Failure,Against Medical Advice,Medicaid,0
+835,55,Male,Neurology,Emergency,14,3,2,Infection,Transfer,Medicare,0
+836,40,Female,Orthopedics,Elective,3,0,1,Stroke,Transfer,Self-Pay,0
+837,80,Male,Orthopedics,Emergency,10,3,1,Fracture,Rehab,Medicaid,1
+838,32,Female,Oncology,Emergency,7,2,1,Heart Failure,Home,Self-Pay,0
+839,42,Female,Orthopedics,Elective,4,0,4,Cancer,Transfer,Self-Pay,0
+840,34,Male,Orthopedics,Emergency,13,5,4,Fracture,Rehab,Medicaid,0
+841,83,Female,Neurology,Elective,13,1,0,Fracture,Transfer,Self-Pay,0
+842,70,Male,Oncology,Emergency,6,3,1,Fracture,Home,Medicare,0
+843,68,Male,Orthopedics,Elective,14,5,3,Cancer,Against Medical Advice,Private,0
+844,56,Female,Emergency,Emergency,4,5,1,Infection,Home,Private,1
+845,68,Male,Cardiology,Emergency,10,4,4,Stroke,Home,Self-Pay,1
+846,87,Male,Neurology,Emergency,7,3,1,Infection,Home,Private,0
+847,23,Female,Orthopedics,Emergency,1,5,4,Heart Failure,Rehab,Self-Pay,1
+848,84,Female,Emergency,Emergency,3,4,1,Stroke,Transfer,Medicaid,1
+849,24,Male,Orthopedics,Emergency,13,5,3,Heart Failure,Against Medical Advice,Medicare,1
+850,68,Male,Orthopedics,Emergency,3,1,0,Cancer,Rehab,Private,0
+851,89,Female,Oncology,Emergency,1,2,3,Infection,Home,Medicaid,0
+852,59,Male,Oncology,Emergency,6,4,4,Fracture,Against Medical Advice,Medicare,0
+853,81,Male,Oncology,Elective,13,2,2,Stroke,Home,Private,0
+854,32,Male,Emergency,Emergency,11,3,3,Fracture,Home,Private,1
+855,46,Male,Orthopedics,Emergency,14,1,1,Heart Failure,Home,Medicare,0
+856,50,Male,Cardiology,Elective,9,4,0,Fracture,Against Medical Advice,Medicaid,0
+857,44,Male,Neurology,Emergency,8,3,1,Fracture,Transfer,Medicaid,1
+858,53,Male,Oncology,Elective,11,5,1,Cancer,Home,Private,0
+859,46,Female,Oncology,Emergency,7,0,3,Cancer,Transfer,Medicare,0
+860,55,Female,Orthopedics,Emergency,10,3,0,Infection,Against Medical Advice,Medicaid,0
+861,74,Female,Orthopedics,Emergency,8,2,2,Heart Failure,Against Medical Advice,Medicare,0
+862,44,Female,Emergency,Elective,6,1,1,Cancer,Home,Medicare,1
+863,72,Female,Emergency,Elective,9,1,0,Cancer,Transfer,Private,0
+864,50,Male,Oncology,Emergency,3,3,2,Infection,Transfer,Medicare,0
+865,85,Male,Orthopedics,Emergency,10,5,1,Stroke,Home,Medicare,0
+866,83,Male,Cardiology,Elective,10,0,0,Infection,Rehab,Self-Pay,0
+867,27,Male,Neurology,Emergency,9,2,3,Fracture,Rehab,Medicare,0
+868,22,Female,Orthopedics,Emergency,4,3,1,Fracture,Against Medical Advice,Medicaid,0
+869,55,Male,Orthopedics,Elective,7,3,1,Cancer,Against Medical Advice,Private,0
+870,30,Male,Emergency,Elective,13,1,0,Cancer,Rehab,Private,0
+871,48,Female,Neurology,Emergency,9,2,1,Infection,Rehab,Medicare,0
+872,64,Male,Oncology,Elective,2,0,2,Infection,Rehab,Medicare,0
+873,69,Male,Orthopedics,Elective,2,1,1,Heart Failure,Home,Medicaid,0
+874,73,Female,Oncology,Emergency,9,3,4,Fracture,Home,Self-Pay,0
+875,32,Male,Orthopedics,Emergency,12,1,2,Infection,Home,Private,0
+876,46,Male,Oncology,Emergency,13,1,0,Stroke,Home,Self-Pay,0
+877,25,Male,Neurology,Elective,3,4,2,Heart Failure,Home,Medicaid,0
+878,22,Male,Emergency,Elective,9,1,4,Infection,Home,Private,1
+879,46,Male,Neurology,Emergency,13,5,4,Cancer,Against Medical Advice,Medicaid,1
+880,64,Female,Cardiology,Elective,5,1,1,Infection,Transfer,Medicare,0
+881,85,Female,Emergency,Emergency,6,5,1,Cancer,Against Medical Advice,Medicaid,1
+882,62,Female,Neurology,Emergency,2,2,3,Cancer,Transfer,Medicare,1
+883,19,Female,Cardiology,Emergency,8,1,2,Fracture,Against Medical Advice,Self-Pay,0
+884,44,Female,Orthopedics,Emergency,11,0,3,Fracture,Against Medical Advice,Private,0
+885,53,Female,Orthopedics,Elective,9,5,4,Infection,Home,Private,0
+886,53,Male,Oncology,Emergency,2,5,1,Infection,Home,Self-Pay,1
+887,43,Female,Emergency,Elective,6,3,1,Stroke,Transfer,Medicare,0
+888,60,Female,Orthopedics,Emergency,6,2,1,Heart Failure,Transfer,Private,0
+889,44,Male,Emergency,Emergency,8,1,0,Heart Failure,Home,Medicaid,0
+890,86,Male,Orthopedics,Elective,10,0,4,Infection,Against Medical Advice,Medicare,1
+891,37,Female,Oncology,Emergency,12,3,1,Fracture,Transfer,Private,0
+892,28,Male,Neurology,Emergency,5,2,4,Stroke,Rehab,Medicaid,0
+893,55,Female,Oncology,Emergency,9,5,1,Heart Failure,Rehab,Medicaid,1
+894,23,Male,Cardiology,Elective,1,0,2,Infection,Rehab,Private,0
+895,89,Female,Orthopedics,Emergency,9,1,4,Fracture,Transfer,Self-Pay,0
+896,40,Male,Cardiology,Emergency,10,4,3,Fracture,Home,Self-Pay,0
+897,64,Male,Cardiology,Emergency,7,4,0,Fracture,Home,Private,0
+898,63,Female,Emergency,Emergency,4,2,3,Cancer,Home,Medicaid,0
+899,29,Female,Orthopedics,Elective,3,0,4,Fracture,Transfer,Self-Pay,0
+900,30,Female,Cardiology,Emergency,14,3,1,Infection,Transfer,Self-Pay,0
+901,79,Female,Neurology,Emergency,10,0,4,Stroke,Rehab,Self-Pay,0
+902,77,Female,Cardiology,Emergency,11,5,0,Infection,Transfer,Medicare,0
+903,60,Male,Neurology,Emergency,14,4,4,Fracture,Rehab,Self-Pay,0
+904,85,Female,Emergency,Elective,6,2,1,Stroke,Rehab,Private,1
+905,22,Female,Cardiology,Emergency,12,1,3,Heart Failure,Home,Private,0
+906,54,Male,Oncology,Elective,13,0,2,Heart Failure,Transfer,Medicare,0
+907,89,Male,Emergency,Emergency,1,4,3,Infection,Home,Medicare,0
+908,48,Female,Neurology,Emergency,3,3,1,Stroke,Home,Private,0
+909,26,Male,Emergency,Elective,2,2,1,Infection,Transfer,Medicare,0
+910,68,Male,Cardiology,Emergency,11,1,0,Stroke,Transfer,Self-Pay,0
+911,46,Female,Orthopedics,Elective,13,0,4,Stroke,Against Medical Advice,Medicaid,0
+912,57,Male,Orthopedics,Elective,9,3,4,Infection,Rehab,Medicaid,0
+913,58,Male,Neurology,Emergency,3,1,3,Stroke,Against Medical Advice,Medicaid,1
+914,28,Female,Neurology,Emergency,13,5,2,Fracture,Rehab,Private,0
+915,40,Female,Orthopedics,Elective,2,4,2,Stroke,Rehab,Medicare,0
+916,18,Male,Neurology,Emergency,4,5,0,Stroke,Rehab,Medicaid,0
+917,63,Male,Emergency,Emergency,14,4,1,Infection,Home,Self-Pay,1
+918,38,Female,Oncology,Emergency,2,3,0,Heart Failure,Home,Self-Pay,0
+919,53,Male,Oncology,Emergency,1,5,4,Cancer,Transfer,Self-Pay,1
+920,71,Male,Emergency,Elective,6,4,1,Stroke,Rehab,Medicare,0
+921,74,Male,Oncology,Emergency,10,2,0,Cancer,Rehab,Medicaid,0
+922,18,Female,Cardiology,Emergency,8,3,3,Stroke,Rehab,Self-Pay,1
+923,80,Male,Emergency,Elective,10,4,4,Infection,Home,Medicare,1
+924,71,Male,Neurology,Emergency,10,0,2,Infection,Transfer,Self-Pay,0
+925,72,Female,Emergency,Emergency,2,4,0,Stroke,Home,Medicaid,1
+926,57,Male,Orthopedics,Elective,14,5,4,Infection,Against Medical Advice,Medicaid,0
+927,32,Male,Neurology,Emergency,9,2,4,Infection,Against Medical Advice,Medicaid,1
+928,38,Female,Orthopedics,Elective,13,1,2,Stroke,Against Medical Advice,Medicaid,0
+929,64,Female,Neurology,Elective,3,1,2,Heart Failure,Transfer,Medicaid,0
+930,70,Female,Oncology,Emergency,8,4,2,Stroke,Against Medical Advice,Self-Pay,1
+931,26,Female,Emergency,Emergency,12,1,0,Heart Failure,Transfer,Medicaid,0
+932,69,Male,Cardiology,Emergency,8,4,2,Infection,Home,Self-Pay,0
+933,74,Male,Neurology,Emergency,3,2,3,Heart Failure,Home,Medicaid,0
+934,43,Female,Neurology,Elective,3,1,4,Infection,Transfer,Self-Pay,0
+935,58,Female,Orthopedics,Elective,12,5,2,Heart Failure,Home,Medicaid,0
+936,52,Male,Oncology,Emergency,6,5,4,Heart Failure,Home,Self-Pay,1
+937,80,Female,Orthopedics,Elective,1,0,1,Stroke,Transfer,Medicaid,0
+938,42,Male,Orthopedics,Elective,4,4,1,Heart Failure,Against Medical Advice,Medicare,0
+939,55,Female,Oncology,Elective,1,1,2,Infection,Transfer,Self-Pay,0
+940,19,Male,Cardiology,Emergency,14,5,4,Stroke,Rehab,Medicare,0
+941,24,Female,Orthopedics,Emergency,3,2,1,Heart Failure,Home,Self-Pay,0
+942,51,Female,Orthopedics,Emergency,9,2,2,Stroke,Transfer,Self-Pay,1
+943,34,Male,Neurology,Elective,14,0,4,Cancer,Home,Self-Pay,1
+944,60,Female,Oncology,Emergency,14,2,2,Stroke,Against Medical Advice,Private,0
+945,76,Male,Emergency,Emergency,5,2,4,Cancer,Home,Medicaid,1
+946,68,Male,Cardiology,Emergency,12,1,1,Cancer,Transfer,Medicare,0
+947,71,Male,Cardiology,Emergency,5,4,2,Stroke,Against Medical Advice,Medicare,1
+948,41,Male,Oncology,Emergency,11,3,1,Infection,Against Medical Advice,Self-Pay,0
+949,42,Male,Neurology,Elective,4,2,2,Infection,Against Medical Advice,Medicare,0
+950,88,Female,Neurology,Emergency,3,2,0,Infection,Rehab,Medicare,0
+951,69,Female,Oncology,Emergency,5,3,1,Fracture,Transfer,Medicare,0
+952,87,Male,Neurology,Emergency,14,2,1,Cancer,Transfer,Medicare,0
+953,50,Female,Cardiology,Emergency,11,1,3,Stroke,Against Medical Advice,Private,0
+954,66,Male,Cardiology,Emergency,4,1,1,Infection,Home,Self-Pay,0
+955,46,Female,Emergency,Emergency,8,3,4,Infection,Against Medical Advice,Medicare,0
+956,80,Female,Oncology,Emergency,4,5,2,Stroke,Rehab,Private,0
+957,39,Female,Orthopedics,Emergency,11,2,0,Cancer,Against Medical Advice,Private,0
+958,43,Female,Orthopedics,Emergency,12,5,4,Stroke,Transfer,Self-Pay,0
+959,45,Male,Emergency,Emergency,8,2,4,Fracture,Against Medical Advice,Medicaid,0
+960,66,Male,Emergency,Elective,6,4,4,Fracture,Home,Medicaid,0
+961,88,Female,Neurology,Elective,14,2,4,Stroke,Transfer,Medicaid,1
+962,66,Female,Emergency,Emergency,12,1,0,Cancer,Home,Medicare,1
+963,37,Male,Emergency,Emergency,11,0,3,Infection,Against Medical Advice,Self-Pay,0
+964,80,Female,Orthopedics,Elective,5,0,1,Fracture,Transfer,Medicaid,0
+965,78,Male,Neurology,Emergency,4,0,4,Fracture,Rehab,Medicare,0
+966,66,Male,Emergency,Elective,4,0,1,Cancer,Transfer,Self-Pay,1
+967,88,Male,Emergency,Elective,12,5,1,Fracture,Home,Medicare,0
+968,18,Female,Neurology,Emergency,4,5,4,Fracture,Transfer,Medicaid,0
+969,30,Male,Oncology,Emergency,11,2,3,Cancer,Rehab,Medicaid,0
+970,68,Female,Neurology,Elective,13,5,1,Stroke,Rehab,Private,0
+971,73,Male,Orthopedics,Emergency,13,2,2,Infection,Rehab,Private,0
+972,79,Female,Oncology,Emergency,9,4,1,Infection,Rehab,Self-Pay,1
+973,49,Female,Cardiology,Emergency,4,2,4,Fracture,Home,Medicare,0
+974,47,Female,Neurology,Emergency,12,0,0,Infection,Transfer,Medicare,0
+975,46,Male,Orthopedics,Elective,9,3,1,Stroke,Against Medical Advice,Medicaid,0
+976,66,Male,Oncology,Elective,13,3,3,Fracture,Rehab,Medicaid,0
+977,62,Female,Neurology,Elective,10,1,2,Infection,Against Medical Advice,Self-Pay,0
+978,47,Female,Emergency,Emergency,6,1,2,Heart Failure,Against Medical Advice,Private,1
+979,33,Female,Neurology,Emergency,10,2,0,Heart Failure,Transfer,Medicaid,0
+980,57,Male,Cardiology,Emergency,13,3,0,Heart Failure,Against Medical Advice,Medicare,0
+981,36,Male,Neurology,Emergency,7,0,1,Heart Failure,Against Medical Advice,Medicaid,0
+982,35,Male,Oncology,Emergency,12,5,4,Heart Failure,Home,Private,0
+983,18,Male,Oncology,Elective,10,0,3,Fracture,Against Medical Advice,Medicare,0
+984,64,Female,Neurology,Elective,3,0,2,Cancer,Transfer,Private,0
+985,83,Female,Oncology,Emergency,8,2,0,Cancer,Against Medical Advice,Self-Pay,0
+986,55,Male,Emergency,Elective,3,2,3,Fracture,Transfer,Self-Pay,0
+987,68,Male,Neurology,Emergency,1,4,4,Fracture,Rehab,Private,1
+988,80,Female,Emergency,Emergency,13,0,2,Stroke,Against Medical Advice,Medicare,0
+989,21,Male,Emergency,Elective,13,0,2,Cancer,Against Medical Advice,Private,0
+990,18,Male,Orthopedics,Emergency,10,2,4,Heart Failure,Against Medical Advice,Medicaid,1
+991,25,Male,Neurology,Elective,12,2,2,Fracture,Rehab,Medicaid,0
+992,46,Male,Oncology,Elective,5,4,4,Heart Failure,Home,Private,0
+993,72,Male,Emergency,Emergency,2,4,2,Cancer,Against Medical Advice,Medicaid,0
+994,20,Male,Orthopedics,Elective,10,1,1,Infection,Transfer,Private,0
+995,49,Female,Neurology,Emergency,14,3,4,Infection,Home,Medicaid,1
+996,27,Male,Neurology,Emergency,6,0,3,Fracture,Home,Private,1
+997,51,Male,Cardiology,Emergency,13,0,1,Stroke,Home,Medicaid,1
+998,72,Female,Cardiology,Emergency,10,4,3,Heart Failure,Against Medical Advice,Medicare,1
+999,49,Female,Emergency,Elective,9,4,2,Fracture,Rehab,Medicare,0
+1000,67,Female,Cardiology,Emergency,1,1,3,Stroke,Rehab,Medicaid,1
+1001,24,Male,Emergency,Elective,14,3,1,Heart Failure,Against Medical Advice,Private,0
+1002,25,Female,Oncology,Emergency,13,1,4,Cancer,Transfer,Medicaid,1
+1003,82,Male,Emergency,Emergency,4,3,0,Infection,Transfer,Self-Pay,1
+1004,74,Male,Cardiology,Elective,1,5,3,Stroke,Transfer,Self-Pay,1
+1005,84,Male,Oncology,Emergency,1,0,0,Heart Failure,Against Medical Advice,Private,0
+1006,76,Female,Cardiology,Emergency,8,1,3,Fracture,Rehab,Medicaid,0
+1007,89,Female,Emergency,Emergency,14,4,3,Heart Failure,Against Medical Advice,Medicaid,0
+1008,71,Female,Orthopedics,Emergency,14,1,4,Fracture,Rehab,Medicare,1
+1009,84,Female,Neurology,Emergency,13,5,2,Infection,Home,Private,1
+1010,68,Female,Cardiology,Elective,14,1,1,Infection,Against Medical Advice,Self-Pay,0
+1011,25,Male,Emergency,Emergency,11,0,1,Heart Failure,Rehab,Self-Pay,0
+1012,51,Male,Oncology,Emergency,2,5,1,Heart Failure,Home,Private,0
+1013,52,Male,Cardiology,Elective,1,4,2,Fracture,Home,Self-Pay,0
+1014,49,Male,Cardiology,Emergency,11,4,0,Fracture,Against Medical Advice,Private,0
+1015,63,Female,Neurology,Elective,8,2,1,Stroke,Rehab,Self-Pay,0
+1016,33,Female,Emergency,Emergency,4,5,0,Stroke,Home,Self-Pay,0
+1017,85,Male,Orthopedics,Emergency,3,2,2,Stroke,Against Medical Advice,Private,0
+1018,54,Female,Oncology,Elective,13,2,2,Heart Failure,Home,Private,0
+1019,71,Female,Emergency,Emergency,12,0,4,Stroke,Transfer,Self-Pay,0
+1020,31,Male,Oncology,Elective,4,1,1,Heart Failure,Against Medical Advice,Self-Pay,0
+1021,72,Male,Cardiology,Emergency,14,4,4,Infection,Home,Medicare,1
+1022,65,Female,Neurology,Emergency,11,4,1,Cancer,Against Medical Advice,Medicaid,0
+1023,24,Female,Neurology,Emergency,5,1,2,Infection,Against Medical Advice,Private,1
+1024,24,Male,Orthopedics,Emergency,1,4,2,Heart Failure,Rehab,Private,1
+1025,50,Male,Neurology,Elective,14,1,3,Heart Failure,Rehab,Medicaid,0
+1026,40,Male,Cardiology,Emergency,11,5,3,Cancer,Home,Medicare,1
+1027,36,Female,Orthopedics,Elective,1,0,2,Fracture,Against Medical Advice,Self-Pay,0
+1028,36,Male,Emergency,Elective,3,0,2,Fracture,Against Medical Advice,Self-Pay,0
+1029,53,Male,Neurology,Emergency,6,0,0,Fracture,Transfer,Medicare,0
+1030,46,Female,Orthopedics,Emergency,1,1,0,Stroke,Against Medical Advice,Medicare,0
+1031,77,Female,Cardiology,Elective,14,1,4,Fracture,Rehab,Medicaid,1
+1032,19,Female,Oncology,Elective,11,3,3,Stroke,Against Medical Advice,Medicaid,1
+1033,18,Female,Oncology,Emergency,12,4,3,Stroke,Rehab,Self-Pay,1
+1034,64,Female,Cardiology,Emergency,2,4,2,Fracture,Transfer,Medicare,1
+1035,86,Male,Cardiology,Emergency,12,3,2,Fracture,Home,Medicare,0
+1036,37,Male,Oncology,Elective,14,3,4,Cancer,Rehab,Self-Pay,1
+1037,28,Female,Orthopedics,Emergency,7,0,3,Cancer,Home,Self-Pay,1
+1038,19,Female,Oncology,Elective,14,3,0,Stroke,Home,Self-Pay,0
+1039,84,Female,Cardiology,Emergency,14,1,1,Cancer,Home,Self-Pay,1
+1040,29,Female,Neurology,Emergency,1,2,4,Stroke,Home,Self-Pay,1
+1041,37,Female,Emergency,Emergency,13,1,1,Heart Failure,Rehab,Medicaid,0
+1042,22,Male,Neurology,Emergency,14,3,0,Stroke,Transfer,Self-Pay,1
+1043,54,Male,Neurology,Emergency,7,4,0,Stroke,Against Medical Advice,Medicare,1
+1044,55,Male,Cardiology,Emergency,4,1,1,Cancer,Rehab,Private,1
+1045,26,Male,Oncology,Emergency,10,4,4,Heart Failure,Transfer,Medicaid,0
+1046,70,Female,Orthopedics,Emergency,14,1,1,Infection,Against Medical Advice,Medicare,0
+1047,61,Male,Neurology,Emergency,6,4,4,Infection,Home,Private,1
+1048,41,Female,Oncology,Elective,14,5,4,Infection,Against Medical Advice,Medicaid,0
+1049,47,Female,Orthopedics,Emergency,8,1,2,Heart Failure,Against Medical Advice,Self-Pay,0
+1050,76,Female,Neurology,Emergency,9,4,3,Fracture,Transfer,Medicaid,1
+1051,31,Male,Orthopedics,Emergency,6,2,3,Heart Failure,Against Medical Advice,Self-Pay,0
+1052,26,Female,Oncology,Elective,12,0,0,Cancer,Home,Self-Pay,0
+1053,57,Male,Emergency,Emergency,11,1,2,Stroke,Rehab,Self-Pay,0
+1054,83,Male,Oncology,Elective,13,2,3,Stroke,Rehab,Private,0
+1055,42,Female,Cardiology,Elective,14,0,4,Cancer,Transfer,Medicaid,0
+1056,39,Female,Orthopedics,Elective,9,1,4,Cancer,Home,Self-Pay,0
+1057,21,Female,Emergency,Emergency,4,2,1,Stroke,Home,Medicare,0
+1058,43,Male,Orthopedics,Elective,6,2,1,Fracture,Against Medical Advice,Medicaid,0
+1059,75,Female,Orthopedics,Emergency,8,5,4,Fracture,Transfer,Medicare,1
+1060,46,Male,Neurology,Emergency,9,2,4,Fracture,Home,Private,0
+1061,54,Female,Cardiology,Elective,3,5,1,Cancer,Home,Private,1
+1062,87,Female,Orthopedics,Emergency,2,3,3,Stroke,Home,Medicaid,1
+1063,35,Male,Oncology,Elective,6,4,0,Stroke,Rehab,Private,0
+1064,59,Male,Oncology,Emergency,4,0,1,Stroke,Rehab,Private,0
+1065,58,Male,Neurology,Elective,1,4,3,Heart Failure,Rehab,Medicaid,0
+1066,55,Male,Cardiology,Emergency,8,4,3,Heart Failure,Against Medical Advice,Medicare,1
+1067,51,Male,Cardiology,Emergency,9,5,3,Infection,Against Medical Advice,Self-Pay,1
+1068,34,Male,Oncology,Emergency,14,4,2,Heart Failure,Against Medical Advice,Medicaid,0
+1069,54,Female,Emergency,Elective,9,2,2,Fracture,Home,Medicaid,0
+1070,42,Female,Neurology,Emergency,2,5,3,Fracture,Rehab,Self-Pay,0
+1071,44,Male,Neurology,Emergency,9,4,4,Fracture,Home,Medicare,0
+1072,74,Female,Oncology,Emergency,7,5,2,Fracture,Home,Self-Pay,0
+1073,48,Male,Oncology,Elective,5,3,1,Infection,Transfer,Self-Pay,0
+1074,23,Female,Emergency,Emergency,7,5,2,Fracture,Home,Medicare,1
+1075,57,Female,Emergency,Emergency,13,1,4,Cancer,Against Medical Advice,Medicare,0
+1076,29,Male,Cardiology,Emergency,9,2,0,Cancer,Rehab,Self-Pay,0
+1077,70,Male,Neurology,Emergency,8,0,2,Cancer,Rehab,Self-Pay,0
+1078,88,Male,Neurology,Emergency,6,1,3,Heart Failure,Home,Medicaid,0
+1079,27,Female,Oncology,Emergency,13,1,3,Stroke,Against Medical Advice,Medicare,0
+1080,62,Male,Cardiology,Elective,4,1,3,Infection,Against Medical Advice,Private,0
+1081,34,Female,Neurology,Emergency,13,4,0,Cancer,Against Medical Advice,Medicare,0
+1082,43,Male,Cardiology,Emergency,1,5,4,Cancer,Rehab,Self-Pay,1
+1083,79,Female,Cardiology,Emergency,6,5,1,Fracture,Against Medical Advice,Self-Pay,0
+1084,63,Female,Oncology,Elective,3,4,4,Cancer,Against Medical Advice,Self-Pay,0
+1085,81,Male,Cardiology,Elective,6,2,0,Fracture,Home,Self-Pay,0
+1086,19,Female,Emergency,Elective,6,4,3,Fracture,Transfer,Private,0
+1087,71,Female,Emergency,Emergency,14,4,4,Stroke,Against Medical Advice,Medicare,1
+1088,82,Male,Orthopedics,Emergency,4,4,1,Heart Failure,Home,Private,1
+1089,68,Female,Oncology,Emergency,2,2,3,Fracture,Home,Private,1
+1090,70,Male,Orthopedics,Emergency,9,2,1,Fracture,Against Medical Advice,Self-Pay,0
+1091,53,Male,Emergency,Emergency,2,3,2,Stroke,Transfer,Private,0
+1092,43,Male,Orthopedics,Elective,3,3,1,Fracture,Rehab,Self-Pay,0
+1093,46,Male,Oncology,Elective,10,3,3,Infection,Transfer,Self-Pay,0
+1094,38,Female,Oncology,Elective,1,3,2,Heart Failure,Against Medical Advice,Self-Pay,0
+1095,28,Female,Cardiology,Emergency,7,5,3,Infection,Transfer,Private,0
+1096,57,Female,Neurology,Elective,1,1,3,Cancer,Home,Self-Pay,0
+1097,28,Male,Cardiology,Emergency,11,1,2,Heart Failure,Home,Private,0
+1098,53,Female,Oncology,Emergency,9,3,1,Cancer,Transfer,Medicare,1
+1099,76,Female,Emergency,Elective,11,3,0,Fracture,Rehab,Self-Pay,1
+1100,56,Male,Emergency,Emergency,11,0,0,Stroke,Transfer,Medicaid,0
+1101,71,Male,Cardiology,Emergency,1,1,0,Infection,Against Medical Advice,Medicaid,0
+1102,72,Female,Oncology,Emergency,5,0,0,Cancer,Rehab,Medicaid,1
+1103,41,Male,Emergency,Elective,7,0,4,Fracture,Transfer,Medicaid,0
+1104,39,Male,Oncology,Elective,3,4,0,Infection,Transfer,Medicaid,1
+1105,86,Male,Emergency,Emergency,9,5,2,Infection,Rehab,Private,0
+1106,73,Male,Oncology,Elective,8,2,0,Cancer,Transfer,Medicare,0
+1107,50,Female,Orthopedics,Emergency,13,1,3,Fracture,Against Medical Advice,Private,0
+1108,53,Male,Oncology,Emergency,3,3,0,Stroke,Home,Self-Pay,1
+1109,37,Male,Oncology,Elective,5,3,1,Cancer,Against Medical Advice,Medicare,0
+1110,79,Male,Cardiology,Elective,7,2,2,Infection,Transfer,Medicare,0
+1111,43,Male,Orthopedics,Elective,12,1,2,Infection,Home,Medicare,0
+1112,83,Male,Neurology,Emergency,14,3,4,Heart Failure,Rehab,Medicare,0
+1113,57,Male,Cardiology,Elective,4,3,3,Fracture,Against Medical Advice,Medicaid,1
+1114,34,Male,Neurology,Elective,5,4,2,Heart Failure,Rehab,Self-Pay,1
+1115,18,Male,Emergency,Elective,3,0,1,Stroke,Home,Medicare,1
+1116,78,Female,Neurology,Emergency,9,3,0,Cancer,Transfer,Medicare,0
+1117,60,Male,Oncology,Elective,10,5,2,Infection,Home,Medicaid,0
+1118,59,Female,Neurology,Emergency,9,1,1,Fracture,Home,Private,0
+1119,42,Male,Cardiology,Emergency,7,5,0,Infection,Rehab,Private,0
+1120,56,Male,Cardiology,Emergency,10,2,4,Heart Failure,Against Medical Advice,Private,1
+1121,52,Male,Neurology,Emergency,2,4,2,Heart Failure,Home,Self-Pay,1
+1122,20,Male,Cardiology,Emergency,7,1,2,Cancer,Transfer,Private,0
+1123,61,Female,Cardiology,Elective,7,4,1,Fracture,Home,Medicare,0
+1124,68,Male,Neurology,Emergency,11,0,3,Fracture,Rehab,Medicaid,1
+1125,29,Male,Orthopedics,Elective,5,3,4,Cancer,Against Medical Advice,Medicaid,0
+1126,36,Female,Orthopedics,Emergency,9,1,3,Heart Failure,Transfer,Private,0
+1127,61,Female,Emergency,Emergency,13,2,2,Heart Failure,Rehab,Medicaid,0
+1128,76,Male,Cardiology,Emergency,12,0,3,Heart Failure,Home,Medicare,0
+1129,66,Female,Neurology,Emergency,11,0,0,Infection,Home,Private,0
+1130,78,Female,Cardiology,Emergency,3,4,4,Stroke,Against Medical Advice,Medicare,1
+1131,34,Female,Oncology,Emergency,4,0,3,Heart Failure,Rehab,Self-Pay,0
+1132,74,Male,Cardiology,Emergency,1,1,0,Stroke,Rehab,Medicare,1
+1133,72,Male,Cardiology,Emergency,6,4,1,Stroke,Against Medical Advice,Medicare,0
+1134,64,Male,Orthopedics,Emergency,4,0,3,Fracture,Transfer,Medicare,0
+1135,29,Female,Neurology,Emergency,1,2,4,Cancer,Rehab,Medicare,1
+1136,79,Male,Cardiology,Emergency,2,5,0,Infection,Against Medical Advice,Self-Pay,0
+1137,25,Female,Orthopedics,Elective,3,1,3,Stroke,Rehab,Private,0
+1138,38,Male,Emergency,Elective,9,2,1,Infection,Against Medical Advice,Medicare,0
+1139,87,Male,Orthopedics,Elective,13,2,3,Fracture,Home,Private,0
+1140,89,Female,Orthopedics,Emergency,8,4,0,Heart Failure,Home,Medicaid,1
+1141,42,Male,Orthopedics,Elective,7,3,3,Stroke,Rehab,Medicare,0
+1142,29,Female,Cardiology,Elective,13,4,4,Cancer,Rehab,Medicare,0
+1143,32,Female,Cardiology,Elective,11,1,2,Fracture,Home,Medicaid,0
+1144,76,Male,Emergency,Emergency,12,1,0,Infection,Transfer,Private,0
+1145,43,Female,Oncology,Elective,14,4,0,Heart Failure,Against Medical Advice,Self-Pay,0
+1146,43,Male,Oncology,Elective,4,3,0,Infection,Transfer,Medicare,0
+1147,64,Male,Oncology,Emergency,1,4,0,Cancer,Transfer,Medicaid,1
+1148,49,Female,Emergency,Elective,8,1,3,Stroke,Transfer,Medicaid,1
+1149,27,Male,Oncology,Emergency,4,3,4,Cancer,Home,Medicare,0
+1150,33,Female,Oncology,Emergency,3,1,1,Infection,Rehab,Private,1
+1151,88,Male,Orthopedics,Emergency,9,3,4,Infection,Transfer,Private,0
+1152,34,Male,Cardiology,Elective,10,3,0,Cancer,Home,Medicare,0
+1153,40,Male,Cardiology,Emergency,4,4,3,Cancer,Against Medical Advice,Medicaid,1
+1154,43,Male,Orthopedics,Emergency,4,4,3,Cancer,Rehab,Medicare,1
+1155,24,Male,Orthopedics,Emergency,14,4,0,Heart Failure,Against Medical Advice,Self-Pay,0
+1156,31,Female,Orthopedics,Emergency,9,3,3,Infection,Transfer,Self-Pay,1
+1157,24,Female,Cardiology,Emergency,13,3,0,Fracture,Rehab,Private,0
+1158,26,Female,Oncology,Elective,12,1,4,Heart Failure,Transfer,Self-Pay,0
+1159,65,Female,Orthopedics,Elective,11,2,2,Heart Failure,Rehab,Medicaid,0
+1160,89,Female,Emergency,Emergency,12,4,3,Heart Failure,Transfer,Self-Pay,1
+1161,76,Female,Orthopedics,Emergency,14,5,0,Fracture,Against Medical Advice,Medicare,0
+1162,56,Male,Neurology,Emergency,2,1,0,Cancer,Against Medical Advice,Medicaid,0
+1163,35,Male,Orthopedics,Elective,14,1,3,Infection,Transfer,Private,0
+1164,76,Female,Cardiology,Emergency,12,0,1,Stroke,Rehab,Private,0
+1165,34,Female,Orthopedics,Emergency,5,4,0,Stroke,Against Medical Advice,Self-Pay,1
+1166,31,Male,Neurology,Emergency,4,1,3,Infection,Rehab,Private,0
+1167,48,Male,Emergency,Elective,9,0,0,Fracture,Rehab,Medicare,0
+1168,41,Male,Oncology,Elective,12,5,1,Stroke,Against Medical Advice,Medicaid,0
+1169,77,Female,Orthopedics,Elective,5,5,2,Heart Failure,Home,Medicare,0
+1170,62,Female,Neurology,Elective,9,4,1,Stroke,Home,Medicare,0
+1171,20,Female,Neurology,Emergency,11,3,4,Infection,Rehab,Medicare,1
+1172,54,Male,Emergency,Emergency,9,0,3,Heart Failure,Against Medical Advice,Medicare,1
+1173,60,Male,Cardiology,Emergency,14,3,1,Stroke,Home,Medicaid,1
+1174,57,Female,Orthopedics,Emergency,2,5,2,Infection,Transfer,Medicaid,1
+1175,72,Female,Neurology,Emergency,14,5,0,Fracture,Rehab,Medicare,0
+1176,56,Male,Emergency,Emergency,9,2,3,Infection,Home,Medicare,0
+1177,32,Male,Oncology,Emergency,3,2,1,Fracture,Against Medical Advice,Private,0
+1178,21,Male,Neurology,Elective,4,2,2,Heart Failure,Against Medical Advice,Private,0
+1179,42,Male,Emergency,Elective,1,2,1,Infection,Rehab,Medicaid,0
+1180,30,Female,Cardiology,Elective,14,1,4,Cancer,Against Medical Advice,Private,0
+1181,50,Male,Cardiology,Elective,1,2,3,Cancer,Transfer,Medicaid,1
+1182,33,Male,Neurology,Emergency,1,1,0,Cancer,Transfer,Medicaid,0
+1183,59,Male,Neurology,Elective,9,1,2,Cancer,Home,Self-Pay,0
+1184,83,Female,Orthopedics,Emergency,11,4,1,Cancer,Against Medical Advice,Medicaid,1
+1185,72,Female,Emergency,Elective,8,1,3,Fracture,Transfer,Private,1
+1186,59,Male,Neurology,Emergency,5,1,1,Infection,Rehab,Self-Pay,0
+1187,51,Male,Orthopedics,Elective,5,2,3,Heart Failure,Against Medical Advice,Private,1
+1188,47,Male,Orthopedics,Emergency,9,1,4,Cancer,Home,Medicaid,1
+1189,30,Female,Neurology,Emergency,3,3,1,Cancer,Rehab,Medicaid,0
+1190,30,Female,Cardiology,Elective,3,2,4,Heart Failure,Rehab,Medicare,0
+1191,35,Female,Emergency,Emergency,7,0,2,Heart Failure,Rehab,Medicaid,0
+1192,49,Male,Emergency,Elective,9,2,4,Cancer,Transfer,Self-Pay,1
+1193,56,Female,Cardiology,Elective,6,1,3,Fracture,Rehab,Medicaid,0
+1194,63,Male,Neurology,Elective,14,3,2,Heart Failure,Transfer,Medicare,0
+1195,46,Male,Emergency,Elective,2,2,1,Infection,Rehab,Medicaid,0
+1196,79,Male,Neurology,Elective,1,3,1,Infection,Transfer,Medicaid,0
+1197,79,Female,Neurology,Emergency,2,0,3,Fracture,Against Medical Advice,Medicaid,0
+1198,74,Male,Orthopedics,Elective,14,5,0,Stroke,Transfer,Medicare,0
+1199,33,Female,Cardiology,Elective,14,0,0,Fracture,Transfer,Private,1
+1200,73,Female,Neurology,Elective,1,5,1,Cancer,Against Medical Advice,Medicaid,1
+1201,27,Male,Oncology,Emergency,10,4,3,Stroke,Rehab,Self-Pay,0
+1202,47,Male,Cardiology,Elective,10,5,0,Cancer,Against Medical Advice,Medicare,1
+1203,42,Female,Emergency,Elective,9,4,4,Infection,Rehab,Self-Pay,1
+1204,22,Male,Orthopedics,Elective,10,2,1,Heart Failure,Transfer,Medicaid,0
+1205,82,Female,Emergency,Emergency,12,4,4,Cancer,Rehab,Medicare,1
+1206,66,Male,Emergency,Emergency,14,3,3,Infection,Transfer,Medicaid,1
+1207,20,Female,Cardiology,Emergency,13,4,4,Fracture,Rehab,Self-Pay,1
+1208,62,Female,Emergency,Elective,8,3,0,Cancer,Transfer,Medicare,0
+1209,31,Female,Neurology,Elective,7,5,0,Infection,Transfer,Private,0
+1210,47,Female,Emergency,Emergency,3,5,2,Heart Failure,Home,Private,1
+1211,85,Male,Orthopedics,Emergency,8,5,1,Cancer,Rehab,Private,0
+1212,35,Male,Orthopedics,Emergency,2,4,3,Infection,Rehab,Medicaid,1
+1213,79,Female,Oncology,Emergency,2,5,1,Cancer,Home,Medicare,1
+1214,54,Female,Orthopedics,Elective,11,4,4,Heart Failure,Transfer,Self-Pay,0
+1215,42,Male,Emergency,Elective,10,4,3,Cancer,Transfer,Self-Pay,1
+1216,65,Male,Orthopedics,Emergency,3,1,3,Cancer,Home,Medicaid,0
+1217,82,Male,Cardiology,Emergency,7,1,0,Infection,Home,Medicaid,0
+1218,70,Male,Orthopedics,Emergency,1,4,4,Stroke,Against Medical Advice,Self-Pay,0
+1219,32,Male,Neurology,Elective,8,3,0,Cancer,Transfer,Medicare,0
+1220,66,Male,Cardiology,Emergency,12,2,0,Stroke,Against Medical Advice,Medicaid,1
+1221,85,Female,Oncology,Emergency,7,0,2,Fracture,Rehab,Medicare,0
+1222,29,Male,Neurology,Emergency,4,1,0,Cancer,Against Medical Advice,Self-Pay,0
+1223,76,Male,Emergency,Elective,14,4,1,Stroke,Home,Medicare,1
+1224,54,Female,Emergency,Elective,5,0,3,Fracture,Home,Private,0
+1225,78,Male,Emergency,Elective,10,1,0,Infection,Home,Self-Pay,0
+1226,60,Male,Neurology,Emergency,13,2,1,Cancer,Home,Private,0
+1227,87,Male,Neurology,Emergency,1,3,4,Infection,Against Medical Advice,Self-Pay,0
+1228,56,Male,Neurology,Emergency,4,4,3,Fracture,Against Medical Advice,Private,0
+1229,73,Male,Cardiology,Elective,1,2,4,Infection,Against Medical Advice,Medicare,0
+1230,80,Female,Cardiology,Emergency,1,1,1,Infection,Home,Self-Pay,0
+1231,63,Male,Emergency,Emergency,10,4,4,Heart Failure,Home,Self-Pay,0
+1232,28,Female,Orthopedics,Elective,1,0,4,Fracture,Transfer,Private,0
+1233,79,Female,Emergency,Elective,7,5,4,Infection,Transfer,Medicare,0
+1234,42,Male,Oncology,Emergency,7,3,0,Stroke,Home,Self-Pay,0
+1235,88,Female,Cardiology,Emergency,4,1,0,Fracture,Transfer,Medicaid,0
+1236,69,Male,Neurology,Emergency,13,3,0,Heart Failure,Rehab,Private,1
+1237,21,Female,Cardiology,Elective,12,4,3,Cancer,Rehab,Self-Pay,1
+1238,76,Female,Neurology,Elective,2,5,1,Infection,Home,Medicare,0
+1239,89,Male,Oncology,Emergency,12,2,0,Stroke,Against Medical Advice,Medicare,0
+1240,37,Male,Oncology,Emergency,3,3,4,Heart Failure,Rehab,Medicare,0
+1241,80,Male,Cardiology,Elective,8,0,4,Fracture,Rehab,Medicare,0
+1242,71,Male,Neurology,Elective,13,1,4,Infection,Against Medical Advice,Private,0
+1243,74,Male,Oncology,Emergency,8,0,4,Heart Failure,Transfer,Self-Pay,0
+1244,58,Female,Emergency,Emergency,11,3,2,Heart Failure,Against Medical Advice,Private,0
+1245,20,Female,Emergency,Emergency,11,5,3,Stroke,Transfer,Private,1
+1246,23,Female,Neurology,Emergency,6,2,1,Cancer,Transfer,Medicare,0
+1247,22,Female,Cardiology,Elective,10,2,1,Cancer,Against Medical Advice,Medicaid,0
+1248,22,Female,Oncology,Elective,9,0,0,Cancer,Transfer,Medicare,0
+1249,71,Female,Cardiology,Elective,11,4,2,Fracture,Rehab,Medicaid,1
+1250,64,Female,Emergency,Emergency,12,4,1,Heart Failure,Home,Private,0
+1251,66,Male,Oncology,Elective,9,5,3,Fracture,Transfer,Medicare,0
+1252,26,Male,Cardiology,Emergency,4,2,4,Heart Failure,Rehab,Medicare,1
+1253,37,Female,Orthopedics,Emergency,12,0,0,Stroke,Against Medical Advice,Private,0
+1254,78,Female,Neurology,Emergency,1,0,3,Stroke,Transfer,Medicare,0
+1255,52,Male,Neurology,Emergency,1,0,1,Fracture,Rehab,Self-Pay,0
+1256,67,Male,Orthopedics,Elective,12,3,2,Fracture,Transfer,Medicaid,1
+1257,79,Male,Emergency,Emergency,10,5,0,Stroke,Against Medical Advice,Medicaid,0
+1258,34,Male,Oncology,Emergency,5,4,1,Infection,Home,Medicaid,1
+1259,20,Female,Neurology,Emergency,14,4,0,Cancer,Transfer,Medicare,0
+1260,49,Male,Orthopedics,Emergency,13,3,1,Cancer,Home,Self-Pay,0
+1261,30,Female,Orthopedics,Emergency,2,1,4,Stroke,Transfer,Medicare,0
+1262,85,Female,Emergency,Emergency,6,3,2,Cancer,Transfer,Medicaid,0
+1263,31,Female,Emergency,Elective,7,5,4,Infection,Against Medical Advice,Medicare,0
+1264,28,Male,Cardiology,Emergency,1,0,1,Infection,Transfer,Medicaid,0
+1265,73,Male,Neurology,Emergency,6,3,3,Heart Failure,Rehab,Private,1
+1266,84,Female,Cardiology,Emergency,8,0,4,Fracture,Rehab,Medicaid,0
+1267,46,Female,Orthopedics,Elective,12,5,3,Cancer,Home,Private,1
+1268,26,Female,Oncology,Emergency,5,5,1,Infection,Home,Private,1
+1269,84,Male,Oncology,Emergency,14,2,2,Fracture,Rehab,Private,1
+1270,42,Female,Emergency,Emergency,12,0,3,Fracture,Home,Medicaid,1
+1271,59,Male,Oncology,Emergency,7,4,1,Heart Failure,Home,Self-Pay,0
+1272,26,Female,Oncology,Emergency,10,3,3,Fracture,Rehab,Medicaid,1
+1273,57,Female,Oncology,Elective,6,5,4,Fracture,Rehab,Medicare,0
+1274,42,Female,Orthopedics,Elective,4,0,1,Stroke,Rehab,Medicare,0
+1275,22,Male,Oncology,Emergency,7,1,4,Heart Failure,Against Medical Advice,Self-Pay,1
+1276,28,Male,Oncology,Elective,10,2,0,Heart Failure,Against Medical Advice,Self-Pay,1
+1277,76,Female,Oncology,Elective,9,1,1,Cancer,Rehab,Self-Pay,0
+1278,55,Male,Cardiology,Emergency,10,5,3,Fracture,Transfer,Private,0
+1279,89,Female,Orthopedics,Emergency,10,1,0,Cancer,Rehab,Self-Pay,0
+1280,22,Male,Emergency,Emergency,13,1,4,Infection,Against Medical Advice,Self-Pay,0
+1281,65,Male,Cardiology,Emergency,7,2,4,Fracture,Home,Self-Pay,1
+1282,35,Male,Neurology,Elective,12,2,3,Infection,Transfer,Medicaid,0
+1283,87,Female,Orthopedics,Elective,14,2,0,Stroke,Transfer,Medicare,1
+1284,54,Male,Orthopedics,Elective,5,2,2,Fracture,Home,Medicare,0
+1285,77,Male,Neurology,Elective,7,1,3,Cancer,Transfer,Self-Pay,1
+1286,65,Female,Neurology,Emergency,3,4,4,Cancer,Home,Medicare,1
+1287,45,Female,Neurology,Emergency,2,4,1,Fracture,Against Medical Advice,Medicaid,0
+1288,86,Female,Emergency,Elective,11,2,0,Cancer,Transfer,Medicare,0
+1289,57,Female,Oncology,Emergency,5,3,2,Fracture,Transfer,Private,1
+1290,62,Male,Orthopedics,Elective,4,0,1,Heart Failure,Home,Medicaid,0
+1291,79,Male,Oncology,Elective,5,5,0,Cancer,Home,Medicare,0
+1292,75,Male,Oncology,Elective,8,3,3,Fracture,Against Medical Advice,Medicare,1
+1293,84,Male,Neurology,Elective,12,5,3,Fracture,Home,Medicaid,0
+1294,73,Male,Emergency,Emergency,4,3,0,Cancer,Home,Medicare,1
+1295,57,Female,Cardiology,Elective,9,3,2,Heart Failure,Against Medical Advice,Medicare,0
+1296,57,Male,Emergency,Elective,7,4,0,Cancer,Rehab,Self-Pay,1
+1297,50,Male,Oncology,Emergency,10,0,1,Fracture,Rehab,Private,0
+1298,23,Male,Emergency,Elective,13,3,1,Heart Failure,Home,Medicaid,0
+1299,36,Female,Neurology,Emergency,12,2,3,Infection,Against Medical Advice,Self-Pay,0
+1300,57,Female,Cardiology,Elective,7,5,0,Stroke,Rehab,Medicare,0
+1301,76,Male,Neurology,Emergency,13,4,3,Cancer,Against Medical Advice,Medicaid,1
+1302,76,Female,Cardiology,Emergency,13,5,2,Fracture,Home,Medicaid,1
+1303,65,Female,Oncology,Emergency,8,2,1,Heart Failure,Home,Private,0
+1304,58,Female,Cardiology,Elective,12,2,4,Heart Failure,Against Medical Advice,Private,1
+1305,30,Female,Cardiology,Emergency,6,3,4,Infection,Transfer,Medicaid,0
+1306,62,Female,Cardiology,Emergency,8,2,0,Cancer,Home,Private,0
+1307,70,Female,Emergency,Emergency,3,0,0,Heart Failure,Home,Private,1
+1308,59,Female,Emergency,Elective,10,2,4,Infection,Home,Medicare,0
+1309,80,Male,Oncology,Emergency,10,3,0,Fracture,Home,Private,0
+1310,44,Male,Cardiology,Emergency,14,5,1,Infection,Against Medical Advice,Private,0
+1311,55,Female,Orthopedics,Elective,1,2,2,Cancer,Against Medical Advice,Self-Pay,0
+1312,77,Male,Oncology,Emergency,6,4,2,Infection,Against Medical Advice,Medicare,0
+1313,24,Male,Cardiology,Elective,1,4,3,Heart Failure,Against Medical Advice,Medicare,1
+1314,22,Female,Cardiology,Emergency,9,4,1,Heart Failure,Transfer,Medicaid,0
+1315,62,Male,Emergency,Elective,14,5,0,Stroke,Against Medical Advice,Private,0
+1316,75,Female,Oncology,Emergency,2,1,0,Infection,Against Medical Advice,Self-Pay,1
+1317,48,Female,Cardiology,Emergency,11,4,3,Fracture,Home,Self-Pay,1
+1318,40,Female,Cardiology,Elective,2,4,3,Cancer,Transfer,Medicare,0
+1319,59,Male,Oncology,Emergency,7,1,0,Stroke,Home,Private,0
+1320,27,Male,Orthopedics,Elective,2,5,0,Infection,Transfer,Self-Pay,1
+1321,49,Male,Oncology,Emergency,10,4,1,Fracture,Rehab,Medicaid,0
+1322,70,Male,Oncology,Emergency,8,3,3,Stroke,Transfer,Private,0
+1323,47,Female,Orthopedics,Emergency,6,5,1,Heart Failure,Transfer,Private,1
+1324,56,Female,Oncology,Elective,14,4,0,Cancer,Home,Private,0
+1325,48,Male,Cardiology,Emergency,7,4,4,Infection,Transfer,Self-Pay,1
+1326,19,Female,Oncology,Emergency,7,1,4,Fracture,Transfer,Medicare,0
+1327,29,Female,Orthopedics,Emergency,6,3,0,Heart Failure,Home,Medicare,0
+1328,56,Male,Neurology,Emergency,10,5,3,Stroke,Rehab,Medicaid,1
+1329,83,Female,Oncology,Emergency,11,2,4,Cancer,Rehab,Self-Pay,0
+1330,30,Male,Emergency,Elective,9,0,3,Stroke,Rehab,Private,0
+1331,63,Female,Cardiology,Emergency,13,3,4,Stroke,Transfer,Medicaid,0
+1332,44,Male,Cardiology,Elective,9,2,3,Fracture,Home,Medicaid,1
+1333,34,Female,Emergency,Emergency,7,3,4,Heart Failure,Rehab,Medicare,0
+1334,77,Female,Emergency,Elective,9,2,3,Infection,Rehab,Private,0
+1335,81,Male,Oncology,Elective,13,2,1,Fracture,Rehab,Private,0
+1336,52,Male,Emergency,Emergency,10,3,3,Cancer,Rehab,Self-Pay,0
+1337,87,Male,Neurology,Elective,3,1,1,Stroke,Home,Self-Pay,0
+1338,47,Male,Orthopedics,Emergency,3,3,1,Cancer,Rehab,Self-Pay,0
+1339,88,Female,Emergency,Elective,1,3,0,Fracture,Transfer,Medicaid,0
+1340,80,Female,Emergency,Elective,5,2,1,Fracture,Transfer,Private,0
+1341,45,Male,Neurology,Emergency,4,0,2,Infection,Home,Medicare,0
+1342,77,Female,Cardiology,Emergency,2,2,1,Stroke,Against Medical Advice,Medicaid,0
+1343,54,Male,Cardiology,Emergency,9,4,3,Fracture,Rehab,Medicaid,0
+1344,39,Male,Oncology,Emergency,3,3,1,Cancer,Rehab,Medicare,1
+1345,85,Female,Neurology,Emergency,8,5,3,Infection,Transfer,Medicare,1
+1346,37,Female,Orthopedics,Emergency,6,3,3,Cancer,Home,Self-Pay,0
+1347,85,Male,Orthopedics,Emergency,14,1,2,Stroke,Against Medical Advice,Medicare,0
+1348,81,Male,Neurology,Elective,13,5,1,Infection,Transfer,Medicare,1
+1349,34,Male,Orthopedics,Emergency,5,2,1,Infection,Against Medical Advice,Medicare,0
+1350,29,Female,Cardiology,Emergency,1,1,4,Infection,Home,Medicare,1
+1351,39,Female,Orthopedics,Elective,4,3,4,Heart Failure,Home,Self-Pay,0
+1352,34,Female,Orthopedics,Emergency,3,2,0,Infection,Home,Medicaid,0
+1353,27,Female,Neurology,Emergency,1,2,3,Cancer,Transfer,Private,1
+1354,82,Male,Neurology,Emergency,12,4,2,Cancer,Home,Private,0
+1355,39,Male,Orthopedics,Elective,5,4,4,Stroke,Transfer,Medicaid,0
+1356,67,Male,Emergency,Elective,6,0,1,Fracture,Transfer,Private,1
+1357,31,Male,Neurology,Emergency,2,4,0,Fracture,Rehab,Private,0
+1358,81,Male,Oncology,Elective,14,5,2,Heart Failure,Transfer,Medicaid,1
+1359,64,Male,Oncology,Emergency,3,2,1,Infection,Transfer,Private,0
+1360,46,Female,Cardiology,Elective,11,4,1,Heart Failure,Rehab,Private,0
+1361,53,Female,Orthopedics,Elective,14,0,3,Stroke,Against Medical Advice,Medicaid,1
+1362,69,Male,Emergency,Elective,6,3,3,Stroke,Rehab,Private,0
+1363,24,Male,Cardiology,Emergency,4,5,4,Fracture,Rehab,Medicare,1
+1364,46,Female,Orthopedics,Emergency,9,4,4,Stroke,Home,Medicaid,1
+1365,28,Female,Neurology,Emergency,5,2,1,Infection,Home,Self-Pay,0
+1366,50,Female,Oncology,Elective,4,3,1,Cancer,Rehab,Private,0
+1367,23,Female,Emergency,Emergency,2,2,4,Stroke,Home,Self-Pay,0
+1368,49,Male,Oncology,Elective,6,3,4,Heart Failure,Rehab,Private,1
+1369,68,Male,Neurology,Elective,10,5,1,Infection,Home,Medicare,0
+1370,75,Male,Orthopedics,Emergency,2,2,2,Stroke,Transfer,Medicaid,1
+1371,43,Male,Neurology,Elective,12,4,1,Stroke,Home,Self-Pay,0
+1372,63,Male,Neurology,Elective,13,4,2,Infection,Home,Medicaid,0
+1373,46,Female,Oncology,Elective,7,0,2,Stroke,Transfer,Self-Pay,0
+1374,21,Male,Emergency,Elective,3,3,1,Cancer,Rehab,Private,0
+1375,30,Female,Neurology,Elective,9,0,0,Fracture,Home,Medicare,0
+1376,56,Male,Oncology,Emergency,11,1,4,Infection,Home,Self-Pay,1
+1377,32,Male,Emergency,Elective,5,4,3,Heart Failure,Transfer,Self-Pay,1
+1378,46,Male,Orthopedics,Emergency,8,3,1,Stroke,Transfer,Medicare,1
+1379,46,Male,Orthopedics,Elective,11,5,2,Fracture,Transfer,Medicare,0
+1380,49,Male,Cardiology,Elective,6,0,1,Heart Failure,Against Medical Advice,Medicare,0
+1381,19,Female,Oncology,Emergency,14,5,4,Heart Failure,Transfer,Medicare,1
+1382,64,Female,Emergency,Elective,12,5,2,Cancer,Rehab,Medicare,0
+1383,39,Female,Neurology,Emergency,10,5,3,Fracture,Home,Medicaid,0
+1384,44,Male,Orthopedics,Emergency,8,0,3,Infection,Home,Private,0
+1385,84,Male,Emergency,Emergency,13,1,3,Fracture,Against Medical Advice,Private,0
+1386,73,Female,Oncology,Elective,13,0,0,Fracture,Home,Self-Pay,0
+1387,38,Male,Cardiology,Elective,11,2,2,Heart Failure,Home,Medicare,0
+1388,64,Male,Orthopedics,Elective,12,4,2,Cancer,Rehab,Medicaid,0
+1389,76,Female,Emergency,Emergency,3,0,0,Cancer,Home,Medicaid,0
+1390,23,Male,Emergency,Elective,3,0,2,Fracture,Rehab,Self-Pay,0
+1391,36,Female,Emergency,Elective,5,1,0,Fracture,Against Medical Advice,Medicare,0
+1392,74,Male,Oncology,Emergency,11,2,1,Stroke,Rehab,Private,1
+1393,86,Female,Oncology,Emergency,10,0,4,Heart Failure,Transfer,Medicare,1
+1394,20,Male,Oncology,Emergency,3,4,3,Infection,Transfer,Medicaid,0
+1395,18,Male,Neurology,Elective,8,4,0,Infection,Against Medical Advice,Medicare,1
+1396,75,Female,Emergency,Elective,10,0,0,Cancer,Home,Private,0
+1397,55,Male,Orthopedics,Elective,13,5,0,Heart Failure,Rehab,Private,1
+1398,32,Male,Oncology,Emergency,12,5,1,Cancer,Transfer,Self-Pay,1
+1399,51,Female,Oncology,Elective,14,2,0,Infection,Rehab,Medicaid,0
+1400,78,Male,Emergency,Emergency,8,4,4,Fracture,Transfer,Medicare,1
+1401,52,Female,Oncology,Emergency,2,5,4,Heart Failure,Rehab,Medicare,0
+1402,81,Male,Neurology,Elective,12,4,3,Heart Failure,Home,Self-Pay,0
+1403,42,Male,Neurology,Emergency,4,2,1,Stroke,Against Medical Advice,Self-Pay,0
+1404,41,Male,Oncology,Elective,10,2,4,Fracture,Home,Self-Pay,1
+1405,29,Male,Emergency,Emergency,13,5,2,Fracture,Rehab,Medicaid,1
+1406,35,Female,Emergency,Elective,1,0,2,Cancer,Transfer,Medicare,0
+1407,32,Male,Emergency,Emergency,4,3,2,Heart Failure,Transfer,Self-Pay,0
+1408,44,Female,Cardiology,Emergency,12,1,0,Cancer,Against Medical Advice,Medicaid,0
+1409,89,Male,Oncology,Emergency,13,3,0,Fracture,Home,Medicare,0
+1410,77,Male,Emergency,Emergency,13,3,2,Stroke,Home,Private,0
+1411,63,Male,Neurology,Elective,11,4,3,Heart Failure,Home,Self-Pay,0
+1412,34,Male,Orthopedics,Emergency,13,2,3,Fracture,Transfer,Medicaid,0
+1413,70,Female,Orthopedics,Elective,4,4,0,Stroke,Against Medical Advice,Medicare,1
+1414,25,Female,Emergency,Elective,10,5,2,Infection,Transfer,Medicare,0
+1415,44,Female,Orthopedics,Emergency,9,1,3,Fracture,Home,Self-Pay,1
+1416,63,Female,Orthopedics,Emergency,3,5,0,Infection,Rehab,Self-Pay,0
+1417,67,Male,Cardiology,Elective,2,0,2,Cancer,Transfer,Medicare,0
+1418,88,Female,Neurology,Elective,9,1,1,Infection,Against Medical Advice,Medicaid,0
+1419,20,Female,Neurology,Elective,9,4,2,Fracture,Home,Private,0
+1420,81,Male,Cardiology,Emergency,1,4,2,Infection,Rehab,Medicare,0
+1421,61,Male,Cardiology,Elective,6,5,4,Heart Failure,Transfer,Medicaid,0
+1422,70,Male,Orthopedics,Emergency,10,4,4,Fracture,Rehab,Self-Pay,1
+1423,41,Male,Oncology,Elective,8,4,1,Stroke,Rehab,Medicare,0
+1424,77,Female,Orthopedics,Elective,3,3,1,Infection,Against Medical Advice,Self-Pay,1
+1425,20,Female,Cardiology,Emergency,11,0,2,Heart Failure,Transfer,Private,0
+1426,37,Male,Neurology,Emergency,9,3,3,Cancer,Against Medical Advice,Self-Pay,0
+1427,63,Male,Orthopedics,Emergency,2,4,1,Cancer,Home,Private,1
+1428,32,Male,Oncology,Emergency,6,2,2,Infection,Rehab,Self-Pay,0
+1429,42,Female,Orthopedics,Elective,1,3,0,Cancer,Against Medical Advice,Self-Pay,0
+1430,88,Female,Emergency,Emergency,13,4,4,Stroke,Against Medical Advice,Private,1
+1431,34,Male,Orthopedics,Emergency,7,4,3,Fracture,Home,Self-Pay,1
+1432,26,Male,Cardiology,Emergency,3,0,2,Heart Failure,Transfer,Medicaid,0
+1433,55,Female,Neurology,Elective,7,5,0,Infection,Against Medical Advice,Self-Pay,0
+1434,65,Male,Neurology,Elective,4,1,4,Cancer,Rehab,Medicare,0
+1435,77,Male,Cardiology,Emergency,9,3,0,Fracture,Rehab,Self-Pay,1
+1436,80,Female,Emergency,Emergency,5,3,2,Stroke,Rehab,Medicaid,1
+1437,19,Male,Cardiology,Elective,3,3,1,Cancer,Rehab,Medicare,0
+1438,89,Female,Orthopedics,Elective,8,4,4,Cancer,Against Medical Advice,Medicaid,1
+1439,28,Male,Cardiology,Emergency,6,0,0,Heart Failure,Rehab,Medicare,0
+1440,81,Male,Cardiology,Emergency,2,4,1,Stroke,Against Medical Advice,Self-Pay,0
+1441,89,Female,Emergency,Emergency,3,4,3,Stroke,Transfer,Medicaid,0
+1442,38,Female,Orthopedics,Emergency,8,5,2,Infection,Rehab,Self-Pay,0
+1443,35,Male,Oncology,Emergency,10,2,2,Heart Failure,Transfer,Medicare,0
+1444,81,Female,Oncology,Elective,7,0,4,Infection,Against Medical Advice,Medicaid,0
+1445,55,Male,Neurology,Emergency,10,3,0,Heart Failure,Home,Private,0
+1446,49,Male,Cardiology,Elective,6,1,3,Stroke,Transfer,Medicaid,0
+1447,28,Female,Neurology,Emergency,14,3,4,Heart Failure,Rehab,Self-Pay,1
+1448,62,Male,Emergency,Elective,1,4,4,Heart Failure,Home,Private,1
+1449,50,Male,Oncology,Elective,9,0,0,Heart Failure,Transfer,Private,0
+1450,58,Female,Cardiology,Emergency,3,0,3,Fracture,Against Medical Advice,Medicare,1
+1451,25,Female,Emergency,Emergency,14,0,0,Fracture,Against Medical Advice,Private,1
+1452,28,Male,Emergency,Elective,5,2,2,Stroke,Against Medical Advice,Private,0
+1453,68,Female,Cardiology,Emergency,7,3,1,Heart Failure,Transfer,Medicare,0
+1454,58,Female,Emergency,Emergency,7,2,2,Stroke,Against Medical Advice,Medicaid,0
+1455,34,Female,Cardiology,Emergency,3,5,2,Fracture,Transfer,Self-Pay,0
+1456,63,Female,Cardiology,Elective,4,1,4,Heart Failure,Rehab,Medicaid,0
+1457,49,Male,Orthopedics,Emergency,10,5,2,Infection,Rehab,Private,0
+1458,71,Male,Neurology,Elective,7,4,3,Fracture,Transfer,Self-Pay,0
+1459,37,Male,Emergency,Emergency,8,2,2,Fracture,Transfer,Medicaid,0
+1460,50,Female,Emergency,Elective,2,2,3,Fracture,Home,Self-Pay,0
+1461,57,Female,Orthopedics,Emergency,9,5,0,Heart Failure,Against Medical Advice,Private,0
+1462,49,Female,Orthopedics,Elective,7,4,4,Cancer,Rehab,Medicaid,1
+1463,19,Female,Orthopedics,Emergency,13,0,3,Infection,Rehab,Self-Pay,0
+1464,50,Female,Oncology,Elective,8,4,2,Infection,Home,Self-Pay,1
+1465,47,Female,Oncology,Elective,6,3,4,Stroke,Transfer,Medicaid,0
+1466,50,Female,Oncology,Emergency,6,5,4,Heart Failure,Transfer,Medicaid,0
+1467,43,Male,Cardiology,Emergency,9,4,3,Fracture,Home,Private,1
+1468,39,Male,Emergency,Emergency,4,0,3,Cancer,Against Medical Advice,Medicare,0
+1469,83,Female,Neurology,Emergency,11,4,1,Heart Failure,Transfer,Self-Pay,1
+1470,55,Female,Cardiology,Elective,11,2,1,Heart Failure,Transfer,Medicaid,0
+1471,63,Female,Emergency,Emergency,5,1,4,Cancer,Against Medical Advice,Medicaid,1
+1472,32,Male,Emergency,Emergency,9,2,1,Fracture,Against Medical Advice,Medicaid,1
+1473,61,Male,Orthopedics,Elective,1,1,2,Heart Failure,Home,Self-Pay,0
+1474,66,Female,Orthopedics,Emergency,4,4,0,Infection,Home,Private,0
+1475,78,Female,Cardiology,Emergency,7,3,4,Infection,Home,Medicare,0
+1476,84,Male,Orthopedics,Emergency,11,4,0,Cancer,Transfer,Self-Pay,0
+1477,23,Male,Emergency,Elective,9,0,1,Fracture,Home,Private,0
+1478,26,Male,Orthopedics,Elective,14,4,3,Cancer,Transfer,Self-Pay,0
+1479,23,Male,Oncology,Elective,13,1,4,Heart Failure,Rehab,Self-Pay,0
+1480,49,Female,Orthopedics,Emergency,11,2,1,Infection,Against Medical Advice,Medicaid,0
+1481,58,Male,Emergency,Elective,12,3,2,Stroke,Against Medical Advice,Private,0
+1482,25,Male,Cardiology,Emergency,13,4,4,Cancer,Rehab,Medicaid,1
+1483,89,Female,Neurology,Emergency,10,4,4,Stroke,Home,Medicaid,0
+1484,67,Male,Orthopedics,Emergency,6,2,3,Stroke,Transfer,Private,1
+1485,79,Male,Emergency,Emergency,12,3,4,Infection,Transfer,Medicaid,0
+1486,79,Male,Neurology,Emergency,8,5,3,Cancer,Transfer,Medicaid,1
+1487,24,Female,Neurology,Emergency,13,4,1,Stroke,Against Medical Advice,Medicare,0
+1488,21,Male,Oncology,Emergency,9,4,2,Heart Failure,Home,Private,0
+1489,23,Female,Neurology,Emergency,10,5,2,Fracture,Transfer,Private,1
+1490,75,Female,Emergency,Elective,4,1,4,Fracture,Transfer,Medicaid,1
+1491,39,Male,Emergency,Emergency,1,1,4,Infection,Transfer,Medicaid,0
+1492,43,Male,Orthopedics,Elective,14,0,1,Cancer,Rehab,Private,0
+1493,20,Male,Orthopedics,Emergency,8,2,3,Cancer,Transfer,Private,1
+1494,58,Male,Orthopedics,Elective,2,3,2,Fracture,Rehab,Self-Pay,0
+1495,77,Female,Neurology,Emergency,11,4,3,Heart Failure,Transfer,Private,0
+1496,31,Male,Neurology,Emergency,1,4,1,Fracture,Transfer,Self-Pay,0
+1497,29,Male,Oncology,Emergency,13,0,2,Fracture,Transfer,Medicaid,0
+1498,29,Male,Orthopedics,Elective,7,4,2,Cancer,Rehab,Medicare,1
+1499,30,Female,Cardiology,Elective,12,2,0,Stroke,Transfer,Medicare,0
+1500,42,Male,Oncology,Emergency,10,0,1,Heart Failure,Home,Self-Pay,0
+1501,62,Male,Cardiology,Emergency,9,2,1,Cancer,Transfer,Medicaid,0
+1502,36,Female,Neurology,Elective,11,0,0,Fracture,Rehab,Medicaid,0
+1503,72,Female,Oncology,Elective,12,4,3,Stroke,Rehab,Medicaid,1
+1504,62,Male,Oncology,Emergency,12,0,0,Heart Failure,Home,Private,0
+1505,25,Male,Emergency,Emergency,9,1,1,Infection,Against Medical Advice,Medicaid,0
+1506,70,Male,Neurology,Emergency,3,3,3,Heart Failure,Home,Private,0
+1507,72,Male,Neurology,Elective,6,4,2,Heart Failure,Home,Self-Pay,0
+1508,49,Male,Oncology,Emergency,7,5,0,Fracture,Rehab,Medicare,0
+1509,68,Female,Neurology,Elective,14,3,3,Fracture,Transfer,Self-Pay,1
+1510,61,Female,Oncology,Emergency,10,4,3,Infection,Transfer,Medicaid,1
+1511,87,Male,Emergency,Emergency,9,3,3,Infection,Against Medical Advice,Medicaid,1
+1512,35,Male,Oncology,Emergency,2,1,0,Infection,Against Medical Advice,Self-Pay,0
+1513,39,Female,Neurology,Elective,8,3,2,Cancer,Against Medical Advice,Private,1
+1514,54,Male,Neurology,Elective,14,0,3,Cancer,Against Medical Advice,Private,1
+1515,73,Male,Oncology,Emergency,7,3,0,Fracture,Home,Private,1
+1516,76,Male,Oncology,Elective,4,4,1,Fracture,Home,Medicare,0
+1517,20,Male,Oncology,Emergency,2,5,0,Infection,Transfer,Medicare,0
+1518,45,Male,Orthopedics,Emergency,8,5,0,Cancer,Home,Medicaid,0
+1519,52,Female,Neurology,Emergency,11,2,0,Stroke,Transfer,Self-Pay,1
+1520,78,Male,Neurology,Emergency,5,3,3,Cancer,Transfer,Self-Pay,0
+1521,71,Male,Orthopedics,Emergency,6,5,0,Fracture,Transfer,Medicaid,0
+1522,80,Male,Oncology,Elective,14,3,1,Cancer,Transfer,Private,0
+1523,24,Female,Emergency,Emergency,11,5,3,Fracture,Rehab,Medicare,0
+1524,66,Female,Oncology,Elective,7,3,1,Infection,Transfer,Self-Pay,1
+1525,48,Female,Oncology,Emergency,10,4,4,Infection,Home,Medicaid,1
+1526,75,Female,Orthopedics,Elective,1,3,0,Infection,Home,Private,0
+1527,78,Male,Neurology,Emergency,8,4,3,Stroke,Home,Private,1
+1528,41,Female,Oncology,Emergency,4,4,3,Stroke,Home,Medicare,1
+1529,37,Male,Neurology,Emergency,13,2,0,Fracture,Rehab,Medicare,0
+1530,54,Male,Cardiology,Emergency,9,5,2,Heart Failure,Against Medical Advice,Medicaid,1
+1531,21,Female,Neurology,Elective,1,0,2,Stroke,Against Medical Advice,Medicaid,0
+1532,37,Female,Emergency,Emergency,11,4,1,Fracture,Transfer,Private,0
+1533,77,Female,Emergency,Elective,2,5,0,Cancer,Transfer,Private,0
+1534,41,Female,Oncology,Emergency,14,1,0,Infection,Home,Self-Pay,1
+1535,67,Female,Neurology,Emergency,6,3,4,Infection,Home,Private,1
+1536,66,Male,Oncology,Emergency,11,1,2,Infection,Against Medical Advice,Medicaid,0
+1537,68,Female,Orthopedics,Elective,10,3,2,Fracture,Against Medical Advice,Medicare,1
+1538,53,Female,Emergency,Elective,11,2,0,Infection,Home,Medicaid,0
+1539,83,Female,Oncology,Emergency,14,4,1,Stroke,Transfer,Self-Pay,1
+1540,51,Male,Orthopedics,Emergency,1,0,0,Cancer,Rehab,Self-Pay,0
+1541,53,Female,Oncology,Emergency,4,4,1,Infection,Rehab,Medicare,0
+1542,23,Male,Neurology,Elective,8,3,2,Fracture,Against Medical Advice,Medicaid,0
+1543,56,Female,Neurology,Elective,10,0,4,Cancer,Against Medical Advice,Self-Pay,0
+1544,59,Female,Neurology,Emergency,5,4,3,Infection,Against Medical Advice,Medicaid,1
+1545,75,Male,Neurology,Emergency,13,0,2,Heart Failure,Rehab,Self-Pay,0
+1546,29,Female,Cardiology,Emergency,9,3,1,Infection,Rehab,Medicare,1
+1547,20,Male,Orthopedics,Elective,11,2,0,Stroke,Home,Self-Pay,0
+1548,35,Male,Orthopedics,Emergency,11,2,2,Cancer,Transfer,Medicaid,0
+1549,57,Male,Neurology,Elective,6,4,4,Stroke,Against Medical Advice,Medicaid,1
+1550,38,Female,Cardiology,Emergency,1,1,1,Heart Failure,Home,Self-Pay,0
+1551,32,Female,Neurology,Elective,6,3,0,Heart Failure,Rehab,Private,0
+1552,43,Female,Cardiology,Elective,6,4,3,Stroke,Home,Medicare,0
+1553,25,Male,Neurology,Elective,13,4,1,Cancer,Rehab,Medicare,0
+1554,59,Female,Emergency,Elective,6,2,0,Heart Failure,Transfer,Self-Pay,0
+1555,61,Male,Emergency,Elective,8,0,3,Heart Failure,Rehab,Self-Pay,0
+1556,31,Female,Oncology,Emergency,6,3,0,Infection,Home,Private,1
+1557,19,Male,Neurology,Emergency,5,0,3,Fracture,Transfer,Medicare,1
+1558,54,Male,Orthopedics,Emergency,11,5,3,Heart Failure,Rehab,Private,1
+1559,86,Male,Oncology,Elective,2,5,3,Cancer,Against Medical Advice,Medicare,0
+1560,55,Female,Emergency,Emergency,4,3,0,Cancer,Rehab,Self-Pay,0
+1561,58,Male,Neurology,Elective,14,1,3,Infection,Transfer,Medicare,0
+1562,79,Male,Oncology,Elective,10,5,1,Cancer,Home,Medicare,0
+1563,77,Male,Neurology,Emergency,5,2,4,Infection,Transfer,Medicare,1
+1564,31,Male,Emergency,Emergency,10,1,4,Heart Failure,Home,Private,0
+1565,19,Male,Oncology,Emergency,4,4,3,Heart Failure,Rehab,Private,1
+1566,87,Male,Emergency,Emergency,2,5,4,Heart Failure,Rehab,Medicare,0
+1567,34,Female,Cardiology,Emergency,7,2,4,Heart Failure,Transfer,Medicaid,1
+1568,45,Female,Emergency,Emergency,10,4,3,Fracture,Against Medical Advice,Private,0
+1569,83,Male,Neurology,Elective,10,1,3,Fracture,Rehab,Self-Pay,0
+1570,52,Female,Orthopedics,Elective,2,3,1,Heart Failure,Against Medical Advice,Self-Pay,1
+1571,22,Female,Emergency,Emergency,1,4,2,Cancer,Against Medical Advice,Medicare,0
+1572,82,Male,Orthopedics,Emergency,14,0,0,Infection,Transfer,Self-Pay,1
+1573,57,Male,Cardiology,Emergency,5,3,3,Stroke,Rehab,Private,0
+1574,73,Male,Oncology,Elective,12,3,3,Infection,Against Medical Advice,Medicaid,0
+1575,53,Female,Oncology,Elective,13,1,4,Stroke,Rehab,Medicaid,1
+1576,62,Male,Orthopedics,Emergency,1,1,1,Stroke,Home,Medicaid,0
+1577,40,Female,Oncology,Emergency,1,2,4,Heart Failure,Against Medical Advice,Self-Pay,1
+1578,64,Male,Emergency,Elective,1,2,3,Stroke,Transfer,Medicare,1
+1579,48,Female,Orthopedics,Elective,6,0,3,Heart Failure,Transfer,Self-Pay,0
+1580,28,Male,Neurology,Emergency,9,3,4,Fracture,Against Medical Advice,Medicare,0
+1581,27,Male,Emergency,Elective,10,0,3,Cancer,Rehab,Medicaid,1
+1582,84,Female,Emergency,Emergency,13,0,2,Stroke,Home,Private,0
+1583,31,Female,Emergency,Emergency,11,1,0,Cancer,Home,Self-Pay,0
+1584,27,Female,Neurology,Elective,12,0,0,Heart Failure,Transfer,Private,0
+1585,18,Female,Cardiology,Elective,1,0,0,Stroke,Transfer,Medicaid,0
+1586,22,Female,Oncology,Emergency,5,4,2,Infection,Rehab,Medicare,0
+1587,37,Female,Orthopedics,Elective,9,2,3,Fracture,Transfer,Private,0
+1588,25,Male,Cardiology,Emergency,14,2,4,Fracture,Rehab,Self-Pay,1
+1589,60,Female,Orthopedics,Elective,9,3,1,Stroke,Against Medical Advice,Private,0
+1590,18,Male,Oncology,Emergency,1,2,3,Fracture,Home,Private,0
+1591,74,Male,Neurology,Elective,8,5,2,Infection,Against Medical Advice,Self-Pay,0
+1592,81,Female,Emergency,Elective,1,3,2,Cancer,Transfer,Medicare,0
+1593,45,Male,Emergency,Emergency,8,4,0,Infection,Home,Self-Pay,0
+1594,54,Female,Neurology,Elective,1,2,3,Fracture,Home,Medicaid,0
+1595,64,Female,Cardiology,Elective,12,4,0,Cancer,Against Medical Advice,Medicare,0
+1596,54,Male,Cardiology,Elective,5,2,1,Infection,Rehab,Private,0
+1597,66,Male,Orthopedics,Emergency,8,2,0,Heart Failure,Home,Self-Pay,0
+1598,61,Female,Neurology,Elective,6,4,1,Heart Failure,Rehab,Medicaid,0
+1599,73,Female,Cardiology,Elective,9,0,2,Cancer,Against Medical Advice,Self-Pay,0
+1600,45,Male,Neurology,Emergency,1,0,0,Cancer,Against Medical Advice,Medicare,0
+1601,23,Male,Oncology,Elective,9,0,0,Cancer,Rehab,Medicaid,0
+1602,78,Male,Emergency,Emergency,1,5,4,Heart Failure,Against Medical Advice,Private,1
+1603,37,Male,Emergency,Emergency,10,0,2,Infection,Home,Medicare,1
+1604,19,Female,Emergency,Emergency,10,2,4,Cancer,Against Medical Advice,Medicaid,0
+1605,54,Female,Neurology,Emergency,3,1,1,Heart Failure,Against Medical Advice,Medicare,1
+1606,37,Female,Neurology,Elective,1,4,1,Cancer,Home,Private,0
+1607,43,Female,Orthopedics,Emergency,3,1,2,Cancer,Rehab,Medicaid,1
+1608,46,Male,Emergency,Elective,12,5,1,Cancer,Against Medical Advice,Self-Pay,0
+1609,18,Male,Orthopedics,Emergency,11,1,2,Heart Failure,Rehab,Self-Pay,0
+1610,52,Female,Emergency,Emergency,13,3,1,Infection,Home,Private,0
+1611,87,Female,Orthopedics,Emergency,2,0,3,Heart Failure,Rehab,Medicaid,1
+1612,76,Female,Orthopedics,Emergency,2,5,0,Heart Failure,Rehab,Private,0
+1613,86,Female,Oncology,Elective,9,2,3,Cancer,Transfer,Private,0
+1614,50,Female,Orthopedics,Elective,8,0,2,Stroke,Transfer,Medicare,0
+1615,68,Female,Neurology,Elective,1,0,2,Stroke,Against Medical Advice,Self-Pay,0
+1616,29,Female,Orthopedics,Emergency,12,1,3,Stroke,Transfer,Private,1
+1617,37,Female,Emergency,Emergency,14,3,0,Heart Failure,Transfer,Medicare,0
+1618,70,Female,Orthopedics,Emergency,4,0,0,Cancer,Transfer,Private,0
+1619,60,Male,Cardiology,Emergency,13,4,4,Stroke,Rehab,Private,1
+1620,67,Female,Emergency,Emergency,1,4,1,Fracture,Rehab,Private,0
+1621,46,Male,Cardiology,Elective,1,0,4,Fracture,Transfer,Self-Pay,0
+1622,74,Male,Emergency,Emergency,12,1,0,Fracture,Home,Medicaid,1
+1623,56,Female,Neurology,Elective,12,1,3,Infection,Transfer,Self-Pay,1
+1624,73,Female,Neurology,Emergency,4,2,1,Cancer,Home,Medicare,1
+1625,60,Male,Neurology,Emergency,2,5,3,Heart Failure,Rehab,Medicaid,0
+1626,67,Male,Cardiology,Elective,3,5,4,Heart Failure,Home,Medicare,0
+1627,40,Female,Oncology,Emergency,11,5,2,Cancer,Rehab,Private,0
+1628,61,Male,Emergency,Elective,9,3,3,Infection,Home,Medicaid,0
+1629,55,Female,Neurology,Elective,2,1,4,Cancer,Rehab,Medicare,1
+1630,40,Female,Emergency,Emergency,4,2,4,Infection,Rehab,Private,0
+1631,62,Female,Cardiology,Elective,1,4,4,Stroke,Transfer,Medicare,0
+1632,69,Male,Oncology,Emergency,2,5,2,Stroke,Against Medical Advice,Medicare,0
+1633,67,Male,Cardiology,Emergency,5,4,2,Infection,Against Medical Advice,Self-Pay,1
+1634,25,Female,Emergency,Elective,14,4,2,Cancer,Rehab,Private,1
+1635,18,Male,Oncology,Emergency,10,0,1,Stroke,Transfer,Self-Pay,0
+1636,25,Male,Oncology,Elective,1,3,2,Cancer,Against Medical Advice,Medicaid,0
+1637,46,Male,Cardiology,Elective,11,2,2,Stroke,Against Medical Advice,Private,0
+1638,22,Male,Neurology,Elective,7,3,2,Cancer,Transfer,Self-Pay,0
+1639,64,Male,Emergency,Emergency,4,0,3,Cancer,Transfer,Self-Pay,0
+1640,51,Male,Orthopedics,Emergency,6,2,2,Fracture,Against Medical Advice,Medicaid,0
+1641,82,Male,Orthopedics,Elective,8,2,1,Infection,Against Medical Advice,Medicare,0
+1642,72,Female,Cardiology,Emergency,13,1,4,Heart Failure,Home,Medicare,0
+1643,60,Male,Emergency,Emergency,6,3,3,Infection,Home,Medicare,1
+1644,47,Male,Emergency,Emergency,14,3,0,Cancer,Rehab,Medicaid,0
+1645,34,Male,Cardiology,Emergency,2,1,2,Cancer,Against Medical Advice,Self-Pay,0
+1646,43,Male,Emergency,Emergency,1,4,4,Infection,Transfer,Private,1
+1647,25,Male,Neurology,Elective,8,0,4,Cancer,Transfer,Medicaid,1
+1648,64,Male,Cardiology,Elective,8,3,3,Stroke,Against Medical Advice,Medicare,1
+1649,89,Male,Neurology,Emergency,9,1,0,Cancer,Rehab,Medicare,0
+1650,63,Male,Emergency,Emergency,6,2,1,Infection,Transfer,Private,0
+1651,85,Female,Cardiology,Emergency,12,5,4,Infection,Against Medical Advice,Medicaid,1
+1652,50,Male,Emergency,Elective,1,1,4,Infection,Against Medical Advice,Medicare,0
+1653,18,Male,Cardiology,Emergency,14,5,4,Fracture,Rehab,Medicaid,0
+1654,36,Male,Emergency,Elective,9,4,4,Fracture,Against Medical Advice,Self-Pay,0
+1655,48,Male,Neurology,Emergency,12,0,3,Fracture,Transfer,Medicaid,0
+1656,31,Female,Neurology,Elective,13,5,0,Fracture,Home,Self-Pay,0
+1657,70,Female,Emergency,Emergency,14,4,4,Fracture,Rehab,Private,1
+1658,65,Female,Cardiology,Elective,3,5,1,Fracture,Against Medical Advice,Self-Pay,0
+1659,86,Female,Orthopedics,Emergency,11,2,1,Fracture,Rehab,Self-Pay,0
+1660,79,Female,Neurology,Elective,6,2,2,Infection,Against Medical Advice,Private,0
+1661,83,Female,Neurology,Emergency,10,2,4,Heart Failure,Home,Medicare,0
+1662,81,Female,Orthopedics,Elective,13,2,4,Fracture,Rehab,Private,0
+1663,87,Female,Emergency,Elective,10,1,4,Infection,Against Medical Advice,Medicaid,0
+1664,80,Female,Cardiology,Emergency,11,2,4,Heart Failure,Home,Private,0
+1665,50,Female,Emergency,Elective,12,2,4,Fracture,Transfer,Medicaid,1
+1666,58,Female,Oncology,Emergency,14,1,1,Heart Failure,Against Medical Advice,Medicare,1
+1667,65,Female,Neurology,Emergency,9,2,0,Heart Failure,Home,Medicaid,0
+1668,30,Female,Oncology,Emergency,11,4,0,Stroke,Home,Private,1
+1669,48,Female,Neurology,Emergency,13,4,2,Cancer,Rehab,Private,0
+1670,85,Female,Neurology,Elective,3,3,1,Stroke,Against Medical Advice,Medicare,0
+1671,21,Female,Oncology,Elective,5,4,4,Heart Failure,Transfer,Private,1
+1672,36,Male,Oncology,Emergency,13,0,0,Infection,Against Medical Advice,Medicare,0
+1673,87,Female,Emergency,Emergency,14,0,3,Fracture,Home,Medicare,1
+1674,30,Male,Oncology,Elective,5,0,3,Cancer,Transfer,Private,0
+1675,40,Female,Emergency,Elective,10,1,3,Fracture,Home,Self-Pay,0
+1676,18,Female,Emergency,Emergency,7,4,4,Infection,Rehab,Medicaid,1
+1677,71,Male,Emergency,Elective,4,0,4,Cancer,Against Medical Advice,Self-Pay,0
+1678,88,Female,Neurology,Emergency,11,3,2,Stroke,Home,Medicare,0
+1679,32,Male,Neurology,Emergency,4,1,2,Heart Failure,Home,Medicaid,0
+1680,82,Male,Oncology,Elective,7,3,2,Infection,Against Medical Advice,Self-Pay,0
+1681,88,Male,Neurology,Emergency,9,4,3,Heart Failure,Transfer,Private,0
+1682,32,Female,Oncology,Emergency,11,2,4,Heart Failure,Home,Self-Pay,1
+1683,38,Female,Neurology,Emergency,4,3,3,Fracture,Against Medical Advice,Medicaid,0
+1684,36,Female,Cardiology,Elective,4,2,2,Infection,Rehab,Medicaid,0
+1685,77,Male,Cardiology,Elective,6,1,4,Heart Failure,Rehab,Medicaid,1
+1686,50,Male,Oncology,Emergency,6,3,1,Stroke,Against Medical Advice,Medicaid,0
+1687,66,Female,Neurology,Emergency,7,3,0,Cancer,Home,Self-Pay,0
+1688,52,Female,Neurology,Emergency,1,5,0,Infection,Against Medical Advice,Private,0
+1689,61,Female,Emergency,Emergency,13,1,2,Fracture,Against Medical Advice,Private,1
+1690,28,Female,Orthopedics,Emergency,11,1,3,Infection,Home,Medicaid,0
+1691,89,Female,Oncology,Elective,14,0,1,Fracture,Transfer,Private,0
+1692,83,Male,Orthopedics,Emergency,3,4,4,Cancer,Transfer,Self-Pay,1
+1693,63,Male,Orthopedics,Emergency,9,3,3,Stroke,Rehab,Private,0
+1694,26,Male,Oncology,Emergency,6,3,2,Heart Failure,Transfer,Medicare,0
+1695,20,Female,Neurology,Emergency,6,1,3,Infection,Against Medical Advice,Private,0
+1696,43,Male,Oncology,Elective,5,1,2,Fracture,Home,Medicaid,0
+1697,89,Male,Orthopedics,Emergency,11,4,0,Cancer,Rehab,Private,0
+1698,65,Male,Neurology,Emergency,3,1,0,Heart Failure,Transfer,Private,0
+1699,83,Male,Cardiology,Emergency,11,2,3,Cancer,Against Medical Advice,Private,1
+1700,87,Male,Oncology,Emergency,5,2,1,Stroke,Rehab,Private,1
+1701,45,Female,Oncology,Emergency,14,5,4,Heart Failure,Home,Medicare,0
+1702,43,Male,Neurology,Emergency,1,2,2,Heart Failure,Transfer,Self-Pay,0
+1703,42,Female,Cardiology,Emergency,3,2,4,Heart Failure,Against Medical Advice,Medicaid,0
+1704,29,Female,Cardiology,Emergency,4,4,0,Fracture,Home,Medicaid,0
+1705,22,Female,Neurology,Emergency,5,3,1,Heart Failure,Against Medical Advice,Private,1
+1706,65,Female,Emergency,Emergency,10,2,1,Cancer,Against Medical Advice,Self-Pay,0
+1707,54,Female,Oncology,Elective,9,5,4,Fracture,Against Medical Advice,Private,1
+1708,61,Male,Oncology,Emergency,4,1,0,Heart Failure,Home,Medicare,0
+1709,32,Male,Orthopedics,Emergency,3,2,4,Cancer,Rehab,Self-Pay,1
+1710,60,Female,Neurology,Emergency,10,5,3,Cancer,Against Medical Advice,Self-Pay,0
+1711,65,Female,Orthopedics,Emergency,1,4,1,Infection,Rehab,Self-Pay,0
+1712,87,Female,Orthopedics,Elective,13,1,1,Cancer,Rehab,Self-Pay,0
+1713,63,Male,Cardiology,Emergency,10,5,3,Stroke,Transfer,Private,1
+1714,60,Female,Oncology,Elective,6,2,0,Heart Failure,Transfer,Medicare,0
+1715,38,Male,Orthopedics,Emergency,7,3,1,Heart Failure,Rehab,Self-Pay,0
+1716,40,Female,Cardiology,Emergency,10,1,2,Heart Failure,Transfer,Medicaid,0
+1717,64,Male,Neurology,Elective,8,1,2,Cancer,Transfer,Medicaid,0
+1718,32,Female,Orthopedics,Emergency,12,3,0,Cancer,Rehab,Medicare,0
+1719,42,Male,Oncology,Emergency,1,1,3,Heart Failure,Home,Medicaid,0
+1720,53,Female,Orthopedics,Emergency,12,2,4,Fracture,Transfer,Private,0
+1721,68,Male,Neurology,Elective,4,1,0,Fracture,Transfer,Private,0
+1722,32,Male,Orthopedics,Emergency,11,2,4,Stroke,Home,Medicare,1
+1723,85,Male,Oncology,Elective,5,3,0,Infection,Home,Self-Pay,0
+1724,38,Male,Cardiology,Emergency,2,0,2,Stroke,Home,Medicaid,0
+1725,30,Male,Oncology,Elective,1,3,3,Heart Failure,Rehab,Medicaid,0
+1726,36,Male,Cardiology,Emergency,8,2,2,Heart Failure,Home,Medicare,1
+1727,51,Male,Emergency,Elective,6,4,3,Heart Failure,Rehab,Medicare,0
+1728,85,Female,Oncology,Emergency,5,3,4,Infection,Against Medical Advice,Medicaid,0
+1729,69,Female,Oncology,Elective,13,4,0,Cancer,Against Medical Advice,Self-Pay,0
+1730,44,Female,Neurology,Emergency,9,4,1,Infection,Home,Medicare,1
+1731,46,Female,Orthopedics,Emergency,13,2,1,Stroke,Home,Private,1
+1732,45,Female,Cardiology,Emergency,11,2,3,Cancer,Against Medical Advice,Medicaid,0
+1733,52,Male,Cardiology,Emergency,13,0,3,Cancer,Rehab,Medicare,1
+1734,25,Male,Neurology,Emergency,11,5,2,Stroke,Rehab,Medicare,0
+1735,33,Male,Neurology,Elective,2,1,1,Cancer,Home,Medicare,0
+1736,53,Male,Orthopedics,Elective,10,3,2,Fracture,Home,Medicaid,0
+1737,47,Male,Orthopedics,Emergency,12,2,4,Stroke,Home,Private,0
+1738,35,Female,Oncology,Elective,8,3,1,Stroke,Against Medical Advice,Private,0
+1739,19,Female,Emergency,Emergency,11,5,4,Fracture,Transfer,Medicaid,1
+1740,66,Female,Orthopedics,Emergency,14,5,0,Infection,Home,Medicare,0
+1741,21,Female,Neurology,Elective,10,4,2,Infection,Rehab,Medicaid,0
+1742,24,Male,Orthopedics,Elective,13,1,3,Infection,Transfer,Medicaid,0
+1743,56,Male,Cardiology,Elective,9,0,1,Cancer,Rehab,Medicare,0
+1744,30,Male,Emergency,Emergency,1,3,2,Fracture,Transfer,Medicaid,0
+1745,48,Female,Oncology,Elective,7,1,3,Stroke,Against Medical Advice,Self-Pay,1
+1746,88,Male,Cardiology,Emergency,8,0,0,Stroke,Transfer,Private,0
+1747,80,Female,Cardiology,Emergency,3,3,1,Stroke,Rehab,Self-Pay,0
+1748,73,Male,Emergency,Emergency,14,1,4,Cancer,Transfer,Self-Pay,1
+1749,59,Male,Oncology,Elective,4,2,0,Cancer,Against Medical Advice,Self-Pay,0
+1750,78,Female,Neurology,Elective,13,3,3,Infection,Rehab,Medicaid,0
+1751,59,Male,Oncology,Elective,3,1,1,Cancer,Home,Medicare,0
+1752,73,Male,Orthopedics,Emergency,7,5,1,Infection,Transfer,Medicaid,0
+1753,53,Female,Cardiology,Emergency,9,0,0,Infection,Rehab,Private,1
+1754,85,Male,Orthopedics,Emergency,3,1,1,Stroke,Transfer,Medicaid,0
+1755,24,Female,Neurology,Emergency,13,2,3,Cancer,Against Medical Advice,Medicaid,0
+1756,71,Male,Orthopedics,Emergency,6,3,0,Infection,Rehab,Medicaid,0
+1757,18,Male,Oncology,Elective,8,3,4,Fracture,Home,Medicaid,0
+1758,61,Male,Orthopedics,Emergency,6,3,0,Fracture,Home,Self-Pay,1
+1759,62,Male,Neurology,Emergency,2,2,0,Cancer,Transfer,Medicare,1
+1760,64,Male,Neurology,Emergency,13,0,4,Stroke,Against Medical Advice,Private,1
+1761,30,Male,Neurology,Emergency,7,3,3,Stroke,Against Medical Advice,Private,0
+1762,39,Male,Oncology,Emergency,2,0,2,Infection,Transfer,Private,0
+1763,38,Male,Neurology,Elective,2,1,2,Cancer,Rehab,Medicaid,0
+1764,26,Female,Cardiology,Elective,2,5,4,Fracture,Rehab,Private,1
+1765,43,Female,Neurology,Elective,11,5,3,Infection,Transfer,Self-Pay,0
+1766,26,Male,Orthopedics,Emergency,1,0,1,Infection,Rehab,Medicare,0
+1767,32,Male,Orthopedics,Emergency,14,0,4,Heart Failure,Rehab,Medicaid,1
+1768,27,Female,Orthopedics,Emergency,11,5,2,Cancer,Rehab,Medicaid,0
+1769,59,Male,Oncology,Elective,1,3,3,Infection,Transfer,Self-Pay,0
+1770,89,Male,Orthopedics,Elective,14,4,0,Fracture,Home,Private,0
+1771,41,Female,Oncology,Emergency,7,4,3,Heart Failure,Against Medical Advice,Medicaid,0
+1772,66,Male,Oncology,Emergency,13,2,3,Fracture,Home,Medicaid,0
+1773,43,Male,Neurology,Emergency,14,5,2,Stroke,Rehab,Self-Pay,0
+1774,54,Female,Cardiology,Elective,14,5,2,Heart Failure,Transfer,Self-Pay,0
+1775,85,Male,Neurology,Elective,14,2,1,Heart Failure,Against Medical Advice,Private,0
+1776,67,Male,Neurology,Emergency,12,4,1,Infection,Rehab,Medicare,1
+1777,41,Female,Oncology,Emergency,5,1,4,Stroke,Against Medical Advice,Medicare,0
+1778,36,Male,Oncology,Emergency,11,3,0,Infection,Against Medical Advice,Private,1
+1779,77,Female,Orthopedics,Emergency,3,3,1,Cancer,Home,Medicare,0
+1780,56,Male,Orthopedics,Emergency,1,1,2,Fracture,Rehab,Self-Pay,0
+1781,35,Male,Neurology,Emergency,11,1,3,Fracture,Against Medical Advice,Self-Pay,1
+1782,36,Female,Emergency,Elective,10,4,4,Infection,Home,Self-Pay,0
+1783,53,Female,Emergency,Elective,6,2,1,Fracture,Transfer,Medicare,0
+1784,72,Male,Orthopedics,Emergency,11,1,3,Fracture,Against Medical Advice,Medicare,1
+1785,86,Female,Emergency,Elective,1,2,3,Cancer,Rehab,Medicaid,0
+1786,64,Female,Orthopedics,Emergency,9,0,1,Stroke,Transfer,Medicaid,0
+1787,66,Male,Oncology,Emergency,2,3,0,Heart Failure,Against Medical Advice,Medicaid,0
+1788,50,Male,Neurology,Emergency,1,4,0,Infection,Against Medical Advice,Medicare,1
+1789,38,Male,Cardiology,Emergency,12,3,4,Infection,Rehab,Medicaid,1
+1790,39,Female,Neurology,Emergency,7,4,0,Cancer,Against Medical Advice,Self-Pay,0
+1791,65,Female,Orthopedics,Emergency,6,0,4,Cancer,Rehab,Medicare,0
+1792,54,Female,Orthopedics,Emergency,6,3,2,Heart Failure,Rehab,Private,0
+1793,32,Female,Neurology,Elective,14,0,1,Stroke,Rehab,Medicare,0
+1794,52,Male,Orthopedics,Emergency,5,4,3,Infection,Rehab,Medicaid,0
+1795,88,Female,Emergency,Emergency,11,1,4,Cancer,Against Medical Advice,Medicare,0
+1796,49,Male,Emergency,Emergency,4,3,0,Infection,Transfer,Medicaid,0
+1797,28,Female,Orthopedics,Elective,11,0,4,Fracture,Transfer,Medicaid,0
+1798,27,Male,Orthopedics,Emergency,4,5,4,Infection,Home,Private,1
+1799,74,Male,Emergency,Elective,3,3,0,Stroke,Rehab,Private,0
+1800,42,Male,Orthopedics,Emergency,10,3,0,Stroke,Against Medical Advice,Self-Pay,0
+1801,19,Female,Orthopedics,Emergency,8,3,1,Infection,Against Medical Advice,Medicaid,0
+1802,81,Male,Neurology,Emergency,7,2,3,Fracture,Home,Medicare,1
+1803,52,Male,Cardiology,Emergency,9,0,1,Stroke,Transfer,Private,0
+1804,24,Female,Emergency,Emergency,1,0,1,Cancer,Against Medical Advice,Private,0
+1805,35,Male,Neurology,Emergency,7,3,0,Infection,Home,Medicaid,0
+1806,84,Female,Cardiology,Emergency,10,1,0,Fracture,Transfer,Medicare,1
+1807,59,Female,Orthopedics,Emergency,4,3,3,Cancer,Against Medical Advice,Private,0
+1808,56,Male,Orthopedics,Emergency,7,2,4,Infection,Rehab,Private,0
+1809,58,Male,Neurology,Elective,13,4,1,Fracture,Home,Medicare,0
+1810,41,Female,Orthopedics,Emergency,12,2,3,Cancer,Against Medical Advice,Private,1
+1811,77,Male,Oncology,Elective,1,1,1,Stroke,Home,Medicare,0
+1812,63,Female,Neurology,Elective,5,3,4,Infection,Home,Medicaid,1
+1813,36,Female,Cardiology,Emergency,3,0,1,Infection,Home,Private,1
+1814,85,Female,Neurology,Emergency,5,5,2,Stroke,Rehab,Medicaid,0
+1815,59,Male,Emergency,Emergency,4,3,3,Heart Failure,Transfer,Medicare,0
+1816,49,Female,Neurology,Elective,2,1,0,Cancer,Transfer,Medicaid,0
+1817,56,Male,Orthopedics,Elective,11,0,1,Stroke,Against Medical Advice,Medicaid,0
+1818,53,Male,Orthopedics,Elective,4,2,3,Infection,Rehab,Medicaid,0
+1819,53,Male,Oncology,Elective,3,4,3,Cancer,Transfer,Self-Pay,1
+1820,20,Male,Oncology,Elective,13,4,1,Cancer,Against Medical Advice,Medicare,0
+1821,25,Female,Oncology,Emergency,1,3,0,Heart Failure,Against Medical Advice,Medicare,0
+1822,87,Male,Cardiology,Emergency,12,2,0,Infection,Home,Medicare,0
+1823,58,Female,Oncology,Elective,10,5,1,Fracture,Rehab,Medicare,0
+1824,85,Female,Cardiology,Emergency,8,5,3,Heart Failure,Transfer,Medicare,0
+1825,30,Male,Oncology,Emergency,5,1,0,Heart Failure,Rehab,Private,0
+1826,66,Female,Cardiology,Elective,4,4,1,Fracture,Rehab,Private,0
+1827,77,Female,Neurology,Emergency,10,2,1,Fracture,Transfer,Private,0
+1828,19,Male,Neurology,Elective,12,3,1,Heart Failure,Transfer,Medicaid,0
+1829,77,Female,Orthopedics,Elective,5,0,3,Cancer,Rehab,Medicaid,0
+1830,22,Female,Cardiology,Emergency,4,3,0,Stroke,Against Medical Advice,Medicare,0
+1831,61,Female,Emergency,Elective,3,3,3,Stroke,Rehab,Self-Pay,1
+1832,44,Female,Orthopedics,Emergency,5,2,2,Heart Failure,Transfer,Medicare,0
+1833,49,Male,Neurology,Emergency,4,4,0,Cancer,Rehab,Private,0
+1834,38,Female,Cardiology,Emergency,1,2,3,Fracture,Transfer,Medicare,0
+1835,25,Female,Oncology,Emergency,12,0,0,Heart Failure,Against Medical Advice,Medicaid,0
+1836,89,Female,Emergency,Emergency,3,2,2,Infection,Rehab,Medicare,0
+1837,67,Female,Neurology,Emergency,10,1,4,Cancer,Against Medical Advice,Private,0
+1838,84,Male,Orthopedics,Emergency,10,3,1,Infection,Rehab,Medicare,0
+1839,61,Female,Cardiology,Emergency,8,4,3,Infection,Rehab,Medicaid,1
+1840,75,Male,Emergency,Elective,7,5,2,Heart Failure,Transfer,Self-Pay,0
+1841,20,Female,Cardiology,Elective,2,0,2,Cancer,Home,Private,0
+1842,87,Male,Oncology,Emergency,1,5,0,Infection,Transfer,Medicare,1
+1843,19,Male,Orthopedics,Emergency,3,3,0,Cancer,Rehab,Medicaid,0
+1844,61,Male,Cardiology,Emergency,5,2,1,Stroke,Home,Private,0
+1845,19,Male,Neurology,Emergency,10,5,0,Infection,Home,Private,0
+1846,52,Male,Orthopedics,Elective,11,1,3,Infection,Against Medical Advice,Medicaid,0
+1847,47,Female,Neurology,Elective,12,2,3,Cancer,Rehab,Medicare,1
+1848,25,Female,Cardiology,Emergency,1,3,3,Stroke,Transfer,Medicare,1
+1849,39,Female,Orthopedics,Emergency,3,5,4,Infection,Home,Medicare,0
+1850,61,Male,Neurology,Emergency,3,0,3,Heart Failure,Home,Private,0
+1851,75,Female,Oncology,Elective,5,5,0,Cancer,Transfer,Self-Pay,0
+1852,53,Male,Oncology,Emergency,3,5,0,Cancer,Transfer,Private,0
+1853,86,Male,Cardiology,Elective,13,4,3,Infection,Home,Medicare,1
+1854,48,Female,Orthopedics,Elective,9,5,2,Stroke,Transfer,Private,0
+1855,64,Female,Emergency,Emergency,1,3,2,Infection,Against Medical Advice,Self-Pay,0
+1856,72,Male,Orthopedics,Emergency,4,0,2,Fracture,Home,Private,0
+1857,79,Male,Oncology,Elective,13,3,1,Infection,Against Medical Advice,Medicaid,0
+1858,47,Female,Neurology,Emergency,13,1,4,Fracture,Rehab,Medicare,0
+1859,72,Female,Emergency,Emergency,10,2,3,Heart Failure,Against Medical Advice,Medicare,0
+1860,33,Female,Cardiology,Emergency,10,5,1,Cancer,Transfer,Medicare,0
+1861,29,Female,Emergency,Elective,4,4,2,Cancer,Home,Private,0
+1862,34,Male,Cardiology,Elective,1,0,3,Stroke,Against Medical Advice,Private,1
+1863,33,Female,Emergency,Elective,14,4,1,Infection,Transfer,Private,0
+1864,29,Female,Cardiology,Elective,2,4,0,Heart Failure,Transfer,Medicare,1
+1865,25,Female,Cardiology,Elective,11,4,2,Fracture,Against Medical Advice,Private,0
+1866,20,Male,Emergency,Elective,1,5,1,Stroke,Home,Medicare,0
+1867,33,Male,Emergency,Emergency,6,0,0,Heart Failure,Against Medical Advice,Private,1
+1868,47,Male,Cardiology,Emergency,3,0,2,Heart Failure,Rehab,Medicare,0
+1869,40,Male,Oncology,Elective,7,4,4,Fracture,Against Medical Advice,Medicaid,1
+1870,22,Female,Emergency,Elective,5,2,2,Fracture,Against Medical Advice,Private,0
+1871,82,Male,Orthopedics,Elective,9,5,4,Cancer,Home,Medicare,0
+1872,47,Female,Neurology,Emergency,7,5,4,Infection,Against Medical Advice,Medicaid,1
+1873,38,Female,Cardiology,Elective,4,3,4,Stroke,Transfer,Medicaid,1
+1874,87,Female,Cardiology,Elective,5,5,3,Infection,Home,Self-Pay,1
+1875,39,Female,Neurology,Emergency,5,4,3,Stroke,Transfer,Private,1
+1876,89,Male,Oncology,Emergency,11,1,4,Heart Failure,Home,Medicare,0
+1877,49,Male,Neurology,Emergency,5,4,0,Fracture,Rehab,Self-Pay,0
+1878,50,Male,Emergency,Emergency,10,0,4,Fracture,Rehab,Private,1
+1879,33,Female,Neurology,Emergency,9,5,1,Heart Failure,Rehab,Medicaid,0
+1880,55,Female,Cardiology,Emergency,10,5,4,Heart Failure,Against Medical Advice,Private,1
+1881,31,Female,Neurology,Emergency,3,3,3,Stroke,Rehab,Medicare,1
+1882,53,Female,Orthopedics,Elective,6,1,3,Heart Failure,Home,Medicaid,0
+1883,40,Female,Emergency,Elective,8,5,1,Stroke,Rehab,Self-Pay,0
+1884,83,Male,Neurology,Elective,11,3,1,Infection,Home,Private,1
+1885,19,Female,Cardiology,Emergency,9,3,2,Fracture,Transfer,Private,0
+1886,82,Male,Emergency,Emergency,13,1,0,Fracture,Against Medical Advice,Self-Pay,1
+1887,84,Female,Cardiology,Elective,7,4,0,Fracture,Transfer,Private,0
+1888,69,Female,Oncology,Emergency,12,4,0,Infection,Transfer,Private,0
+1889,79,Male,Orthopedics,Elective,3,4,3,Infection,Rehab,Private,1
+1890,40,Male,Oncology,Elective,1,2,0,Cancer,Rehab,Medicaid,0
+1891,43,Female,Orthopedics,Emergency,4,4,2,Stroke,Rehab,Medicaid,1
+1892,85,Female,Neurology,Elective,13,1,2,Stroke,Transfer,Medicare,0
+1893,72,Female,Emergency,Emergency,6,2,0,Cancer,Against Medical Advice,Private,0
+1894,23,Female,Neurology,Emergency,3,4,1,Fracture,Against Medical Advice,Medicare,0
+1895,52,Male,Orthopedics,Elective,14,2,2,Stroke,Transfer,Medicaid,0
+1896,39,Female,Orthopedics,Emergency,1,1,1,Stroke,Against Medical Advice,Private,1
+1897,60,Male,Orthopedics,Elective,6,4,3,Fracture,Transfer,Medicare,0
+1898,32,Female,Cardiology,Emergency,14,0,2,Heart Failure,Transfer,Private,0
+1899,77,Male,Emergency,Emergency,1,5,1,Heart Failure,Against Medical Advice,Private,0
+1900,29,Male,Neurology,Emergency,9,1,0,Cancer,Home,Self-Pay,0
+1901,66,Female,Neurology,Elective,11,3,3,Infection,Home,Medicare,0
+1902,59,Male,Oncology,Emergency,14,3,4,Stroke,Rehab,Medicaid,0
+1903,55,Female,Orthopedics,Emergency,12,1,4,Stroke,Against Medical Advice,Medicare,0
+1904,62,Male,Orthopedics,Elective,1,3,0,Cancer,Rehab,Medicare,0
+1905,52,Female,Orthopedics,Emergency,13,1,3,Cancer,Transfer,Medicare,1
+1906,47,Male,Neurology,Elective,6,0,3,Stroke,Home,Self-Pay,0
+1907,47,Female,Oncology,Emergency,1,1,3,Fracture,Against Medical Advice,Private,0
+1908,23,Female,Cardiology,Elective,12,4,3,Fracture,Against Medical Advice,Medicaid,1
+1909,84,Male,Emergency,Elective,7,4,4,Infection,Against Medical Advice,Self-Pay,1
+1910,24,Male,Cardiology,Emergency,3,2,1,Stroke,Home,Medicaid,1
+1911,69,Male,Neurology,Emergency,6,3,3,Stroke,Rehab,Self-Pay,0
+1912,31,Male,Orthopedics,Elective,7,5,1,Stroke,Home,Private,0
+1913,32,Female,Emergency,Emergency,1,3,3,Stroke,Rehab,Medicaid,1
+1914,38,Male,Neurology,Elective,1,1,2,Cancer,Transfer,Medicare,0
+1915,52,Female,Neurology,Emergency,13,5,2,Heart Failure,Transfer,Self-Pay,0
+1916,83,Male,Neurology,Emergency,5,5,2,Stroke,Rehab,Medicaid,1
+1917,19,Female,Emergency,Emergency,6,3,3,Heart Failure,Transfer,Private,0
+1918,52,Female,Emergency,Elective,9,5,1,Fracture,Transfer,Medicaid,0
+1919,37,Female,Oncology,Emergency,14,5,4,Infection,Against Medical Advice,Self-Pay,1
+1920,27,Female,Oncology,Elective,1,4,0,Fracture,Against Medical Advice,Private,0
+1921,42,Male,Cardiology,Elective,13,0,4,Stroke,Home,Medicare,1
+1922,83,Male,Emergency,Emergency,4,1,3,Fracture,Home,Self-Pay,0
+1923,42,Female,Emergency,Emergency,10,3,2,Cancer,Home,Self-Pay,0
+1924,71,Male,Emergency,Elective,8,4,2,Heart Failure,Against Medical Advice,Private,1
+1925,50,Male,Oncology,Emergency,10,2,1,Stroke,Home,Self-Pay,0
+1926,53,Female,Neurology,Elective,9,5,3,Cancer,Home,Medicaid,1
+1927,31,Male,Orthopedics,Emergency,13,5,4,Heart Failure,Against Medical Advice,Medicare,1
+1928,82,Male,Oncology,Emergency,3,3,3,Cancer,Rehab,Medicaid,1
+1929,71,Male,Emergency,Elective,11,0,3,Fracture,Against Medical Advice,Private,1
+1930,69,Female,Oncology,Emergency,2,0,2,Stroke,Rehab,Self-Pay,0
+1931,20,Male,Cardiology,Emergency,4,3,4,Fracture,Against Medical Advice,Medicare,0
+1932,58,Female,Emergency,Emergency,2,3,0,Infection,Home,Private,0
+1933,23,Male,Cardiology,Emergency,1,4,2,Stroke,Transfer,Medicaid,1
+1934,42,Male,Emergency,Emergency,12,3,4,Fracture,Transfer,Self-Pay,0
+1935,30,Male,Oncology,Elective,3,2,1,Stroke,Rehab,Self-Pay,0
+1936,25,Female,Neurology,Emergency,7,4,2,Heart Failure,Rehab,Private,0
+1937,38,Female,Orthopedics,Emergency,13,5,1,Stroke,Rehab,Medicaid,0
+1938,85,Male,Cardiology,Elective,13,5,2,Stroke,Transfer,Self-Pay,1
+1939,42,Female,Oncology,Emergency,1,5,3,Heart Failure,Rehab,Medicaid,0
+1940,85,Male,Neurology,Emergency,2,5,4,Fracture,Against Medical Advice,Medicare,0
+1941,62,Female,Oncology,Elective,1,1,1,Stroke,Against Medical Advice,Self-Pay,0
+1942,77,Female,Cardiology,Elective,8,2,2,Cancer,Transfer,Medicare,0
+1943,29,Male,Orthopedics,Emergency,5,4,1,Stroke,Against Medical Advice,Self-Pay,0
+1944,49,Male,Oncology,Elective,8,4,2,Fracture,Rehab,Private,0
+1945,30,Male,Emergency,Emergency,3,5,2,Heart Failure,Transfer,Self-Pay,1
+1946,48,Male,Neurology,Elective,13,0,0,Fracture,Rehab,Self-Pay,0
+1947,37,Female,Oncology,Emergency,12,4,0,Infection,Against Medical Advice,Medicaid,1
+1948,35,Female,Neurology,Emergency,7,2,0,Stroke,Rehab,Medicaid,0
+1949,77,Female,Emergency,Emergency,8,3,1,Stroke,Transfer,Medicare,1
+1950,80,Male,Orthopedics,Emergency,6,2,3,Heart Failure,Rehab,Medicare,0
+1951,23,Male,Orthopedics,Emergency,13,5,2,Stroke,Against Medical Advice,Medicare,0
+1952,49,Female,Emergency,Elective,13,5,4,Cancer,Home,Self-Pay,0
+1953,60,Male,Neurology,Emergency,7,1,0,Cancer,Transfer,Self-Pay,0
+1954,19,Female,Oncology,Emergency,14,4,1,Fracture,Rehab,Medicare,0
+1955,77,Female,Emergency,Emergency,12,4,1,Heart Failure,Transfer,Private,0
+1956,40,Female,Cardiology,Emergency,2,4,1,Infection,Rehab,Private,0
+1957,48,Female,Neurology,Elective,8,5,4,Fracture,Home,Self-Pay,1
+1958,22,Female,Orthopedics,Emergency,5,4,4,Heart Failure,Against Medical Advice,Private,0
+1959,51,Male,Emergency,Emergency,7,0,0,Heart Failure,Rehab,Private,0
+1960,27,Male,Orthopedics,Emergency,1,0,4,Fracture,Rehab,Medicare,0
+1961,19,Male,Neurology,Elective,5,3,0,Fracture,Home,Private,0
+1962,28,Female,Orthopedics,Emergency,1,4,4,Stroke,Transfer,Private,0
+1963,67,Female,Emergency,Emergency,12,1,4,Infection,Against Medical Advice,Self-Pay,1
+1964,48,Female,Neurology,Emergency,13,3,4,Cancer,Rehab,Self-Pay,1
+1965,73,Female,Cardiology,Emergency,8,5,0,Stroke,Rehab,Self-Pay,1
+1966,26,Male,Emergency,Emergency,4,4,2,Heart Failure,Against Medical Advice,Private,1
+1967,38,Male,Oncology,Elective,4,0,0,Infection,Home,Medicare,0
+1968,45,Female,Emergency,Elective,2,1,2,Infection,Transfer,Medicaid,0
+1969,79,Female,Neurology,Elective,5,3,1,Fracture,Against Medical Advice,Self-Pay,0
+1970,24,Female,Emergency,Emergency,1,1,1,Infection,Transfer,Self-Pay,0
+1971,33,Male,Cardiology,Emergency,9,4,0,Infection,Home,Self-Pay,0
+1972,21,Male,Cardiology,Emergency,5,2,2,Heart Failure,Home,Medicare,0
+1973,21,Male,Oncology,Elective,6,1,2,Stroke,Against Medical Advice,Medicaid,0
+1974,57,Female,Orthopedics,Emergency,2,1,2,Infection,Rehab,Medicaid,0
+1975,34,Female,Neurology,Elective,10,5,1,Fracture,Home,Self-Pay,1
+1976,69,Male,Neurology,Emergency,10,0,0,Stroke,Home,Private,1
+1977,69,Female,Orthopedics,Emergency,1,4,3,Fracture,Against Medical Advice,Self-Pay,0
+1978,53,Male,Cardiology,Emergency,4,1,2,Infection,Against Medical Advice,Self-Pay,0
+1979,55,Female,Cardiology,Emergency,7,4,2,Stroke,Against Medical Advice,Private,1
+1980,67,Male,Emergency,Elective,6,0,3,Infection,Home,Private,0
+1981,80,Female,Oncology,Elective,10,5,0,Heart Failure,Transfer,Self-Pay,1
+1982,80,Male,Oncology,Emergency,1,4,2,Stroke,Home,Medicare,0
+1983,79,Male,Oncology,Emergency,1,0,0,Fracture,Against Medical Advice,Medicare,0
+1984,24,Male,Emergency,Elective,8,0,2,Heart Failure,Rehab,Private,0
+1985,44,Male,Oncology,Elective,4,3,4,Cancer,Rehab,Self-Pay,0
+1986,31,Male,Orthopedics,Emergency,5,5,2,Fracture,Against Medical Advice,Medicare,1
+1987,88,Male,Emergency,Emergency,13,5,4,Infection,Rehab,Self-Pay,0
+1988,22,Female,Orthopedics,Emergency,7,4,0,Fracture,Home,Self-Pay,0
+1989,72,Female,Emergency,Emergency,8,2,2,Cancer,Transfer,Self-Pay,0
+1990,19,Female,Oncology,Emergency,10,3,1,Fracture,Home,Medicare,0
+1991,79,Male,Orthopedics,Emergency,7,5,1,Heart Failure,Against Medical Advice,Medicaid,1
+1992,38,Male,Orthopedics,Emergency,2,0,3,Fracture,Home,Self-Pay,0
+1993,38,Female,Orthopedics,Emergency,14,5,1,Stroke,Rehab,Medicare,0
+1994,27,Male,Emergency,Emergency,4,2,4,Cancer,Home,Medicaid,0
+1995,75,Male,Neurology,Elective,10,1,1,Fracture,Transfer,Private,0
+1996,56,Male,Oncology,Elective,12,1,1,Cancer,Rehab,Medicare,0
+1997,22,Male,Orthopedics,Emergency,1,5,1,Heart Failure,Transfer,Medicaid,0
+1998,82,Male,Neurology,Elective,10,5,2,Stroke,Transfer,Medicare,0
+1999,30,Female,Oncology,Elective,9,3,3,Infection,Transfer,Medicaid,1
+2000,70,Female,Oncology,Emergency,3,5,0,Fracture,Home,Medicaid,0
