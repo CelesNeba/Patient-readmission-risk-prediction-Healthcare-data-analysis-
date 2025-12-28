@@ -98,6 +98,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 • Handle invalid ages
 
+![Mysql Handle invalid ages](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Mysql%20Handle%20invalid%20ages.JPG)
+
 • Replace nulls
 
 • Validate categorical fields
