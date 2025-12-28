@@ -8,6 +8,9 @@ While repeat patient visits can increase revenue for the hospital, unplanned 30-
 ### Tools to use
 
 •	Excel: Initial dataset inspection and quick validation
+
 • MySQL:  Structured storage, cleaning, and querying
+
 • Jupyter Notebook (Python): Exploration, analysis, and modeling prep
+
 • Power BI: Dashboard and storytelling to stakeholders
