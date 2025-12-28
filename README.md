@@ -94,6 +94,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 • Remove duplicates
 
+![Mysql Remove duplicates](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Mysql%20Remove%20duplicates.JPG)
+
 • Handle invalid ages
 
 • Replace nulls
