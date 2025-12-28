@@ -113,7 +113,7 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 ## Data analysis in Jupyter notebook
 
 
-• Import data from MySQL
+• Import data from MySQL to Jupyter notebook
 
 
 ![Imported data to jupyter notebook](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Imported%20data%20to%20jupyter%20notebook.PNG)
