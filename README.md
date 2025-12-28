@@ -85,4 +85,6 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 ### Import & clean data in MySQL
 
+### Create database & table
+
 
