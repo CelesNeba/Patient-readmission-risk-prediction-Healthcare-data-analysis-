@@ -168,3 +168,7 @@ Readmission rate by department
 
 ### Interactive dashboard in Power BI
 
+
+![Patient Readmission Dashboard](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readnission%20dashboard.PNG)
+
+
