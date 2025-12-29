@@ -136,5 +136,7 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 #### Readmission vs admission type
 
+![Readmission vs Admission Type](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20vs%20Admission%20Type.PNG)
+
 
 #### Effect of previous admissions
