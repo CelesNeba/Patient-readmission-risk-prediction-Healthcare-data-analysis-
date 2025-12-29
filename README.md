@@ -140,3 +140,5 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 
 #### Effect of previous admissions
+
+![Effect of previous admissions](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Effect%20of%20previous%20admissions.PNG)
