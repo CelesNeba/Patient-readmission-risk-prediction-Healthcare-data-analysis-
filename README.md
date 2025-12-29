@@ -161,3 +161,8 @@ Readmission rate by department
 ![Readmission rate by department viz](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20rate%20by%20department%20viz.PNG)
 
 
+
+
+![Readmission by admission type](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20by%20admission%20type.PNG)
+
+
