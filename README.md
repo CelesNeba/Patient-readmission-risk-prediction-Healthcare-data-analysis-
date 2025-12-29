@@ -157,3 +157,7 @@ Code for the vize
 
 
 Readmission rate by department
+
+![Readmission rate by department viz](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20rate%20by%20department%20viz.PNG)
+
+
