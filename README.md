@@ -150,6 +150,8 @@ Feel free to use and modify this dataset for your analysis, dashboard builds, or
 
 Code for the vize
 
+![Code for viz](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Code%20for%20viz.PNG)
+
 
 
 
