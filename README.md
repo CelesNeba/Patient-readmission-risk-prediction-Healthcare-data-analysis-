@@ -166,3 +166,5 @@ Readmission rate by department
 ![Readmission by admission type](https://github.com/CelesNeba/Patient-readmission-risk-prediction-Healthcare-data-analysis-/blob/main/Readmission%20by%20admission%20type.PNG)
 
 
+### Interactive dashboard in Power BI
+
